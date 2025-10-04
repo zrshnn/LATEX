@@ -1,68 +1,60 @@
-This is BibTeX, Version 0.99d
+This is BibTeX, Version 0.99d (TeX Live 2025)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
-Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: chapter1.aux
-Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: chapter2.aux
-Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: chapter3.aux
-Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: chapter4.aux
-Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: chapter5.aux
-Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: appendix.aux
-Reallocating 'name_of_file' (item size: 1) to 17 items.
 A level-1 auxiliary file: bibliography.aux
-Reallocating 'name_of_file' (item size: 1) to 4 items.
-The style file: apa.bst
-Reallocating 'name_of_file' (item size: 1) to 10 items.
-Reallocating 'name_of_file' (item size: 1) to 7 items.
+I couldn't open style file apa.bst
+---line 3 of file bibliography.aux
+ : \bibstyle{apa
+ :              }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: cv.aux
-Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: caa.aux
-Database file #1: telemetry.bib
-Warning--empty journal in Butcher2014
-You've used 3 entries,
-            1940 wiz_defined-function locations,
-            502 strings with 4412 characters,
-and the built_in function-call counts, 1194 in all, are:
-= -- 113
-> -- 49
-< -- 3
-+ -- 16
-- -- 16
-* -- 100
-:= -- 211
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 23
-chr.to.int$ -- 3
-cite$ -- 4
-duplicate$ -- 46
-empty$ -- 79
-format.name$ -- 23
-if$ -- 234
-int.to.chr$ -- 1
+I found no style file---while reading file thesis.aux
+You've used 1 entry,
+            0 wiz_defined-function locations,
+            96 strings with 621 characters,
+and the built_in function-call counts, 0 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 0
+:= -- 0
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 0
+format.name$ -- 0
+if$ -- 0
+int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 3
-newline$ -- 18
-num.names$ -- 9
-pop$ -- 19
-preamble$ -- 1
-purify$ -- 23
+missing$ -- 0
+newline$ -- 0
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 0
+purify$ -- 0
 quote$ -- 0
-skip$ -- 40
+skip$ -- 0
 stack$ -- 0
-substring$ -- 69
-swap$ -- 10
-text.length$ -- 1
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
-warning$ -- 1
-while$ -- 9
+type$ -- 0
+warning$ -- 0
+while$ -- 0
 width$ -- 0
-write$ -- 40
-(There was 1 warning)
+write$ -- 0
+(There were 2 error messages)

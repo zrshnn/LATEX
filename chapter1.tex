@@ -1,70 +1,108 @@
 \chapter{INTRODUCTION}
 
 {\baselineskip=2\baselineskip
-Dual – mode telemetry presents new ability to the UAV communication creating a new way of handling disconnection and fail safe protocol. This research may solve the occlusion problems with the radio frequency communication and the handshaking problems in the mobile network connection. 
-
-This paper is dedicated to present the concept of the integrated communication system for UAV (Unmanned Aerial Vehicle) data and telemetry transmission. The aim of this paper is to present a working prototype UAV with working dual mode communication that involves the telemetry, FPV (First – Person View), and the RC (Remote Control). In the paper, both the concept of the system and elements of its realization are presented.  \citep{Bhattacharya2004}
-
-According to \citep{Fuller2014} ... 
 
 
 \section{Background of the Study}
 
-Telemetry, derived from the Greek roots "tele" (remote) and "metron" (measure), is the process of recording and transmitting the readings of instruments and devices from remote or inaccessible points to an IT system in a different location for monitoring and analysis. This technology has become a cornerstone in various fields such as aerospace, healthcare, environmental science, and industrial applications due to its ability to provide real-time data monitoring, diagnostics, and predictive maintenance \citep{Butcher2014}.
+Convenience, connectivity, and overall quality of life are being enhanced by the Internet of Things (IoT), which is rapidly becoming an essential part of everyday life. According to Villamil, Hernández, and Tarazona (2020), "The internet of things is an emerging technology that is currently present in most processes and devices, allowing to improve the quality of life of people."   
 
-The primary function of telemetry systems is to collect data from sensors and transmit it to a centralized system for analysis. This process involves several key components: sensors to capture data, transmitters to send the data, receivers to collect the data, and a central processing unit to analyze and store the data. With the advent of the Internet of Things (IoT) and advancements in wireless communication technologies, telemetry has evolved significantly, enabling more efficient and comprehensive data acquisition and monitoring systems. 
+Similarly, as IoT continues to revolutionize daily living, solar energy, powered by innovations such as photovoltaic (PV) panels, plays a crucial role in shaping the future of global energy. Photovoltaic solar energy is rapidly becoming a key player in the global energy transition. This surge in demand and innovation paves the way for a more sustainable future, making solar energy a central focus in the race for renewable solutions. As highlighted by Sampaio and González (2017), "The capture of solar energy through photovoltaic (PV) panels to generate electricity has emerged as one of the most promising markets in renewable energy. With its rapid growth and significant investment potential, the photovoltaic market is now increasingly competitive, especially in regions like Europe, China, and the United States."
 
-In aerospace, telemetry is crucial for monitoring the status and health of spacecraft and satellites, providing data on parameters such as temperature, pressure, and velocity. In healthcare, telemetry systems are used to monitor patients' vital signs remotely, allowing for timely medical interventions and reducing the need for prolonged hospital stays. Environmental telemetry systems play a pivotal role in tracking weather conditions, pollution levels, and natural disaster warnings, contributing to better disaster management and environmental protection.
+In response to this, many systems utilize off-grid renewable energy . Systems such as solar power systems are designed to provide electricity. This aligns with the study of Ramly, Jamal, Abd Ghafar, and Babu (2019), who highlighted that the “Emergency Portable Solar Power Supply is a product that uses renewable energy source (sunlight) as the main source of electricity.”
 
-The integration of telemetry in industrial applications has revolutionized how industries operate. Through real-time monitoring of machinery and processes, industries can minimize downtime, optimize performance, and enhance safety. Predictive maintenance, powered by telemetry data, allows for the identification of potential issues before they lead to failures, thereby reducing maintenance costs and improving operational efficiency.
+Today's solar power systems offer many benefits. The technologies mentioned above can contribute to addressing key issues in the Philippines. They aim to reduce the impact of frequent power interruptions in Camiguin and selected parts of Misamis Oriental, while promoting scalable renewable energy innovations for affected communities. Additionally, it contributes to sustainable energy systems by addressing the unique reliability challenges of off-grid and disaster-prone areas in the region.
 
-This paper aims to explore the advancements in telemetry technology, its applications across various fields, and the future trends that could shape its development. By understanding the current state and potential of telemetry, we can better appreciate its critical role in modern technology and its impact on improving operational efficiencies and safety across different sectors.
+ According to an article by Albay (2025), In the Philippines, the average Filipino household experiences 28 electricity supply interruptions in a year, due to frequent outages caused by plant breakdowns based on a report. The sudden or frequent power interruptions force households and businesses alike to rely on costly diesel generators as a  backup power source. In August  2025, the National Grid Corporation of the Philippines (NGCP) reported an unscheduled power interruption affecting Camiguin and Misamis Oriental. The outage left thousands of households and businesses without power, mostly relying on diesel generators, and various power sources. Addressing this gap in reliable energy access is crucial to providing communities with an affordable, sustainable power alternative and reducing the impacts of sudden interruptions.
 
-%-----------------------------------------------------------------------------------------------
+ Recent efforts to adapt solar-powered power supply systems show potential but face limitations. For instance, Gozano et al. (2023) designed a solar-based portable power supply with a modular battery pack. However, the portable power supply was shown capable of only supplying a lower energy load, such as charging mobile phones, mobile lighting and small auxiliary loads such as a small AM/FM radio. There were also shortcomings, such as the short lifespan of AC power whenever the battery pack reaches a certain voltage drop. 
 
-%-----------------------------------------------------------------------------------------------------------------------------------
+Innovations in solar-powered power supply systems offer a promising solution to these challenges. Bhatti et al. (2024) developed a portable solar station with integrated battery management and load monitoring system, having a power output of 200 W, and a 2x2 array of 50 W solar panels to provide electricity for basic necessities, in times of power interruptions due to natural disasters. Similarly,  the study by Ramly et al (2019) designed a portable solar power supply for emergency situations, supplying electricity up to 100W at one time, and utilizing Arduino Uno with Bluetooth module and voltage sensor to get the voltage readings integrated to a mobile application.  The said system lasted for two days without the need for charging. Despite these innovations, current solar-powered power supply systems still face limitations, such as low energy capacity, short battery lifespan, and restricted support for higher power loads.
+
+To bridge these gaps, this study proposes a solar-powered rental station for detachable power sources with a 2x2 solar panel array for energy harvesting, a LiFePO4 battery for reliable storage, and an inverter for AC power conversion. The system integrates an ESP32 microcontroller, integrating IoT mechanisms to manage operations, with GPS for location tracking and GSM for communication. A coin-slot mechanism with a solenoid lock ensures secure access, while a mobile app provides real-time monitoring of battery charge levels and system status. The compact and user-friendly design offers a sustainable solution for communities affected by frequent power interruptions.
+
+
 \section{Statement of the Problem}
 
-This study seeks to investigate some properties of decomposable hyper KS-semigroups in the context of strong, weak, quasi- and bi-hyper KS-ideals.
+Air pollution is among the Philippines' most critical environmental issues, primarily caused by the use of fossil fuels. The Philippines' reliance on fossil fuels for electricity generation, particularly coal, contributes to elevated levels of air pollution. In 2025, coal accounted for approximately 52.7\% f the country's electricity generation, while natural gas contributed 20.1\%. This dependence on fossil fuels leads to the emission of pollutants that adversely affect air quality and public health. (LowCarbonPower, 2025).  
+
+Electricity is a necessity for modern life. In Camiguin (served by CAMELCO) and certain parts of Misamis Oriental (served by MORESCO 2), the local community frequently experiences unscheduled power interruptions, occurring multiple times a week. This issue is consistent with research indicating that power interruptions are common in developing countries (Ibañez, 2024; Taniguchi, 2019), such as the Philippines, particularly in rural areas (Ibañez, 2024; Ali, 2016). These interruptions not only hinder productivity but also affect daily comfort in many households, making them very inconvenient and a source of frustration.
+
+Despite the availability of off-grid setups, power banks, and small gasoline generators, these options are often limited by cost, power capacity, or environmental sustainability.  Furthermore, the reliance on fossil-fueled alternatives poses safety risks and contributes to pollution. In response, the government encourages a shift away from fossil fuel energy sources (Koons, 2024) and promotes the use of renewables, as outlined in the policy framework provided for in Republic Act (RA) No. 9513 or the “Renewable Energy Act of 2008”. Hence, there is a growing need for technological systems, such as solar-powered systems, to align with sustainability mandates. Studies show that the transition to greater use of renewables has wide-ranging implications (Villanueva, 2021), underscoring the importance of integrating supportive technologies into local environmental strategies.
+
+Solar-powered systems have been introduced either as portable power supplies or as charging stations, yet existing systems face multiple limitations. Many of these are only capable of supplying low-energy loads, such as charging mobile phones, providing mobile lighting, or powering small auxiliary devices like AM/FM radios (Gozana et al., 2023). Additionally, the average cost of an off-grid setup is high (Boodoo, 2024), making it unaffordable for many households. Research also shows that solar-powered systems are commonly implemented in academic settings (Catalan, 2019) but have not been widely deployed in public areas.
+
+Given these limitations, there is a clear need for an innovative solar-powered rental system that is both affordable and scalable, while providing reliable energy access for households and public areas affected by frequent and unscheduled power interruptions. This study aims to design and develop a solar-powered rental station with detachable power sources, offering a sustainable and user-friendly alternative to conventional backup solutions.
 
 \section{Objectives of the Study}
 
 In view of the above stated problem, we have the following objectives:
-\begin{enumerate}
-	\item To introduce the concept of strong, weak, quasi- and bi-hyper KS-ideals;
-	\item To provide characterizations of strong, weak, quasi- and bi-hyper KS-ideals and investigate their relationships;
-	\item To introduce the idea of decomposable hyper KS-semigroups and give some characterizations.
-\end{enumerate}
+\subsection{General Objectives}
+\begin{itemize}
+	\item To design and develop a solar-powered rental station with detachable power sources that serves as a reliable, sustainable, and user-friendly solution for supplying electricity, specifically intended for communities experiencing frequent power interruptions.
+\end{itemize}
+\subsection{Specific Objectives}
+\begin{itemize}
+	\item To design the system architecture that integrates photovoltaic panels, energy storage, and charging modules, ensuring sufficient capacity for powering small to medium-scale appliances.
+	\item To develop a functional prototype of the rentable station with a detachable power source with a secure coin-operated or app-based access mechanism for rental use.
+	\item To integrate GPS and GSM modules to support real-time location tracking, communication, and monitoring of rented units.
+	\item To evaluate the system’s performance in terms of efficiency, portability, security, and user satisfaction in a rental-based context
+	\item To provide sustainable energy access through affordable and shared power sources powered by solar energy.
+\end{itemize}
 
 \section{Significance of the Study}
 
-The concept of hyperstructures is itself, a powerful mathematical tool since algebraic hyperstructures seem to occur very naturally in many areas of mathematics and even in other disciplines. 
+This project benefits a diverse range of stakeholders including: 
+
+\textbf{Community Residents}. Community residents will benefit from continuous access to electricity through the solar-powered portable power source. This system ensures the community residents can use essential household appliances and stay connected during power outages, improving daily lives and overall comfort.
+
+\textbf{Environment}. This study contributes to environmental sustainability by promoting the use of solar energy, a renewable resource, instead of relying on fossil-fueled generators. The system reduces carbon emissions and pollution, aligning with global sustainability goals.
+
+\textbf{Future Researchers}. Future researchers will find this study helpful because it gives important information on how to create solar-powered portable charging systems with features like GPS tracking, coin/app payment, and real-time monitoring. 
+
+\textbf{Affordable and Clean Energy}. This system provides support on giving people access to energy that is affordable, reliable, and environmentally friendly by offering a solar-powered rental station that provides communities, especially those often experiencing blackouts with a clean and low-cost source of electricity.
+
+\textbf{Industry, Innovation, and Infrastructure}. This helps achieve the goal of improving systems, creating new technologies, and building stronger infrastructure  by using modern technologies as well as solar energy that helps in creating innovative solutions that gives communities a reliable energy option during power interruptions.
+
 
 \section{Scope and Limitations}
 
-The primary motivation of this study lies within the structural properties of hyper 
+This research focuses on designing a solar-powered rental station with detachable power sources to provide reliable and sustainable electricity for communities in Camiguin and Misamis Oriental, which face frequent power interruptions. The system integrates photovoltaic panels, energy storage, and charging modules to power small to medium-scale appliances. The design will include a coin-operated or app-based access mechanism for renting the power sources.
+
+The study will incorporate GPS and GSM modules for real-time location tracking and communication, ensuring efficient monitoring of rented units. The system will be evaluated for efficiency, portability, security, and user satisfaction, focusing on its performance in a rental context.	 By offering a solar-powered alternative, this targeted solution addresses a critical gap in providing reliable energy access for communities affected by frequent power outages.
 
 \section{Definition of Terms}
 
 \begin{description}
 
-	\item[Data Logger] 
-	An electronic device that records data over time or in relation to location either with a built-in instrument or sensor or via external instruments and sensors.
+	\item[Internet of Things (IoT)] 
+	A network of physical devices, such as sensors, appliances, and power sources, connected to the internet, enabling them to collect, send, and receive data for remote monitoring, control, and management.
 	
-	\item[GPS Tracking] 
-	Using the Global Positioning System to determine and track the precise location of a person, vehicle, or other asset.
+	\item[Solar Energy] 
+	Energy that is harnessed from sunlight using technologies such as photovoltaic (PV) panels, which convert sunlight into electricity, which is used to power the portable power sources.
 	
-	\item[Real-time Monitoring] 
-	The process of continuously observing a system or process and immediately reporting any changes or anomalies.
+	\item[Fossil Fuel] 
+	Natural energy sources such as coal, oil, and natural gas, derived from the remains of ancient plants and animals, that are burned to produce energy but contribute to environmental pollution and climate change due to the emission of greenhouse gases.
 	
-	\item[Sensor] 
-	A device that detects or measures a physical property and records, indicates, or otherwise responds to it.
+	\item[Photovoltaic (PV) Panels] 
+	Solar panels that convert sunlight into electricity, serving as the primary source of power generation for solar-powered systems.
 	
-	\item[Telemetry] 
-	The process of recording and transmitting the readings of an instrument.
+	\item[Portable Power Station] 
+	Compact, mobile units that provide electrical power for charging devices or operating appliances, often powered by renewable sources like solar energy and designed to be easily transported or moved.
 	
-	\item[Wireless Communication] 
-	The transfer of information between two or more points that are not connected by an electrical conductor.
+	\item[Renewable Energy] 
+	Energy derived from natural resources that are replenished on a human timescale, such as sunlight, wind, and geothermal heat, which are harnessed to produce electricity in an environmentally sustainable manner.
+	
+	\item[Off-grid power system] 
+	A power system that operates independently from the main electricity grid, using renewable energy sources like solar or wind to provide electricity in areas without access to centralized power.
+	
+	\item[Solar harvesting] 
+	The process of capturing sunlight using solar panels or other solar technologies and converting it into usable electrical energy, typically for storage in batteries or direct use.
+	
+	\item[Power Interruption] 
+	TA temporary loss or disruption of electrical power, often due to faults, maintenance, or other technical issues in the power grid, affecting the availability of electricity to households or businesses.
+
+
 
 \end{description}
 
