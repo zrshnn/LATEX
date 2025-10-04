@@ -1,0 +1,9 @@
+{\bfseries No.\hfill Table\hspace {3in} Page No.\vspace \bigskipamount \par }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1}{\ignorespaces A sample long table.}}{7}{table.3.1}%
+\contentsline {table}{\numberline {2}{\ignorespaces Sample Data Table}}{10}{table.caption.7}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsfinish 

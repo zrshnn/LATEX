@@ -1,0 +1,53 @@
+% % % % % % % % % % % % % % % % % % % % % % % % % %
+% thesis.tex						              %
+% by Jodie Rey D. Fernandez			              %
+% Department of Computer Engineering              %
+% College of Engineering and Architecture         %
+% USTP - CDO                                      %
+% Lapasan, Cagayan de Oro City					  %
+% Philippines						              %
+% E-mail: jodierey.fernandez@ustp.edu.ph          %
+% 									              %
+% Modified: July 2024                			  %
+% % % % % % % % % % % % % % % % % % % % % % % % % %
+
+\documentclass[12pt]{maththesis}
+\input{commands.tex}
+\input{basicinfo.tex}
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%Document Starts Here
+\begin{document}
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% front matter
+\pagenumbering{roman}
+\setcounter{page}{1}
+\input{titlepage}\newpage
+\input{approval}\newpage
+\input{abstract}\newpage
+\input{dedication}\newpage
+\input{acknowledgment}\newpage
+\addcontentsline{toc}{chapter}{TABLE OF CONTENTS}
+\tableofcontents\newpage
+\addcontentsline{toc}{chapter}{LIST OF TABLES}
+\listoftables \newpage
+%\input{listofnotations}\newpage
+\addcontentsline{toc}{chapter}{LIST OF FIGURES} 
+\listoffigures\newpage
+\listofmyequations \newpage
+%\input{listofequations}\newpage
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%main matter
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\include{chapter1}
+\include{chapter2}
+\include{chapter3}
+\include{chapter4}
+\include{chapter5}
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%back matter
+\include{appendix}
+\include{bibliography}
+\include{cv}
+\include{caa}
+\end{document}

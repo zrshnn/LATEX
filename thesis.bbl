@@ -1,0 +1,23 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Bhattacharya and Raj}{2004}]{Bhattacharya2004}
+Bhattacharya, S. and Raj, R.~A. (2004).
+\newblock Performance evaluation of multi-sensor data fusion technique for test
+  range application.
+\newblock {\em Sadhana - Academy Proceedings in Engineering Sciences},
+  29:237--247.
+
+\bibitem[\protect\astroncite{Butcher and Stewart}{2014}]{Butcher2014}
+Butcher, N. and Stewart, A. (2014).
+\newblock Securing the mavlink communication protocol for unmanned aircraft
+  systems.
+\newblock pages 1--9.
+
+\bibitem[\protect\astroncite{Fuller et~al.}{2014}]{Fuller2014}
+Fuller, B., Kok, J., Kelson, N., and Gonzalez, F. (2014).
+\newblock Hardware design and implementation of a mavlink interface for an
+  fpga-based autonomous uav flight control system.
+\newblock {\em Australasian Conference on Robotics and Automation, ACRA},
+  02-04-Dece.
+
+\end{thebibliography}
