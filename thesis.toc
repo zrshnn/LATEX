@@ -1,35 +1,24 @@
 {\bfseries \hfill Page No.\vspace \bigskipamount \par }
 \contentsline {chapter}{TITLE PAGE}{i}{chapter*.1}%
-\contentsline {chapter}{APPROVAL SHEET}{ii}{chapter*.2}%
-\contentsline {chapter}{ABSTRACT}{iii}{chapter*.2}%
-\contentsline {chapter}{DEDICATION}{iv}{chapter*.2}%
-\contentsline {chapter}{ACKNOWLEDGMENT}{v}{chapter*.2}%
-\contentsline {chapter}{TABLE OF CONTENTS}{vii}{chapter*.2}%
-\contentsline {chapter}{LIST OF TABLES}{ix}{chapter*.3}%
-\contentsline {chapter}{LIST OF FIGURES}{x}{chapter*.4}%
+\contentsline {chapter}{TABLE OF CONTENTS}{ii}{chapter*.1}%
+\contentsline {chapter}{LIST OF TABLES}{iii}{chapter*.2}%
+\contentsline {chapter}{LIST OF FIGURES}{iv}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background of the Study}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Statement of the Problem}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Statement of the Problem}{5}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Objectives of the Study}{7}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}General Objectives}{7}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Specific Objectives}{7}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.2}Specific Objectives}{8}{subsection.1.3.2}%
 \contentsline {section}{\numberline {1.4}Significance of the Study}{8}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Scope and Limitations}{9}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Definition of Terms}{10}{section.1.6}%
-\contentsline {chapter}{\numberline {2}REVIEW OF RELATED LITERATURE}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Preliminary Concepts and Results}{12}{section.2.1}%
-\contentsline {chapter}{\numberline {3}METHODOLOGY}{13}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Research Design}{13}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Formula}{13}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Tables}{13}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Images}{15}{section.3.4}%
-\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{17}{chapter.4}%
-\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{18}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Summary of Findings}{18}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Conclusion}{19}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Recommendations}{20}{section.5.3}%
+\contentsline {section}{\numberline {1.5}Scope and Limitations}{10}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Conceptual Framework}{11}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Definition of Terms}{13}{section.1.7}%
+\contentsline {chapter}{\numberline {2}REVIEW OF RELATED LITERATURE}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}An overview of internet of things}{15}{section.2.1}%
+\contentsline {chapter}{\numberline {3}METHODOLOGY}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Research Design}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Formula}{16}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Tables}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Images}{18}{section.3.4}%
 \contentsline {chapter}{APPENDICES}{21}{chapter*.10}%
-\contentsline {chapter}{REFERENCES}{22}{chapter*.10}%
-\contentsline {chapter}{CURRICULUM VITAE}{22}{chapter*.10}%
-\contentsline {chapter}{CERTIFICATE OF AUTHENTIC AUTHORSHIP}{23}{chapter*.10}%
 \contentsfinish 

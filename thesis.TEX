@@ -1,53 +1,75 @@
 % % % % % % % % % % % % % % % % % % % % % % % % % %
-% thesis.tex						              %
-% by Jodie Rey D. Fernandez			              %
+% thesis.tex                                      %
+% by Jodie Rey D. Fernandez                       %
 % Department of Computer Engineering              %
 % College of Engineering and Architecture         %
 % USTP - CDO                                      %
-% Lapasan, Cagayan de Oro City					  %
-% Philippines						              %
+% Lapasan, Cagayan de Oro City                    %
+% Philippines                                     %
 % E-mail: jodierey.fernandez@ustp.edu.ph          %
-% 									              %
-% Modified: July 2024                			  %
+%                                                 %
+% Modified: July 2024                             %
 % % % % % % % % % % % % % % % % % % % % % % % % % %
 
 \documentclass[12pt]{maththesis}
+
+
+% --- custom files ---
 \input{commands.tex}
 \input{basicinfo.tex}
+
+% --- packages needed for chapter3 ---
+\usepackage{longtable}   % for multipage tables
+\usepackage{booktabs}    % for \toprule, \midrule, \bottomrule
+\usepackage{graphicx}    % for including figures
+\usepackage{amsmath}     % for equations (already likely in maththesis, but safe)
+\usepackage{float}
+\usepackage{longtable, booktabs}
+\usepackage{topiclongtable}
+
+\usepackage{chngcntr}
+\counterwithin{figure}{chapter}
+
+\DeclareCaptionFormat{apa7}{#1\par\vspace{0.5em}#3} 
+\usepackage{caption} % put in preamble
+\captionsetup[figure]{labelfont=bf,textfont=it,labelsep=newline,justification=raggedright, singlelinecheck=false,position=above,format=apa7}
+
+
+
 %- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-%Document Starts Here
+% Document Starts Here
 \begin{document}
-%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-% front matter
-\pagenumbering{roman}
-\setcounter{page}{1}
-\input{titlepage}\newpage
-\input{approval}\newpage
-\input{abstract}\newpage
-\input{dedication}\newpage
-\input{acknowledgment}\newpage
-\addcontentsline{toc}{chapter}{TABLE OF CONTENTS}
-\tableofcontents\newpage
-\addcontentsline{toc}{chapter}{LIST OF TABLES}
-\listoftables \newpage
-%\input{listofnotations}\newpage
-\addcontentsline{toc}{chapter}{LIST OF FIGURES} 
-\listoffigures\newpage
-\listofmyequations \newpage
-%\input{listofequations}\newpage
-%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-%main matter
-\pagenumbering{arabic}
-\setcounter{page}{1}
-\include{chapter1}
-\include{chapter2}
-\include{chapter3}
-\include{chapter4}
-\include{chapter5}
-%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-%back matter
-\include{appendix}
-\include{bibliography}
-\include{cv}
-\include{caa}
+	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	% front matter
+	\pagenumbering{roman}
+	\setcounter{page}{1}
+	\input{titlepage}\newpage
+	%	\input{approval}\newpage
+	%	\input{abstract}\newpage
+	%	\input{dedication}\newpage
+	%	\input{acknowledgment}\newpage
+	\addcontentsline{toc}{chapter}{TABLE OF CONTENTS}
+	\tableofcontents\newpage
+	\addcontentsline{toc}{chapter}{LIST OF TABLES}
+	\listoftables \newpage
+	%\input{listofnotations}\newpage
+	\addcontentsline{toc}{chapter}{LIST OF FIGURES} 
+	\listoffigures\newpage
+	\listofmyequations \newpage
+	%\input{listofequations}\newpage
+	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	% main matter
+	\pagenumbering{arabic}
+	\setcounter{page}{1}
+	\include{chapter1}
+	\include{chapter2}
+	\include{chapter3}
+	%\include{chapter4}
+	%\include{chapter5}
+	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	% back matter
+	\include{appendix}
+	\include{bibliography}
+	%	\include{cv}
+	%	\include{caa}
 \end{document}

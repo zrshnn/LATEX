@@ -23,6 +23,9 @@
 \usepackage{tocloft}
 \usepackage{booktabs} % for better looking tables
 \usepackage{longtable}
+\usepackage{array}
+\usepackage{float} 
+
 %\renewcommand*\sectionmark[1]{\markboth{#1}{}}
 %\renewcommand*\subsectionmark[1]{\markright{#1}{}}
 %- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -56,24 +59,23 @@
 \renewcommand\cftchappagefont{\mdseries}
 \renewcommand\cftchappresnum{Chapter~}
 \renewcommand\cftchapaftersnum{. }
-\newlength\tocindent
-\settowidth\tocindent{\cftchapfont\cftchappresnum9\cftchapaftersnum}
-\edef\cftchapnumwidth{\the\tocindent}
-\edef\cftsecindent{\the\tocindent}
-\advance\tocindent2.3em
-\edef\cftsubsecindent{\the\tocindent}
-\advance\tocindent3.2em
-\edef\cftsubsubsecindent{\the\tocindent}
+\newlength{\tocindent}
+\settowidth{\tocindent}{\cftchapfont\cftchappresnum9\cftchapaftersnum}
+\setlength{\cftchapnumwidth}{\tocindent}
+\setlength{\cftsecindent}{\tocindent}
+\setlength{\cftsubsecindent}{\tocindent}
+\addtolength{\cftsubsecindent}{2.3em}     % Indent for subsections
+
 % Align columns in List of Tables and List of Figures
 \renewcommand{\cfttabnumwidth}{5em} % Width for Table Number
 \renewcommand{\cfttabindent}{3.2em} % Indentation for Table Titles
 \renewcommand{\cftfignumwidth}{5em} % Width for Figure Number
 \renewcommand{\cftfigindent}{3.2em} % Indentation for Figure Titles
 
-
 % Ensure alignment in List of Tables and List of Figures
 \setlength{\cftbeforelottitleskip}{1.5em} % Space before List of Tables title
 \setlength{\cftbeforeloftitleskip}{1.5em} % Space before List of Figures title
+
 % Custom configuration for the Table of Contents
 \renewcommand{\cftchapdotsep}{\cftdotsep} % Retain dots for chapters in Table of Contents
 \renewcommand{\cftsecdotsep}{\cftdotsep} % Retain dots for sections in Table of Contents

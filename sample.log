@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  4 OCT 2025 16:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  7 OCT 2025 13:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -473,12 +473,20 @@ Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \c@LT@chunks=\count313
 \LT@p@ftn=\toks26
 )
+(/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count314
+\float@exts=\toks27
+\float@box=\box63
+\@float@everytoks=\toks28
+\@floatcapt=\box64
+)
 \tocindent=\skip104
-\c@myequations=\count314
+\c@myequations=\count315
 \cftbeforemyequationsskip=\skip105
 \cftmyequationsindent=\skip106
 \cftmyequationsnumwidth=\skip107
-\c@expdepth=\count315
+\c@expdepth=\count316
 \cftbeforeexptitleskip=\skip108
 \cftafterexptitleskip=\skip109
 
@@ -488,9 +496,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count316
-\Gm@cntv=\count317
-\c@Gm@tempcnt=\count318
+\Gm@cnth=\count317
+\Gm@cntv=\count318
+\c@Gm@tempcnt=\count319
 \Gm@bindingoffset=\dimen183
 \Gm@wd@mp=\dimen184
 \Gm@odd@mp=\dimen185
@@ -499,7 +507,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen188
 \Gm@layouthoffset=\dimen189
 \Gm@layoutvoffset=\dimen190
-\Gm@dimlist=\toks27
+\Gm@dimlist=\toks29
 ))
 (./sample.aux)
 \openout1 = `sample.aux'.
@@ -525,17 +533,17 @@ LaTeX Font Info:    ... okay on input line 5.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count319
+\scratchcounter=\count320
 \scratchdimen=\dimen191
-\scratchbox=\box63
-\nofMPsegments=\count320
-\nofMParguments=\count321
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count322
+\scratchbox=\box65
+\nofMPsegments=\count321
+\nofMParguments=\count322
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count323
 \MPscratchDim=\dimen192
-\MPnumerator=\count323
-\makeMPintoPDFobject=\count324
-\everyMPtoPDFconversion=\toks29
+\MPnumerator=\count324
+\makeMPintoPDFobject=\count325
+\everyMPtoPDFconversion=\toks31
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -545,7 +553,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@maskedRefs=\count325
+\c@maskedRefs=\count326
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
@@ -553,6 +561,7 @@ LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -649,7 +658,7 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ]
 Chapter 1.
 
-Package caption Warning: Unused \captionsetup[table] on input line 126.
+Package caption Warning: Unused \captionsetup[table] on input line 128.
 See the caption package documentation for explanation.
 
 
@@ -665,22 +674,20 @@ Package rerunfilecheck Info: File `sample.out' has not changed.
 (rerunfilecheck)             Checksum: EE3EE77384B02F08148F111B2A113203;240.
  ) 
 Here is how much of TeX's memory you used:
- 14427 strings out of 473190
- 225434 string characters out of 5715801
- 638279 words of memory out of 5000000
- 37457 multiletter control sequences out of 15000+600000
+ 14482 strings out of 473190
+ 226305 string characters out of 5715801
+ 639628 words of memory out of 5000000
+ 37510 multiletter control sequences out of 15000+600000
  563833 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,5n,82p,277b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,5n,82p,319b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on sample.pdf (3 pages, 62550 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on sample.pdf (3 pages, 42579 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
+ 51 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
  17 words of extra memory for PDF output out of 10000 (max. 10000000)
 
