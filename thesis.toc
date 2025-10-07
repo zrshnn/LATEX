@@ -44,16 +44,19 @@
 \contentsline {subsection}{\numberline {3.3.4}System Flowchart}{43}{subsection.3.3.4}%
 \contentsline {subsection}{\numberline {3.3.5}Solar Energy Harvesting}{43}{subsection.3.3.5}%
 \contentsline {subsection}{\numberline {3.3.6}Energy Conversion DC to AC}{44}{subsection.3.3.6}%
-\contentsline {subsection}{\numberline {3.3.7}Power Monitoring}{44}{subsection.3.3.7}%
-\contentsline {subsection}{\numberline {3.3.8}GPS Tracking}{45}{subsection.3.3.8}%
-\contentsline {section}{\numberline {3.4}Develop}{45}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Context Level Diagram}{45}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Data Flow Diagram}{47}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Use Case Diagram}{49}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Activity Diagram}{50}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Hardware Design Flowchart}{52}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}3D Design}{52}{subsection.3.4.6}%
-\contentsline {subsection}{\numberline {3.4.7}System Design}{52}{subsection.3.4.7}%
-\contentsline {subsection}{\numberline {3.4.8}Materials and Cost}{52}{subsection.3.4.8}%
-\contentsline {chapter}{APPENDICES}{54}{chapter*.18}%
+\contentsline {subsection}{\numberline {3.3.7}Power Monitoring}{45}{subsection.3.3.7}%
+\contentsline {subsection}{\numberline {3.3.8}GPS Tracking}{46}{subsection.3.3.8}%
+\contentsline {section}{\numberline {3.4}Develop}{47}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Context Level Diagram}{47}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Data Flow Diagram}{49}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Use Case Diagram}{51}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Activity Diagram}{52}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Hardware Design Flowchart}{54}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}3D Design}{54}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}System Design}{55}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}Materials and Cost}{61}{subsection.3.4.8}%
+\contentsline {section}{\numberline {3.5}Testing}{62}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Performance Testing}{62}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Usability Testing}{62}{subsection.3.5.2}%
+\contentsline {chapter}{APPENDICES}{64}{chapter*.25}%
 \contentsfinish 
