@@ -7,11 +7,18 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces System Architecture}}{42}{figure.caption.8}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Conversion of sunlight into electrical energy using PV panels and a charge controller}}{43}{figure.caption.9}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Battery DC power converted to AC output via inverter.}}{44}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces ESP32 measures battery voltage and displays data on LCD.}}{44}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces ESP32 receives real-time location data from GPS satellites using GSM Module}}{45}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces The Context Level Diagram}}{45}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Data Flow Representation of the Solar-Powered Rental Station Systemm}}{47}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Use Case Diagram}}{49}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Activity Diagram of the Community Resident}}{50}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Three Dimensional Representation of the System}}{52}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces ESP32 measures battery voltage and displays data on LCD.}}{45}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces ESP32 receives real-time location data from GPS satellites using GSM Module}}{46}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces The Context Level Diagram}}{47}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Data Flow Representation of the Solar-Powered Rental Station Systemm}}{49}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Use Case Diagram}}{51}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Activity Diagram of the Community Resident}}{52}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Three Dimensional Representation of the System}}{54}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Welcome Page}}{55}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Sign In Screen}}{56}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Sign Up Screen}}{57}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces User Home Screen}}{58}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Renting Screen}}{59}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Admin Home Screen}}{60}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Admin Manage Users Screen}}{60}{figure.caption.24}%
 \contentsfinish 

@@ -39,7 +39,6 @@ After the planning phase, the system’s users were identified. For this study, 
 
 \subsection{System Requirements}
 
-
 \begin{longtable}{p{4cm} p{9cm}}
 	\caption{System Requirements} \label{tab:SystemRequirements} \\
 	\toprule
@@ -108,6 +107,8 @@ The ESP32 microcontroller manages the system's operations, integrating key compo
 	\includegraphics[width=1\textwidth]{figures/harvesting.png}
 \end{figure}
 
+The Figure 3.3 illustrates the process of harvesting solar energy using photovoltaic (PV) panels. Solar energy is captured by the PV panels, which then convert sunlight into electrical energy. The energy is stored in a \ce{LiFePO4} battery through a solar charge controller, ensuring proper charging and voltage regulation. This energy is stored for later use, contributing to the overall sustainability and efficiency of the system, enabling it to power devices even during periods of limited sunlight.
+
 \subsection{Energy Conversion DC to AC}
 
 \begin{figure}[H]
@@ -116,6 +117,8 @@ The ESP32 microcontroller manages the system's operations, integrating key compo
 	\label{fig:energy conversion}
 	\includegraphics[width=1\textwidth]{figures/conversion.png}
 \end{figure}
+
+Figure 3.4 shows the process of converting direct current (DC) into alternating current (AC). The stored energy in the \ce{LiFePO4} battery is passed through a power inverter, and the inverter transforms the DC from the battery into AC power, which can be used to power household appliances such as fans and other AC-powered devices. This conversion is essential for making the system compatible with common electrical appliances that require AC power for operation.
 
 \subsection{Power Monitoring}
 
@@ -126,6 +129,9 @@ The ESP32 microcontroller manages the system's operations, integrating key compo
 	\includegraphics[width=1\textwidth]{figures/monitoring.png}
 \end{figure}
 
+The Figure 3.5 illustrates the power monitoring system used to keep track of the energy stored and consumed by the system. The \ce{LiFePO4} battery is connected to an ESP32 microcontroller, which continuously monitors the battery’s voltage and health, and the data collected is displayed on an LCD screen which allows users to view the battery's current status in real time. This monitoring is vital for ensuring the system's efficiency and preventing over-discharge, ensuring long-term sustainability.
+
+
 \subsection{GPS Tracking}
 
 \begin{figure}[H]
@@ -134,6 +140,9 @@ The ESP32 microcontroller manages the system's operations, integrating key compo
 	\label{fig:gps tracking}
 	\includegraphics[width=1\textwidth]{figures/tracking.png}
 \end{figure}
+
+Figure 3.6 shows the GPS tracking system used to monitor the location of the detachable power source. A GPS module, connected to the ESP32 microcontroller, receives signals from satellites to determine the geographical location of the system. This real-time location data is essential for tracking and managing the rental and use of the power sources, ensuring they are accessible to users and protected from theft or misuse. The GPS data is then sent to the system for further processing and user access.
+
 
 \section{Develop}
 
@@ -155,7 +164,7 @@ On the other side, the System (the Solar-Powered Rental Station) manages the bac
 	\centering
 	\caption{Data Flow Representation of the Solar-Powered Rental Station Systemm}
 	\label{fig:data flow}
-	\includegraphics[width=0.8\textwidth]{figures/dataflow.png}
+	\includegraphics[width=1\textwidth]{figures/dataflow.png}
 \end{figure}
 	
 The Figure 3.8 shows the complete process flow of the solar-powered rental station system, illustrating how community residents interact with the mobile application and system database. It begins with the login process, where residents input their login details, which are verified by the system. Once authenticated, the system provides feedback confirming successful login. After logging in, the user proceeds to make a rental request by selecting a power source and specifying the rental duration. The system responds with rental confirmation and product details. The user then moves to the payment process, where payment details are submitted through the app. The system validates the payment, sends a confirmation, and generates an access token that authorizes the user to unlock and use the detachable power source.
@@ -191,13 +200,77 @@ Once access is granted, the rental authorization and monitoring phase begins. Th
     \begin{figure}[H]
   	\centering
   	\caption{Three Dimensional Representation of the System}
-  	\label{fig:activity}
+  	\label{fig:3d}
   	\includegraphics[width=0.8\textwidth]{figures/3D.png}
   \end{figure}
   
+Figure 3.11 shows the 3D design of the system. It is a stationary power station powered by solar energy and contains three detachable power sources, each secured with a coin slot and solenoid lock.
+  
   \subsection{System Design}
   
+     \begin{figure}[H]
+  	\centering
+  	\caption{Welcome Page}
+  	\label{fig:welcome}
+  	\includegraphics[width=1\textwidth]{figures/welcome.png}
+  \end{figure}
   
+  The welcome interface presents the system logo and entry actions. The left panel shows a splash screen with a “Get Started” control; the right panel shows a gateway card offering Log In and Sign Up. This screen functions as the access point to the authentication flow.
+  
+   \begin{figure}[H]
+  	\centering
+  	\caption{Sign In Screen}
+  	\label{fig:signin}
+  	\includegraphics[width=0.7\textwidth]{figures/signin.png}
+  \end{figure}
+  
+  The sign-in interface collects the username and password with options to reveal the password and recover forgotten credentials. A primary Log In control initiates authentication for registered users. The design supports secure access to user functions.
+  
+   \begin{figure}[H]
+  	\centering
+  	\caption{Sign Up Screen}
+  	\label{fig:signup}
+  	\includegraphics[width=1\textwidth]{figures/signup.png}
+  \end{figure}
+  
+  Registration is implemented as a three-step process. Step 1 captures account credentials (username, email, phone number, password, and confirmation). Step 2 records profile and address data (sex, barangay, municipality, province, and birthdate). Step 3 presents a data-privacy notice and obtains consent to the Terms of Service and Privacy Policy before account creation.
+  
+    \begin{figure}[H]
+  	\centering
+  	\caption{User Home Screen}
+  	\label{fig:user home}
+  	\includegraphics[width=0.7\textwidth]{figures/home.png}
+  \end{figure}
+  
+  The user dashboard displays a greeting header with location metadata and a card showing the current points balance. A bottom navigation bar provides access to core modules (home, rewards, notifications, and account/tools). This screen serves as the primary hub for user activities.
+  
+    \begin{figure}[H]
+  	\centering
+  	\caption{Renting  Screen}
+  	\label{fig:renting}
+  	\includegraphics[width=1\textwidth]{figures/renting.png}
+  \end{figure}
+  
+  The renting module allows search by Station ID and shows slot availability per station. Users select a slot and view its battery percentage with the corresponding price. Payment options include Pay via Points and Pay via Coin Slot, enabling transaction initiation.
+  
+  \begin{figure}[H]
+  	\centering
+  	\caption{Admin Home  Screen}
+  	\label{fig:admin}
+  	\includegraphics[width=0.3\textwidth]{figures/admin.png}
+  \end{figure}
+  
+  The administrative dashboard reports the total number of users and provides status cards for system updates and system maintenance alerts. A bottom navigation enables movement to other administrative functions. This screen supports monitoring and operational control.
+  
+      \begin{figure}[H]
+      	\centering
+      	\caption{Admin Manage Users Screen}
+      	\label{fig:admin2}
+      	\includegraphics[width=0.3\textwidth]{figures/admin2.png}
+      \end{figure}
+      
+      The user-management view lists registered users with their points balances. The list supports further exploration through a “More…” action. This screen enables oversight of accounts for incentive tracking and administration.
+      
       
  \subsection{Materials and Cost}
      
@@ -239,4 +312,17 @@ Once access is granted, the rental authorization and monitoring phase begins. Th
  
 Table 2 shows the following materials that will be used in the study.
  
+       
+ \section{Testing}
+ \subsection{Performance Testing}
+ 
+ The primary objective of performance testing is to evaluate the system's ability to handle user interactions and data processing without significant delay. Key performance indicators (KPIs) such as response time, processing speed, and system throughput will be assessed during peak and off-peak usage hours. The system will undergo stress testing to determine its capacity for managing multiple simultaneous user requests, ensuring reliability under high demand conditions.
+ 
+ Testing will include the measurement of real-time monitoring capabilities, particularly the speed at which data is transmitted from the power stations to the mobile app. Performance testing will also assess the efficiency of the GPS and GSM modules, evaluating their responsiveness to ensure timely updates for location tracking and system alerts. This phase will confirm that the system remains stable, efficient, and user-friendly during various operational loads.
+ 
+  \subsection{Usability Testing}
+  
+  Usability testing will focus on evaluating the user experience for both community residents and administrators. This will involve assessing the clarity, intuitiveness, and ease of navigation of the mobile app interface. A group of representative users will be selected from the target community to perform typical tasks such as account registration, power source rental, and payment processing.
+  
+  The System Usability Scale (SUS) will be used to quantitatively measure the users’ perception of the app's usability. Users will provide feedback on key aspects such as the accessibility of the mobile interface, ease of system navigation, and satisfaction with the power source rental process. In addition to SUS, qualitative data will be gathered through observational analysis and user interviews, allowing for in-depth insights into any usability concerns. This testing phase will help identify potential friction points in the user interface and guide refinements to improve overall user satisfaction.
  
