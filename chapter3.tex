@@ -98,12 +98,28 @@ After the planning phase, the system’s users were identified. For this study, 
 	\centering
 	\caption{System Architecture}
 	\label{fig:architecture}
-	\includegraphics[width=0.7\textwidth]{figures/architecture.png}
+	\includegraphics[width=1\textwidth]{figures/architecture.png}
 \end{figure}
 
 Figure 3.3 illustrates the architecture of the KuRyenta system, a solar-powered, coin-operated, GPS-enabled portable power source. The diagram shows how solar energy is captured by the photovoltaic panels and stored in a \ce{LiFePO4} battery through the solar charge controller. The stored energy is then converted into usable AC power by the power inverter, which is accessible to the user via a coin-operated access system.
 
 The ESP32 microcontroller manages the system's operations, integrating key components such as the GPS module for location tracking and the GSM module for communication with the admin. A coin slot and solenoid lock control the unlocking of the portable power sources, ensuring that users can access the power only after payment is made. The user can interact with the system through a mobile app that displays the battery's charge level and other important information. In essence, the KuRyenta system is designed to provide a sustainable and secure solution for portable power, incorporating solar energy, and coin-based access for a user-friendly and efficient experience.
+
+
+\subsection{System  Flowchart}
+\begin{figure}[H]
+	\centering
+	\caption{System Flowchart}
+	\label{fig:flowchart}
+	\includegraphics[width=0.7\textwidth]{figures/flowchart.png}
+\end{figure}
+
+Figure 3.4 illustrates the overall process of the proposed Solar-Powered Rental Station with Detachable Power Sources. The process begins with the initialization of the ESP32, which activates system components and prepares communication protocols. The system first checks slot availability to determine if a detachable power source is ready for use. Data from this process is transmitted through the internet and stored in a central database for monitoring purposes.
+
+When a user intends to rent a power source, the system verifies if payment is successful. If confirmed, the solenoid lock opens, allowing the detachable power source to be accessed by the user. Once rented, the ESP32 continuously monitors the power source, including its GPS location and battery percentage, and sends the information to the administrator via SMS. This ensures proper tracking and security of the rented device.
+
+The system also monitors whether the detachable power source is returned. If it remains unreturned after 12 hours, the ESP32 automatically sends reminder SMS notifications to both the user and the administrator. Upon return, the solenoid lock closes, securing the power source back in place. All key actions, including errors and system activities, are logged in the database for reference and analysis.
+
 
 \subsection{Solar Energy Harvesting}
 
