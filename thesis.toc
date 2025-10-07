@@ -50,13 +50,13 @@
 \contentsline {subsection}{\numberline {3.4.1}Context Level Diagram}{47}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Data Flow Diagram}{49}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}Use Case Diagram}{51}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Activity Diagram}{52}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Hardware Design Flowchart}{54}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}3D Design}{54}{subsection.3.4.6}%
-\contentsline {subsection}{\numberline {3.4.7}System Design}{55}{subsection.3.4.7}%
-\contentsline {subsection}{\numberline {3.4.8}Materials and Cost}{61}{subsection.3.4.8}%
-\contentsline {section}{\numberline {3.5}Testing}{62}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Performance Testing}{62}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Usability Testing}{62}{subsection.3.5.2}%
-\contentsline {chapter}{APPENDICES}{64}{chapter*.25}%
+\contentsline {subsection}{\numberline {3.4.4}Activity Diagram}{54}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Hardware Design Flowchart}{56}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}3D Design}{56}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}System Design}{57}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}Materials and Cost}{63}{subsection.3.4.8}%
+\contentsline {section}{\numberline {3.5}Testing}{64}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Performance Testing}{64}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Usability Testing}{64}{subsection.3.5.2}%
+\contentsline {chapter}{APPENDICES}{66}{chapter*.25}%
 \contentsfinish 
