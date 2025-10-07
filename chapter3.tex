@@ -105,43 +105,38 @@ Figure 3.3 illustrates the architecture of the KuRyenta system, a solar-powered,
 
 The ESP32 microcontroller manages the system's operations, integrating key components such as the GPS module for location tracking and the GSM module for communication with the admin. A coin slot and solenoid lock control the unlocking of the portable power sources, ensuring that users can access the power only after payment is made. The user can interact with the system through a mobile app that displays the battery's charge level and other important information. In essence, the KuRyenta system is designed to provide a sustainable and secure solution for portable power, incorporating solar energy, and coin-based access for a user-friendly and efficient experience.
 
-
-\subsection{System  Flowchart}
-
-
-
 \subsection{Solar Energy Harvesting}
 
 \begin{figure}[H]
 	\centering
-	\caption{Conversion of sunlight into electrical energy using PV panels and a charge controller}
+	\caption{Conversion of Sunlight into Electrical Energy using PV Panels and a Charge Controller}
 	\label{fig:solar harvesting}
 	\includegraphics[width=1\textwidth]{figures/harvesting.png}
 \end{figure}
 
-The Figure 3.4 illustrates the process of harvesting solar energy using photovoltaic (PV) panels. Solar energy is captured by the PV panels, which then convert sunlight into electrical energy. The energy is stored in a \ce{LiFePO4} battery through a solar charge controller, ensuring proper charging and voltage regulation. This energy is stored for later use, contributing to the overall sustainability and efficiency of the system, enabling it to power devices even during periods of limited sunlight.
+The Figure 3.5 illustrates the process of harvesting solar energy using photovoltaic (PV) panels. Solar energy is captured by the PV panels, which then convert sunlight into electrical energy. The energy is stored in a \ce{LiFePO4} battery through a solar charge controller, ensuring proper charging and voltage regulation. This energy is stored for later use, contributing to the overall sustainability and efficiency of the system, enabling it to power devices even during periods of limited sunlight.
 
 \subsection{Energy Conversion DC to AC}
 
 \begin{figure}[H]
 	\centering
-	\caption{Battery DC power converted to AC output via inverter.}
+	\caption{Battery DC power converted to AC output via Inverter.}
 	\label{fig:energy conversion}
 	\includegraphics[width=1\textwidth]{figures/conversion.png}
 \end{figure}
 
-Figure 3.5 shows the process of converting direct current (DC) into alternating current (AC). The stored energy in the \ce{LiFePO4} battery is passed through a power inverter, and the inverter transforms the DC from the battery into AC power, which can be used to power household appliances such as fans and other AC-powered devices. This conversion is essential for making the system compatible with common electrical appliances that require AC power for operation.
+Figure 3.6 shows the process of converting direct current (DC) into alternating current (AC). The stored energy in the \ce{LiFePO4} battery is passed through a power inverter, and the inverter transforms the DC from the battery into AC power, which can be used to power household appliances such as fans and other AC-powered devices. This conversion is essential for making the system compatible with common electrical appliances that require AC power for operation.
 
 \subsection{Power Monitoring}
 
 \begin{figure}[H]
 	\centering
-	\caption{ESP32 measures battery voltage and displays data on LCD.}
+	\caption{ESP32 measures battery voltage and displays data on LCD}
 	\label{fig:power monitoring}
 	\includegraphics[width=1\textwidth]{figures/monitoring.png}
 \end{figure}
 
-The Figure 3.6 illustrates the power monitoring system used to keep track of the energy stored and consumed by the system. The \ce{LiFePO4} battery is connected to an ESP32 microcontroller, which continuously monitors the battery’s voltage and health, and the data collected is displayed on an LCD screen which allows users to view the battery's current status in real time. This monitoring is vital for ensuring the system's efficiency and preventing over-discharge, ensuring long-term sustainability.
+The Figure 3.7 illustrates the power monitoring system used to keep track of the energy stored and consumed by the system. The \ce{LiFePO4} battery is connected to an ESP32 microcontroller, which continuously monitors the battery’s voltage and health, and the data collected is displayed on an LCD screen which allows users to view the battery's current status in real time. This monitoring is vital for ensuring the system's efficiency and preventing over-discharge, ensuring long-term sustainability.
 
 
 \subsection{GPS Tracking}
@@ -153,7 +148,7 @@ The Figure 3.6 illustrates the power monitoring system used to keep track of the
 	\includegraphics[width=1\textwidth]{figures/tracking.png}
 \end{figure}
 
-Figure 3.7 shows the GPS tracking system used to monitor the location of the detachable power source. A GPS module, connected to the ESP32 microcontroller, receives signals from satellites to determine the geographical location of the system. This real-time location data is essential for tracking and managing the rental and use of the power sources, ensuring they are accessible to users and protected from theft or misuse. The GPS data is then sent to the system for further processing and user access.
+Figure 3.8 shows the GPS tracking system used to monitor the location of the detachable power source. A GPS module, connected to the ESP32 microcontroller, receives signals from satellites to determine the geographical location of the system. This real-time location data is essential for tracking and managing the rental and use of the power sources, ensuring they are accessible to users and protected from theft or misuse. The GPS data is then sent to the system for further processing and user access.
 
 
 \section{Develop}
@@ -162,24 +157,24 @@ Figure 3.7 shows the GPS tracking system used to monitor the location of the det
 
 \begin{figure}[H]
 	\centering
-	\caption{The Context Level Diagram}
+	\caption{Context Level Diagram}
 	\label{fig:context level diagram}
 	\includegraphics[width=\textwidth]{figures/context.png}
 \end{figure}
 
-This Figure 3.8 illustrates the Context Level Diagram of the system. The Mobile App serves as the primary interface through which Community Residents interact with the Solar-Powered Rental Station. The Community Resident starts by providing their registration information via the Mobile App, which sends this data to the system. Once registered, the system sends back a registration confirmation and the Mobile App allows users to proceed with rental/payment requests. The Mobile App then facilitates payment transactions where the Community Resident can complete the payment either through a coin-based mechanism or an app-based method. Once the payment transaction is successfully completed, the Mobile App receives a payment confirmation from the System, ensuring the rental is validated. The Community Resident can then use the Mobile App to check the system status, such as battery levels, power source availability, or the remaining rental time. After use, the Community Resident sends a return request via the Mobile App, which then communicates with the System to confirm the power source return. The System logs the return and ensures the process is validated, signaling the completion of the rental session. Additionally, the Mobile App allows the Community Resident to submit feedback on their experience with the service.
+This Figure 3.9 illustrates the Context Level Diagram of the system. The Mobile App serves as the primary interface through which Community Residents interact with the Solar-Powered Rental Station. The Community Resident starts by providing their registration information via the Mobile App, which sends this data to the system. Once registered, the system sends back a registration confirmation and the Mobile App allows users to proceed with rental/payment requests. The Mobile App then facilitates payment transactions where the Community Resident can complete the payment either through a coin-based mechanism or an app-based method. Once the payment transaction is successfully completed, the Mobile App receives a payment confirmation from the System, ensuring the rental is validated. The Community Resident can then use the Mobile App to check the system status, such as battery levels, power source availability, or the remaining rental time. After use, the Community Resident sends a return request via the Mobile App, which then communicates with the System to confirm the power source return. The System logs the return and ensures the process is validated, signaling the completion of the rental session. Additionally, the Mobile App allows the Community Resident to submit feedback on their experience with the service.
 
 On the other side, the System (the Solar-Powered Rental Station) manages the backend of the rental process. It verifies rental requests from Community Residents and authorizes them to rent a power source. It also handles payment processing, ensuring that the payment is verified before the rental is completed. Once payment is confirmed, the System updates the Mobile App with the confirmation. The System also monitors the rented power source, providing live monitoring information, such as the power source’s battery level and available runtime. If the Community Resident fails to return the power source on time or if the power source is running low on battery, the System sends low battery or overdue alerts to both the Mobile App and the Community Resident, prompting them to take action. 
 
 \subsection{Data Flow Diagram}
 \begin{figure}[H]
 	\centering
-	\caption{Data Flow Representation of the Solar-Powered Rental Station Systemm}
+	\caption{Data Flow Representation of the Solar-Powered Rental Station System}
 	\label{fig:data flow}
 	\includegraphics[width=1\textwidth]{figures/dataflow.png}
 \end{figure}
 	
-The Figure 3.9 shows the complete process flow of the solar-powered rental station system, illustrating how community residents interact with the mobile application and system database. It begins with the login process, where residents input their login details, which are verified by the system. Once authenticated, the system provides feedback confirming successful login. After logging in, the user proceeds to make a rental request by selecting a power source and specifying the rental duration. The system responds with rental confirmation and product details. The user then moves to the payment process, where payment details are submitted through the app. The system validates the payment, sends a confirmation, and generates an access token that authorizes the user to unlock and use the detachable power source.
+The Figure 3.10 shows the complete process flow of the solar-powered rental station system, illustrating how community residents interact with the mobile application and system database. It begins with the login process, where residents input their login details, which are verified by the system. Once authenticated, the system provides feedback confirming successful login. After logging in, the user proceeds to make a rental request by selecting a power source and specifying the rental duration. The system responds with rental confirmation and product details. The user then moves to the payment process, where payment details are submitted through the app. The system validates the payment, sends a confirmation, and generates an access token that authorizes the user to unlock and use the detachable power source.
 
 Once access is granted, the rental authorization and monitoring phase begins. The system continuously provides updates on the power source’s status, such as battery level and remaining usage time, ensuring that the user can track energy consumption. When the rental period ends, the user then sends a return request, and the system verifies and confirms the return while updating the rental status. After returning the power source, the user proceeds to the feedback process, submitting performance feedback through the app. The system stores the feedback and confirms successful submission. After that, the system records the final rental summary and sends any overdue alerts if the power source is not returned on time. Overall, the diagram presents a clear and structured view of how the user’s actions and system responses are linked throughout the entire rental transaction cycle, which is from login to feedback completion.
 
@@ -191,7 +186,7 @@ Once access is granted, the rental authorization and monitoring phase begins. Th
  	\includegraphics[width=1\textwidth]{figures/usecase.png}
  \end{figure}
  
-Figure 3.10 illustrates how different users and administrators interact with the system. It highlights the actions users can take and the roles of administrators. The Unregistered User is someone who has not yet signed up for the system. They can create an account by providing their details, which are then verified by the system. If the details are correct, an activation code is generated for the user to complete the registration. After signing up, the user can log in to the system, but if there’s an issue with the login, an error is displayed.
+Figure 3.11 illustrates how different users and administrators interact with the system. It highlights the actions users can take and the roles of administrators. The Unregistered User is someone who has not yet signed up for the system. They can create an account by providing their details, which are then verified by the system. If the details are correct, an activation code is generated for the user to complete the registration. After signing up, the user can log in to the system, but if there’s an issue with the login, an error is displayed.
  
  Once the Unregistered User becomes a Registered User after logging in successfully, they can perform more actions within the system. The user can rent a power source by checking its availability, paying for it, and activating the slot where the power source is stored. If there’s a problem with communication during the rental process, the system handles this as an extended action. After using the power source, the user can return it, and the system confirms the return. If there’s any delay in returning the power source, the system will manage this as well. Registered users also have the ability to view their account details and rental history, and they can report any issues or provide feedback through the system. The Admin plays a key role in overseeing the system. They can manage users, including adding or removing them from the system. The admin is also responsible for performing system updates and maintenance, ensuring the smooth operation of the system. Additionally, the admin can view various reports that provide insights into system performance and user activities.
  
@@ -205,7 +200,7 @@ Figure 3.10 illustrates how different users and administrators interact with the
  	\includegraphics[width=0.7\textwidth]{figures/activity.png}
  \end{figure}
  
-Figure 3.11 shows the step-by-step activity flow of the system from user login to unlocking the portable power source. The process begins with checking account availability. If the user already has an account, they proceed to the login step; otherwise, they must sign up first. After logging in, the system checks if the account is valid. If the account is invalid, the process returns to the login step. If valid, the system verifies the account and displays the dashboard. Next, the system checks if a power source slot is available. If no slot is available, the user remains on the dashboard until one becomes free. If a slot is available, the process continues to the payment step. The system then verifies the payment amount. If the amount entered is not exact, the process returns to the payment step. If the payment is correct, the portable power source is successfully unlocked, completing the process.
+Figure 3.12 shows the step-by-step activity flow of the system from user login to unlocking the portable power source. The process begins with checking account availability. If the user already has an account, they proceed to the login step; otherwise, they must sign up first. After logging in, the system checks if the account is valid. If the account is invalid, the process returns to the login step. If valid, the system verifies the account and displays the dashboard. Next, the system checks if a power source slot is available. If no slot is available, the user remains on the dashboard until one becomes free. If a slot is available, the process continues to the payment step. The system then verifies the payment amount. If the amount entered is not exact, the process returns to the payment step. If the payment is correct, the portable power source is successfully unlocked, completing the process.
  
  Overall, the diagram clearly shows how the user interacts with the system , which starts from account access, validation, and payment, up to unlocking the rented portable power source.
 
@@ -219,7 +214,7 @@ Figure 3.11 shows the step-by-step activity flow of the system from user login t
   	\includegraphics[width=0.8\textwidth]{figures/3D.png}
   \end{figure}
   
-Figure 3.12 shows the 3D design of the system. It is a stationary power station powered by solar energy and contains three detachable power sources, each secured with a coin slot and solenoid lock.
+Figure 3.13 shows the 3D design of the system. It is a stationary power station powered by solar energy and contains three detachable power sources, each secured with a coin slot and solenoid lock.
   
   \subsection{Mobile App}
   
@@ -234,7 +229,7 @@ Figure 3.12 shows the 3D design of the system. It is a stationary power station 
   
    \begin{figure}[H]
   	\centering
-  	\caption{Sign In Screen}
+  	\caption{Sign n Screen}
   	\label{fig:signin}
   	\includegraphics[width=0.7\textwidth]{figures/signin.png}
   \end{figure}
@@ -261,7 +256,7 @@ Figure 3.12 shows the 3D design of the system. It is a stationary power station 
   
     \begin{figure}[H]
   	\centering
-  	\caption{Renting  Screen}
+  	\caption{Renting Screen}
   	\label{fig:renting}
   	\includegraphics[width=1\textwidth]{figures/renting.png}
   \end{figure}
