@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  7 OCT 2025 18:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  7 OCT 2025 19:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1035,91 +1035,95 @@ Package pdftex.def Info: figures/usecase.png  used on input line 179.
 
 
 [50]
-<figures/activity.png, id=632, 673.51625pt x 1064.97874pt>
-File: figures/activity.png Graphic file (type png)
-<use figures/activity.png>
-Package pdftex.def Info: figures/activity.png  used on input line 187.
-(pdftex.def)             Requested size: 278.2383pt x 439.95917pt.
-
 
 [51 <./figures/usecase.png>]
 
-[52 <./figures/activity.png>]
-<figures/3D.png, id=643, 1166.3575pt x 1184.425pt>
-File: figures/3D.png Graphic file (type png)
-<use figures/3D.png>
-Package pdftex.def Info: figures/3D.png  used on input line 204.
-(pdftex.def)             Requested size: 317.98921pt x 322.90756pt.
+[52]
+<figures/activity.png, id=641, 673.51625pt x 1064.97874pt>
+File: figures/activity.png Graphic file (type png)
+<use figures/activity.png>
+Package pdftex.def Info: figures/activity.png  used on input line 193.
+(pdftex.def)             Requested size: 278.2383pt x 439.95917pt.
 
 
 [53]
-<figures/welcome.png, id=648, 1668.2325pt x 1035.87pt>
+
+[54 <./figures/activity.png>]
+<figures/3D.png, id=652, 1166.3575pt x 1184.425pt>
+File: figures/3D.png Graphic file (type png)
+<use figures/3D.png>
+Package pdftex.def Info: figures/3D.png  used on input line 210.
+(pdftex.def)             Requested size: 317.98921pt x 322.90756pt.
+
+
+[55]
+<figures/welcome.png, id=657, 1668.2325pt x 1035.87pt>
 File: figures/welcome.png Graphic file (type png)
 <use figures/welcome.png>
-Package pdftex.def Info: figures/welcome.png  used on input line 215.
+Package pdftex.def Info: figures/welcome.png  used on input line 221.
 (pdftex.def)             Requested size: 397.48502pt x 246.81198pt.
 
 
-[54 <./figures/3D.png>]
-<figures/signin.png, id=655, 825.0825pt x 1049.9225pt>
+[56 <./figures/3D.png>]
+<figures/signin.png, id=663, 825.0825pt x 1049.9225pt>
 File: figures/signin.png Graphic file (type png)
 <use figures/signin.png>
-Package pdftex.def Info: figures/signin.png  used on input line 224.
+Package pdftex.def Info: figures/signin.png  used on input line 230.
 (pdftex.def)             Requested size: 278.2383pt x 354.05319pt.
 
 
-[55 <./figures/welcome.png>]
-<figures/signup.png, id=661, 2236.355pt x 1039.885pt>
+[57 <./figures/welcome.png>]
+<figures/signup.png, id=669, 2236.355pt x 1039.885pt>
 File: figures/signup.png Graphic file (type png)
 <use figures/signup.png>
-Package pdftex.def Info: figures/signup.png  used on input line 233.
+Package pdftex.def Info: figures/signup.png  used on input line 239.
 (pdftex.def)             Requested size: 397.48502pt x 184.82285pt.
 
 
-[56 <./figures/signin.png>]
-<figures/home.png, id=667, 825.0825pt x 1035.87pt>
+[58 <./figures/signin.png>]
+<figures/home.png, id=675, 825.0825pt x 1035.87pt>
 File: figures/home.png Graphic file (type png)
 <use figures/home.png>
-Package pdftex.def Info: figures/home.png  used on input line 242.
+Package pdftex.def Info: figures/home.png  used on input line 248.
 (pdftex.def)             Requested size: 278.2383pt x 349.31442pt.
 
 
-[57 <./figures/signup.png>]
-<figures/renting.png, id=673, 1668.2325pt x 1041.8925pt>
+[59 <./figures/signup.png>]
+<figures/renting.png, id=681, 1668.2325pt x 1041.8925pt>
 File: figures/renting.png Graphic file (type png)
 <use figures/renting.png>
-Package pdftex.def Info: figures/renting.png  used on input line 251.
+Package pdftex.def Info: figures/renting.png  used on input line 257.
 (pdftex.def)             Requested size: 397.48502pt x 248.24693pt.
 
 
-[58 <./figures/home.png>]
-<figures/admin.png, id=679, 821.0675pt x 1023.825pt>
+[60 <./figures/home.png>]
+<figures/admin.png, id=688, 821.0675pt x 1023.825pt>
 File: figures/admin.png Graphic file (type png)
 <use figures/admin.png>
-Package pdftex.def Info: figures/admin.png  used on input line 260.
+Package pdftex.def Info: figures/admin.png  used on input line 266.
 (pdftex.def)             Requested size: 119.2467pt x 148.69296pt.
 
 
-[59 <./figures/renting.png>]
-<figures/admin2.png, id=685, 829.0975pt x 1049.9225pt>
+[61 <./figures/renting.png>]
+<figures/admin2.png, id=694, 829.0975pt x 1049.9225pt>
 File: figures/admin2.png Graphic file (type png)
 <use figures/admin2.png>
-Package pdftex.def Info: figures/admin2.png  used on input line 269.
+Package pdftex.def Info: figures/admin2.png  used on input line 275.
 (pdftex.def)             Requested size: 119.2467pt x 150.99327pt.
 
 
-[60 <./figures/admin.png> <./figures/admin2.png>]
-
-[61]
-
-[62])
+[62 <./figures/admin.png> <./figures/admin2.png>]
 
 [63]
+
+[64])
+
+[65]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex)
 
-[64
+[66
 
 
 
@@ -1141,9 +1145,9 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16521 strings out of 473190
- 269632 string characters out of 5715801
- 701580 words of memory out of 5000000
+ 16523 strings out of 473190
+ 269646 string characters out of 5715801
+ 701590 words of memory out of 5000000
  39293 multiletter control sequences out of 15000+600000
  566635 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1155,10 +1159,10 @@ cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm
 ti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx12
 00.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200
 .pfb>
-Output written on thesis.pdf (71 pages, 11424981 bytes).
+Output written on thesis.pdf (73 pages, 11427722 bytes).
 PDF statistics:
- 776 PDF objects out of 1000 (max. 8388607)
- 646 compressed objects within 7 object streams
- 154 named destinations out of 1000 (max. 500000)
+ 786 PDF objects out of 1000 (max. 8388607)
+ 654 compressed objects within 7 object streams
+ 156 named destinations out of 1000 (max. 500000)
  576 words of extra memory for PDF output out of 10000 (max. 10000000)
 
