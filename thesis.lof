@@ -3,6 +3,15 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Process flow on how the system operates}}{11}{figure.caption.6}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \relax }}{19}{figure.caption.8}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Cosine Graph}}{20}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The Waterfall Model}}{36}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces System Architecture}}{42}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Conversion of sunlight into electrical energy using PV panels and a charge controller}}{43}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Battery DC power converted to AC output via inverter.}}{44}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces ESP32 measures battery voltage and displays data on LCD.}}{44}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces ESP32 receives real-time location data from GPS satellites using GSM Module}}{45}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces The Context Level Diagram}}{45}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Data Flow Representation of the Solar-Powered Rental Station Systemm}}{47}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Use Case Diagram}}{49}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Activity Diagram of the Community Resident}}{50}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Three Dimensional Representation of the System}}{52}{figure.caption.17}%
 \contentsfinish 

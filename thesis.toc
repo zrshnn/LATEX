@@ -1,8 +1,8 @@
 {\bfseries \hfill Page No.\vspace \bigskipamount \par }
 \contentsline {chapter}{TITLE PAGE}{i}{chapter*.1}%
 \contentsline {chapter}{TABLE OF CONTENTS}{ii}{chapter*.1}%
-\contentsline {chapter}{LIST OF TABLES}{iii}{chapter*.2}%
-\contentsline {chapter}{LIST OF FIGURES}{iv}{chapter*.3}%
+\contentsline {chapter}{LIST OF TABLES}{v}{chapter*.2}%
+\contentsline {chapter}{LIST OF FIGURES}{vi}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background of the Study}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Statement of the Problem}{5}{section.1.2}%
@@ -14,11 +14,46 @@
 \contentsline {section}{\numberline {1.6}Conceptual Framework}{11}{section.1.6}%
 \contentsline {section}{\numberline {1.7}Definition of Terms}{13}{section.1.7}%
 \contentsline {chapter}{\numberline {2}REVIEW OF RELATED LITERATURE}{15}{chapter.2}%
-\contentsline {section}{\numberline {2.1}An overview of internet of things}{15}{section.2.1}%
-\contentsline {chapter}{\numberline {3}METHODOLOGY}{16}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Research Design}{16}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Formula}{16}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Tables}{16}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Images}{18}{section.3.4}%
-\contentsline {chapter}{APPENDICES}{21}{chapter*.10}%
+\contentsline {section}{\numberline {2.1} Design of a Solar-Based Portable Power Supply with Modular Battery System for the Dumagat Tribe in Norzagaray, Bulacan}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Construction of a Portable Solar Power Supply for Household Appliances}{16}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Emergency Solar Portable Power Supply}{17}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Portable Solar-Station with Integrated Battery Management and Load Monitoring System}{18}{section.2.4}%
+\contentsline {section}{\numberline {2.5} Solar Powered Mobile Power Bank Systems}{19}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Multiport Universal Solar Power Bank}{20}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Portable Power Supply Design with 100 Watt Capacity}{21}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Design and Development of Portable StandAlone Solar Power Generator }{22}{section.2.8}%
+\contentsline {section}{\numberline {2.9}A solar-powered multi-functional portable charging device (SPMFPCD) with internet-of-things (IoT)-based real-time monitoring- An innovative scheme towards energy access and management}{23}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Development of a Low Cost Portable Hydro and Wind Power as Emergency Power Source}{24}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Development of Portable Solar Storage Device}{25}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Renewable Energy from Solar Panels: A Study of Photovoltaic Physics and Environmental Benefits}{26}{section.2.12}%
+\contentsline {section}{\numberline {2.13}Power Consumption of Household Appliances }{27}{section.2.13}%
+\contentsline {section}{\numberline {2.14}Electricity Distribution and Supply Authority}{28}{section.2.14}%
+\contentsline {section}{\numberline {2.15}Assessing the Impact of Power Outages on Appliances of Farmers and Fisherfolks in Selected Barangays of Cawayan, Masbate, Philippines: Basis for a Proposed Extension Program}{30}{section.2.15}%
+\contentsline {section}{\numberline {2.16}Solar-Powered Coin-Operated Mobile Charging Station for Sustainable Energy Access and Resilience}{32}{section.2.16}%
+\contentsline {section}{\numberline {2.17}Synthesis}{33}{section.2.17}%
+\contentsline {chapter}{\numberline {3}METHODOLOGY}{36}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Research Design}{36}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Planning}{37}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Data Collection}{37}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Data Gathering Procedure}{38}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Data Finding Analysis}{39}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Design}{40}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}User Definition}{40}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}System Requirements}{40}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}System Design and Architecture}{42}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}System Flowchart}{43}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Solar Energy Harvesting}{43}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}Energy Conversion DC to AC}{44}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Power Monitoring}{44}{subsection.3.3.7}%
+\contentsline {subsection}{\numberline {3.3.8}GPS Tracking}{45}{subsection.3.3.8}%
+\contentsline {section}{\numberline {3.4}Develop}{45}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Context Level Diagram}{45}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Data Flow Diagram}{47}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Use Case Diagram}{49}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Activity Diagram}{50}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Hardware Design Flowchart}{52}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}3D Design}{52}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}System Design}{52}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}Materials and Cost}{52}{subsection.3.4.8}%
+\contentsline {chapter}{APPENDICES}{54}{chapter*.18}%
 \contentsfinish 
