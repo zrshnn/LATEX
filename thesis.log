@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  7 OCT 2025 23:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  19 OCT 2025 17:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -744,15 +744,15 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 2.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-Overfull \hbox (10.52138pt too wide) in paragraph at lines 25--25
- \OT1/cmr/m/n/12 de-vice (SPMF-PCD) with internet-of-things (IoT)-based 
- []
-
-
 
 [2
 
 ]
+Overfull \hbox (10.52138pt too wide) in paragraph at lines 28--28
+ \OT1/cmr/m/n/12 de-vice (SPMF-PCD) with internet-of-things (IoT)-based 
+ []
+
+
 
 [3])
 \tf@toc=\write5
@@ -769,13 +769,13 @@ Overfull \hbox (10.52138pt too wide) in paragraph at lines 25--25
 [5
 
 ] (./thesis.lof
-Overfull \hbox (4.9887pt too wide) in paragraph at lines 13--13
+Overfull \hbox (4.9887pt too wide) in paragraph at lines 14--14
  [][] [][]\OT1/cmr/m/n/12 ESP32 re-ceives real-time lo-ca-tion data from GPS sa
 tel- 
  []
 
 
-Overfull \hbox (4.18723pt too wide) in paragraph at lines 15--15
+Overfull \hbox (4.18723pt too wide) in paragraph at lines 16--16
  [][] [][]\OT1/cmr/m/n/12 Data Flow Rep-re-sen-ta-tion of the Solar-Powered Ren
 tal 
  []
@@ -820,56 +820,50 @@ Chapter 1.
 
 [7{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }]
-Overfull \hbox (1.68445pt too wide) in paragraph at lines 48--49
-[]\OT1/cmr/m/n/12 To pro-vide sus-tain-able en-ergy ac-cess through af-ford-abl
-e and shared power
- []
-
-
 
 [8]
 
 [9]
+Overfull \hbox (9.51353pt too wide) in paragraph at lines 85--86
+[]\OT1/cmr/m/n/12 Implement coin-operated or app-based ac-cess for rent-ing the
+ power sources. 
+ []
+
+
 
 [10]
-<figures/conceptual framework.png, id=446, 1103.12125pt x 348.30125pt>
-File: figures/conceptual framework.png Graphic file (type png)
-<use figures/conceptual framework.png>
-Package pdftex.def Info: figures/conceptual framework.png  used on input line 8
-0.
-(pdftex.def)             Requested size: 397.48502pt x 125.50526pt.
 
+[11]
 
-[11 <./figures/conceptual framework.png>]
+[12])
 
-[12]
-Overfull \hbox (0.92622pt too wide) in paragraph at lines 94--95
-\OT1/cmr/m/n/12 as pho-to-voltaic (PV) pan-els, which con-vert sun-light into e
-lec-tric-ity, which
- []
-
-
-Overfull \hbox (7.01224pt too wide) in paragraph at lines 103--104
-[]\OT1/cmr/m/n/12 Compact, mo-bile units that pro-vide elec-tri-cal power
- []
-
-
-
-[13])
-
-[14]
+[13]
 \openout2 = `chapter2.aux'.
 
  (./chapter2.tex
 Chapter 2.
+<figures/theoretical.png, id=476, 707.07405pt x 284.52243pt>
+File: figures/theoretical.png Graphic file (type png)
+<use figures/theoretical.png>
+Package pdftex.def Info: figures/theoretical.png  used on input line 13.
+(pdftex.def)             Requested size: 397.48502pt x 159.94362pt.
 
 
-[15
+[14
 
 
 
 
-]
+ <./figures/theoretical.png>]
+<figures/conceptual framework.png, id=482, 1103.12125pt x 348.30125pt>
+File: figures/conceptual framework.png Graphic file (type png)
+<use figures/conceptual framework.png>
+Package pdftex.def Info: figures/conceptual framework.png  used on input line 2
+7.
+(pdftex.def)             Requested size: 397.48502pt x 125.50526pt.
+
+
+[15 <./figures/conceptual framework.png>]
 
 [16]
 
@@ -884,22 +878,22 @@ Chapter 2.
 [21]
 
 [22]
-Overfull \hbox (20.90103pt too wide) in paragraph at lines 52--52
+
+[23]
+
+[24]
+Overfull \hbox (27.65103pt too wide) in paragraph at lines 80--80
 []\OT1/cmr/bx/n/12 A solar-powered multi-functional portable charg-ing de-vice 
 (SPMF-
  []
 
 
-Overfull \hbox (3.1149pt too wide) in paragraph at lines 52--52
+Overfull \hbox (9.8649pt too wide) in paragraph at lines 80--80
 \OT1/cmr/bx/n/12 PCD) with internet-of-things (IoT)-based real-time monitoring-
 
  []
 
 
-
-[23]
-
-[24]
 
 [25]
 
@@ -908,17 +902,11 @@ Overfull \hbox (3.1149pt too wide) in paragraph at lines 52--52
 [27]
 
 [28]
-Overfull \hbox (8.12961pt too wide) in paragraph at lines 84--85
-[]$[][][]$ \OT1/cmr/m/n/12 bat-ter-ies are gen-er-ally more energy-efficient, a
-l-low-ing for greater
- []
-
-
 
 [29]
-Overfull \hbox (2.55531pt too wide) in paragraph at lines 90--90
-[]\OT1/cmr/bx/n/12 Assessing the Im-pact of Power Out-ages on Ap-pli-ances of F
-arm-
+Overfull \hbox (8.12961pt too wide) in paragraph at lines 112--113
+[]$[][][]$ \OT1/cmr/m/n/12 bat-ter-ies are gen-er-ally more energy-efficient, a
+l-low-ing for greater
  []
 
 
@@ -926,224 +914,234 @@ arm-
 [30]
 
 [31]
+Overfull \hbox (2.55531pt too wide) in paragraph at lines 118--118
+[]\OT1/cmr/bx/n/12 Assessing the Im-pact of Power Out-ages on Ap-pli-ances of F
+arm-
+ []
+
+
 
 [32]
 
 [33]
-Overfull \hbox (1.19899pt too wide) in paragraph at lines 105--106
+
+[34]
+
+[35]
+Overfull \hbox (1.19899pt too wide) in paragraph at lines 133--134
 []\OT1/cmr/m/n/12 This in-sight em-pha-sizes the ne-ces-sity of ac-ces-si-ble a
 nd rea-son-ably priced
  []
 
 
 
-[34])
+[36])
 
-[35]
+[37]
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
 Chapter 3.
-<figures/waterfall.png, id=555, 663.47874pt x 482.80376pt>
+<figures/waterfall.png, id=583, 663.47874pt x 482.80376pt>
 File: figures/waterfall.png Graphic file (type png)
 <use figures/waterfall.png>
 Package pdftex.def Info: figures/waterfall.png  used on input line 13.
 (pdftex.def)             Requested size: 397.48502pt x 289.24246pt.
 
 
-[36
+[38
 
 
 
 
  <./figures/waterfall.png>]
-<figures/map.png, id=562, 923.45pt x 1152.305pt>
+<figures/map.png, id=589, 923.45pt x 1152.305pt>
 File: figures/map.png Graphic file (type png)
 <use figures/map.png>
 Package pdftex.def Info: figures/map.png  used on input line 25.
 (pdftex.def)             Requested size: 278.2383pt x 347.18869pt.
 
 
-[37]
-
-[38 <./figures/map.png>]
-
 [39]
 
-[40]
+[40 <./figures/map.png>]
 
 [41]
+
+[42]
+
+[43]
 Underfull \hbox (badness 1087) in paragraph at lines 77--78
 []|\OT1/cmr/m/n/12 - The sys-tem shall con-tin-u-ously mon-i-tor and
  []
 
-[42]
-<figures/architecture.png, id=590, 3092.55376pt x 2931.95375pt>
+[44]
+<figures/architecture.png, id=616, 3092.55376pt x 2931.95375pt>
 File: figures/architecture.png Graphic file (type png)
 <use figures/architecture.png>
 Package pdftex.def Info: figures/architecture.png  used on input line 101.
 (pdftex.def)             Requested size: 397.48502pt x 376.82779pt.
 
 
-[43]
+[45]
 
-[44 <./figures/architecture.png>]
-<figures/flowchart.png, id=600, 733.74126pt x 1245.65375pt>
+[46 <./figures/architecture.png>]
+<figures/flowchart.png, id=626, 733.74126pt x 1245.65375pt>
 File: figures/flowchart.png Graphic file (type png)
 <use figures/flowchart.png>
 Package pdftex.def Info: figures/flowchart.png  used on input line 114.
 (pdftex.def)             Requested size: 278.2383pt x 472.36497pt.
 
 
-[45]
+[47]
 
-[46 <./figures/flowchart.png>]
-<figures/harvesting.png, id=610, 2672.98625pt x 639.38875pt>
+[48 <./figures/flowchart.png>]
+<figures/harvesting.png, id=637, 2672.98625pt x 639.38875pt>
 File: figures/harvesting.png Graphic file (type png)
 <use figures/harvesting.png>
 Package pdftex.def Info: figures/harvesting.png  used on input line 130.
 (pdftex.def)             Requested size: 397.48502pt x 95.07489pt.
 
 
-[47]
-<figures/conversion.png, id=615, 3364.57pt x 502.87875pt>
+[49]
+<figures/conversion.png, id=642, 3364.57pt x 502.87875pt>
 File: figures/conversion.png Graphic file (type png)
 <use figures/conversion.png>
 Package pdftex.def Info: figures/conversion.png  used on input line 141.
 (pdftex.def)             Requested size: 397.48502pt x 59.4067pt.
 
 
-[48 <./figures/harvesting.png> <./figures/conversion.png>]
-<figures/monitoring.png, id=623, 1081.03876pt x 391.4625pt>
+[50 <./figures/harvesting.png> <./figures/conversion.png>]
+<figures/monitoring.png, id=649, 1081.03876pt x 391.4625pt>
 File: figures/monitoring.png Graphic file (type png)
 <use figures/monitoring.png>
 Package pdftex.def Info: figures/monitoring.png  used on input line 152.
 (pdftex.def)             Requested size: 397.48502pt x 143.93092pt.
 
 
-[49 <./figures/monitoring.png>]
-<figures/tracking.png, id=629, 1179.40625pt x 312.16624pt>
+[51 <./figures/monitoring.png>]
+<figures/tracking.png, id=655, 1179.40625pt x 312.16624pt>
 File: figures/tracking.png Graphic file (type png)
 <use figures/tracking.png>
 Package pdftex.def Info: figures/tracking.png  used on input line 164.
 (pdftex.def)             Requested size: 397.48502pt x 105.20627pt.
-<figures/context.png, id=630, 909.3975pt x 337.26pt>
+<figures/context.png, id=656, 909.3975pt x 337.26pt>
 File: figures/context.png Graphic file (type png)
 <use figures/context.png>
 Package pdftex.def Info: figures/context.png  used on input line 178.
 (pdftex.def)             Requested size: 397.48502pt x 147.41193pt.
 
 
-[50 <./figures/tracking.png>]
+[52 <./figures/tracking.png>]
 
-[51 <./figures/context.png>]
-<figures/dataflow.png, id=641, 1077.02374pt x 666.49pt>
+[53 <./figures/context.png>]
+<figures/dataflow.png, id=667, 1077.02374pt x 666.49pt>
 File: figures/dataflow.png Graphic file (type png)
 <use figures/dataflow.png>
 Package pdftex.def Info: figures/dataflow.png  used on input line 190.
 (pdftex.def)             Requested size: 397.48502pt x 245.97708pt.
 
 
-[52]
+[54]
 
-[53 <./figures/dataflow.png>]
-<figures/usecase.png, id=651, 1405.25pt x 1035.87pt>
+[55 <./figures/dataflow.png>]
+<figures/usecase.png, id=678, 1405.25pt x 1035.87pt>
 File: figures/usecase.png Graphic file (type png)
 <use figures/usecase.png>
 Package pdftex.def Info: figures/usecase.png  used on input line 202.
 (pdftex.def)             Requested size: 397.48502pt x 292.99736pt.
 
 
-[54]
-
-[55 <./figures/usecase.png>]
-
 [56]
-<figures/activity.png, id=666, 673.51625pt x 1064.97874pt>
+
+[57 <./figures/usecase.png>]
+
+[58]
+<figures/activity.png, id=692, 673.51625pt x 1064.97874pt>
 File: figures/activity.png Graphic file (type png)
 <use figures/activity.png>
 Package pdftex.def Info: figures/activity.png  used on input line 216.
 (pdftex.def)             Requested size: 278.2383pt x 439.95917pt.
 
 
-[57]
+[59]
 
-[58 <./figures/activity.png>]
-<figures/3D.png, id=676, 1166.3575pt x 1184.425pt>
+[60 <./figures/activity.png>]
+<figures/3D.png, id=704, 1166.3575pt x 1184.425pt>
 File: figures/3D.png Graphic file (type png)
 <use figures/3D.png>
 Package pdftex.def Info: figures/3D.png  used on input line 230.
 (pdftex.def)             Requested size: 317.98921pt x 322.90756pt.
 
 
-[59]
-<figures/welcome.png, id=681, 1668.2325pt x 1035.87pt>
+[61]
+<figures/welcome.png, id=709, 1668.2325pt x 1035.87pt>
 File: figures/welcome.png Graphic file (type png)
 <use figures/welcome.png>
 Package pdftex.def Info: figures/welcome.png  used on input line 241.
 (pdftex.def)             Requested size: 397.48502pt x 246.81198pt.
 
 
-[60 <./figures/3D.png>]
-<figures/signin.png, id=688, 825.0825pt x 1049.9225pt>
+[62 <./figures/3D.png>]
+<figures/signin.png, id=715, 825.0825pt x 1049.9225pt>
 File: figures/signin.png Graphic file (type png)
 <use figures/signin.png>
 Package pdftex.def Info: figures/signin.png  used on input line 250.
 (pdftex.def)             Requested size: 278.2383pt x 354.05319pt.
 
 
-[61 <./figures/welcome.png>]
-<figures/signup.png, id=694, 2236.355pt x 1039.885pt>
+[63 <./figures/welcome.png>]
+<figures/signup.png, id=721, 2236.355pt x 1039.885pt>
 File: figures/signup.png Graphic file (type png)
 <use figures/signup.png>
 Package pdftex.def Info: figures/signup.png  used on input line 259.
 (pdftex.def)             Requested size: 397.48502pt x 184.82285pt.
 
 
-[62 <./figures/signin.png>]
-<figures/home.png, id=701, 825.0825pt x 1035.87pt>
+[64 <./figures/signin.png>]
+<figures/home.png, id=727, 825.0825pt x 1035.87pt>
 File: figures/home.png Graphic file (type png)
 <use figures/home.png>
 Package pdftex.def Info: figures/home.png  used on input line 268.
 (pdftex.def)             Requested size: 278.2383pt x 349.31442pt.
 
 
-[63 <./figures/signup.png>]
-<figures/renting.png, id=707, 1668.2325pt x 1041.8925pt>
+[65 <./figures/signup.png>]
+<figures/renting.png, id=733, 1668.2325pt x 1041.8925pt>
 File: figures/renting.png Graphic file (type png)
 <use figures/renting.png>
 Package pdftex.def Info: figures/renting.png  used on input line 277.
 (pdftex.def)             Requested size: 397.48502pt x 248.24693pt.
 
 
-[64 <./figures/home.png>]
-<figures/admin.png, id=713, 821.0675pt x 1023.825pt>
+[66 <./figures/home.png>]
+<figures/admin.png, id=740, 821.0675pt x 1023.825pt>
 File: figures/admin.png Graphic file (type png)
 <use figures/admin.png>
 Package pdftex.def Info: figures/admin.png  used on input line 286.
 (pdftex.def)             Requested size: 119.2467pt x 148.69296pt.
 
 
-[65 <./figures/renting.png>]
-<figures/admin2.png, id=719, 829.0975pt x 1049.9225pt>
+[67 <./figures/renting.png>]
+<figures/admin2.png, id=746, 829.0975pt x 1049.9225pt>
 File: figures/admin2.png Graphic file (type png)
 <use figures/admin2.png>
 Package pdftex.def Info: figures/admin2.png  used on input line 295.
 (pdftex.def)             Requested size: 119.2467pt x 150.99327pt.
 
 
-[66 <./figures/admin.png> <./figures/admin2.png>]
-
-[67]
-
-[68])
+[68 <./figures/admin.png> <./figures/admin2.png>]
 
 [69]
+
+[70])
+
+[71]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex)
 
-[70
+[72
 
 
 
@@ -1158,17 +1156,17 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6A10922F727E420695FAA4AB8D8529A1;14045.
+(rerunfilecheck)             Checksum: 0D4E714914141BEBC8B3580F8562F4FE;14535.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16545 strings out of 473190
- 270080 string characters out of 5715801
- 701707 words of memory out of 5000000
- 39309 multiletter control sequences out of 15000+600000
+ 16559 strings out of 473190
+ 270350 string characters out of 5715801
+ 701750 words of memory out of 5000000
+ 39317 multiletter control sequences out of 15000+600000
  566635 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,10n,82p,2219b,650s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1179,10 +1177,10 @@ cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm
 ti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx12
 00.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200
 .pfb>
-Output written on thesis.pdf (77 pages, 13001697 bytes).
+Output written on thesis.pdf (79 pages, 13050247 bytes).
 PDF statistics:
- 811 PDF objects out of 1000 (max. 8388607)
- 671 compressed objects within 7 object streams
- 162 named destinations out of 1000 (max. 500000)
- 586 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 839 PDF objects out of 1000 (max. 8388607)
+ 696 compressed objects within 7 object streams
+ 168 named destinations out of 1000 (max. 500000)
+ 615 words of extra memory for PDF output out of 10000 (max. 10000000)
 

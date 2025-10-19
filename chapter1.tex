@@ -37,85 +37,88 @@ Given these limitations, there is a clear need for an innovative solar-powered r
 In view of the above stated problem, the following objectives are:
 \subsection{General Objectives}
 \begin{itemize}
-	\item To design and develop a solar-powered rental station with detachable power sources that serves as a sustainable and user-friendly solution for supplying electricity, specifically intended for communities experiencing frequent power interruptions. 
+	\item To design and develop a solar-powered portable power station with detachable power sources that are rented to serve as a sustainable and user-friendly solution for supplying electricity, specifically intended for communities experiencing frequent power interruptions. 
 \end{itemize}
 \subsection{Specific Objectives}
 \begin{itemize}
-	\item To design the system architecture that integrates photovoltaic panels, energy storage, and a power inverter, ensuring sufficient capacity for powering small to medium-scale appliances.
-	\item To develop a functional prototype of the rentable station with a detachable power source, with a secure coin-operated or app-based access mechanism for rental use.
+	\item To design the system architecture for the portable power station that integrates photovoltaic panels, energy storage, and a power inverter, ensuring sufficient capacity for powering small to medium-scale appliances.
+	\item To develop a functional prototype of the portable power station with a detachable power source, with a secure coin-operated or app-based access mechanism for rental use.
 	\item To integrate GPS and GSM modules to support real-time location tracking, communication, and monitoring of rented units.
-	\item To evaluate the system’s performance in terms of efficiency, portability, security, and user satisfaction in a rental-based context.
-	\item To provide sustainable energy access through affordable and shared power sources powered by solar energy.
 \end{itemize}
 
 \section{Significance of the Study}
 
 This project benefits a diverse range of stakeholders including: 
 
-\textit{Community Residents} - Community residents will benefit from continuous access to electricity through the solar-powered portable power source. This system ensures the community residents can use essential household appliances and stay connected during power interruptions, improving their daily lives and overall comfort.
+\vspace{0.6em} 
+\addtocounter{subsection}{1}
+\noindent\textbf{\thesubsection\ Community Residents:} 
+Community residents will benefit from continuous access to electricity through the solar-powered portable power source. This system ensures the community residents can use essential household appliances and stay connected during power interruptions, improving their daily lives and overall comfort.
 
-\textit{Environment} - This study contributes to environmental sustainability by promoting the use of solar energy, a renewable resource, instead of relying on fossil-fueled generators. The system reduces carbon emissions and pollution, aligning with global sustainability goals.
+\vspace{0.6em} 
+\addtocounter{subsection}{1}
+\noindent\textbf{\thesubsection\ Environment:} 
+This study contributes to environmental sustainability by promoting the use of solar energy, a renewable resource, instead of relying on fossil-fueled generators. The system reduces carbon emissions and pollution, aligning with global sustainability goals.
 
-\textit{Future Researchers} - Future researchers will find this study helpful because it gives important information on how to create solar-powered portable charging systems with features like GPS tracking, coin/app payment, and real-time monitoring. 
+\vspace{0.6em} 
+\addtocounter{subsection}{1}
+\noindent\textbf{\thesubsection\ Future Researchers:} 
+Future researchers will find this study helpful because it gives important information on how to create solar-powered portable charging systems with features like GPS tracking, coin/app payment, and real-time monitoring. 
 
-\textit{SDG 7: Affordable and Clean Energy} - This system provides support in giving people access to energy that is affordable, reliable, and environmentally friendly by offering a solar-powered rental station that provides communities, especially those often experiencing blackouts, with a clean and low-cost source of electricity.
+\vspace{0.6em} 
+\addtocounter{subsection}{1}
+\noindent\textbf{\thesubsection\ SDG 7: Affordable and Clean Energy:} 
+This system provides support in giving people access to energy that is affordable, reliable, and environmentally friendly by offering a solar-powered rental station that provides communities, especially those often experiencing blackouts, with a clean and low-cost source of electricity.
 
-\textit{Industry, Innovation, and Infrastructure} - This helps achieve the goal of improving systems, creating new technologies, and building stronger infrastructure by using modern technologies, as well as solar energy, which helps in creating innovative solutions that give communities a reliable energy option during power interruptions.
-
-
-\section{Scope and Limitations}
-
-This research focuses on designing a solar-powered rental station with detachable power sources to provide reliable and sustainable electricity for communities in Camiguin and selected areas in Misamis Oriental, which face frequent power interruptions. The system integrates photovoltaic panels, energy storage, and a power inverter to power small to medium-scale appliances. The design will include a coin-operated or app-based access mechanism for renting the power sources.
-
-The study will incorporate GPS and GSM modules for real-time location tracking and communication, ensuring efficient monitoring of rented units. The system will be evaluated for efficiency, portability, security, and user satisfaction, focusing on its performance in a rental context.	 By offering a solar-powered alternative, this targeted solution addresses a critical gap in providing reliable energy access for communities affected by frequent power interruptions.
-
-However, the proposed system also has several limitations. The detachable power source is not capable of operating high-demand power appliances such as air conditioners and large electrical equipment due to its limited power capacity. It cannot be used to charge electric vehicles, including electric cars like Tesla, as these require significantly higher power input. The deployment of the system is limited only to selected areas that frequently experience power interruptions and have sufficient exposure to sunlight, as it cannot operate efficiently in locations without proper solar access. Additionally, the coin-operated mechanism cannot accept paper money bills, and the system does not dispense physical change; instead, any remaining balance or excess payment will be credited to the user’s mobile application account. Furthermore, the system is unable to operate during extreme weather conditions, such as typhoons, to ensure user safety and protect the equipment from potential damage.
-
-\section{Conceptual Framework}
-
-\begin{figure}[H]
-	\centering
-	\caption{Process flow on how the system operates}
-	\label{fig:conceptualfra}
-	\includegraphics[width=1\textwidth]{figures/conceptual framework.png}
-\end{figure}
+\vspace{0.6em} 
+\addtocounter{subsection}{1}
+\noindent\textbf{\thesubsection\ Industry, Innovation, and Infrastructure:} 
+ This helps achieve the goal of improving systems, creating new technologies, and building stronger infrastructure by using modern technologies, as well as solar energy, which helps in creating innovative solutions that give communities a reliable energy option during power interruptions.
 
 
-Figure 1.1 illustrates the step-by-step process of how the proposed system functions, beginning with energy harvesting and ending with user access to the detachable power source. The process starts when photovoltaic (PV) panels capture solar energy and convert it into electricity. This electricity is then stored in the LiFePO4 battery, ensuring a reliable and long-lasting power supply. To make the stored energy usable for different devices, the system employs an inverter, which converts the direct current (DC) from the battery into alternating current (AC). Next, the ESP32 microcontroller, integrated with IoT mechanisms, monitors and manages the flow of energy. Through this control unit, real-time data such as battery charge level and system status can be tracked. Supporting modules such as GPS (for location tracking) and GSM (for wireless communication) enhance the monitoring and management of the system, particularly for rented power sources. For the rental mechanism, the system is equipped with a coin slot or app-based access system that unlocks the detachable power source through a solenoid lock. Once accessed, the user can rent and carry the power source for portable use, such as charging appliances or gadgets during power interruptions. The accompanying mobile application provides the renter with real-time updates on the battery level, usage duration, and system availability. Lastly, once the power source is returned, the system resets and recharges through solar harvesting, making it ready for the next user. This cyclical process ensures that the system remains sustainable, user-friendly, and reliable for communities experiencing frequent and unscheduled power interruptions.
+\section{Scope, Limitations and Definition of Terms}
 
-\section{Definition of Terms}
+\subsection{Scope}
+	\begin{itemize}
+		\item Design a solar-powered rental station with detachable power sources for communities in Camiguin and selected areas in Misamis Oriental, which face frequent power interruptions.
+		\item Integrate photovoltaic panels, energy storage, and a power inverter to run small- to medium-scale appliances.
+		\item Implement coin-operated or app-based access for renting the power sources.
+		\item Incorporate GPS and GSM modules for real-time location tracking and communication, ensuring efficient monitoring of rented units.
+\end{itemize}
 
-\begin{description}
+\subsection{Limitations}
+	\begin{itemize}
+		\item  Geographic coverage limited to Camiguin and selected areas in Misamis Oriental.
+		\item  Not capable of operating high-demand power appliances due to limited power capacity.
+		\item Cannot charge electric vehicles (e.g., Tesla) because required input is far higher than the system can supply.
+		\item Deployment limited to suitable sites: Only for selected areas that both (a) frequently experience power interruptions and (b) have adequate sunlight; performance is poor where solar access is obstructed.
+		\item Coins only: The coin-operated mechanism does not accept paper bills.
+		\item No physical change: The system does not dispense change; any excess payment/remaining balance is credited to the user’s mobile application account.
+		\item Weather-dependent operations: The system cannot operate during extreme weather, such as typhoons to protect users and equipment from potential damage
+	\end{itemize}
 
-	\item[Internet of Things (IoT)] 
-	A network of physical devices, such as sensors, appliances, and power sources, connected to the internet, enabling them to collect, send, and receive data for remote monitoring, control, and management.
+\subsection{Definition of Terms}
+
+
+\begin{itemize}
+	\item Internet of Things (IoT) - A network of physical devices, such as sensors, appliances, and power sources, connected to the internet, enabling them to collect, send, and receive data for remote monitoring, control, and management.
 	
-	\item[Solar Energy] 
-	Energy that is harnessed from sunlight using technologies such as photovoltaic (PV) panels, which convert sunlight into electricity, which is used to power the portable power sources.
+	\item Solar Energy - Energy that is harnessed from sunlight using technologies such as photovoltaic (PV) panels, which convert sunlight into electricity, which is used to power the portable power sources.
 	
-	\item[Fossil Fuel] 
-	Natural energy sources such as coal, oil, and natural gas, derived from the remains of ancient plants and animals, that are burned to produce energy but contribute to environmental pollution and climate change due to the emission of greenhouse gases.
+	\item Fossil Fuel - Natural energy sources such as coal, oil, and natural gas, derived from the remains of ancient plants and animals, that are burned to produce energy but contribute to environmental pollution and climate change due to the emission of greenhouse gases.
 	
-	\item[Photovoltaic (PV) Panels] 
-	Solar panels that convert sunlight into electricity, serving as the primary source of power generation for solar-powered systems.
+	\item Photovoltaic (PV) Panels - Solar panels that convert sunlight into electricity, serving as the primary source of power generation for solar-powered systems.
 	
-	\item[Portable Power Station] 
-	Compact, mobile units that provide electrical power for charging devices or operating appliances, often powered by renewable sources like solar energy and designed to be easily transported or moved.
+	\item Portable Power Station - Compact, mobile units that provide electrical power for charging devices or operating appliances, often powered by renewable sources like solar energy and designed to be easily transported or moved.
 	
-	\item[Renewable Energy] 
-	Energy derived from natural resources that are replenished on a human timescale, such as sunlight, wind, and geothermal heat, which are harnessed to produce electricity in an environmentally sustainable manner.
+	\item Renewable Energy - Energy derived from natural resources that are replenished on a human timescale, such as sunlight, wind, and geothermal heat, which are harnessed to produce electricity in an environmentally sustainable manner.
 	
-	\item[Off-grid power system] 
-	A power system that operates independently from the main electricity grid, using renewable energy sources like solar or wind to provide electricity in areas without access to centralized power.
+	\item Off-grid power system - A power system that operates independently from the main electricity grid, using renewable energy sources like solar or wind to provide electricity in areas without access to centralized power.
 	
-	\item[Solar harvesting] 
-	The process of capturing sunlight using solar panels or other solar technologies and converting it into usable electrical energy, typically for storage in batteries or direct use.
+	\item Solar harvesting - The process of capturing sunlight using solar panels or other solar technologies and converting it into usable electrical energy, typically for storage in batteries or direct use.
 	
-	\item[Power Interruption] 
-	TA temporary loss or disruption of electrical power, often due to faults, maintenance, or other technical issues in the power grid, affecting the availability of electricity to households or businesses.
+	\item Power Interruption - A temporary loss or disruption of electrical power, often due to faults, maintenance, or other technical issues in the power grid, affecting the availability of electricity to households or businesses.
 
-
-
-\end{description}
+\end{itemize}
 
 }

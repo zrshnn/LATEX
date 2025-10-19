@@ -3,6 +3,34 @@
 This chapter highlights related projects or studies that offer valuable insights to the researchers, serving as a foundation for the development of the study.
 
 %-----------------------------------------------------------------------------------------------------------------------
+
+\section{Theoretical Framework}
+
+\begin{figure}[H]
+	\centering
+	\caption{IPO Model}
+	\label{fig:theoretical}
+	\includegraphics[width=1\textwidth]{figures/theoretical.png}
+\end{figure}
+
+Figiure 2.1 explains how the solar-powered rental station works from input to output. Inputs are what the system receives: solar energy that charges the main batteries, user actions on the screen or buttons, coins or points used for payment, and location data from GPS/GSM for tracking. The system then processes these inputs. It captures the user’s choice, checks and records the payment, manages the batteries by charging them and checking their levels, and updates each unit’s location. It also combines all this information so everything stays in sync, and it runs the points feature so unused energy can turn into rewards.
+
+After processing, the system produces clear outputs that users and operators can see. It shows which portable power sources are available to rent, confirms that the payment went through, and displays the battery percentage of each unit before checkout. It also updates the user’s points, both the unused-energy points earned and the total points saved, and keeps the tracking information current, so rented units can be monitored in real time. This flow makes the station easy to use, transparent, and secure.
+
+
+\section{Conceptual Framework}
+
+\begin{figure}[H]
+	\centering
+	\caption{Process flow on how the system operates}
+	\label{fig:conceptualfra}
+	\includegraphics[width=1\textwidth]{figures/conceptual framework.png}
+\end{figure}
+
+
+Figure 2.2 illustrates the step-by-step process of how the proposed system functions, beginning with energy harvesting and ending with user access to the detachable power source. The process starts when photovoltaic (PV) panels capture solar energy and convert it into electricity. This electricity is then stored in the LiFePO4 battery, ensuring a reliable and long-lasting power supply. To make the stored energy usable for different devices, the system employs an inverter, which converts the direct current (DC) from the battery into alternating current (AC). Next, the ESP32 microcontroller, integrated with IoT mechanisms, monitors and manages the flow of energy. Through this control unit, real-time data such as battery charge level and system status can be tracked. Supporting modules such as GPS (for location tracking) and GSM (for wireless communication) enhance the monitoring and management of the system, particularly for rented power sources. For the rental mechanism, the system is equipped with a coin slot or app-based access system that unlocks the detachable power source through a solenoid lock. Once accessed, the user can rent and carry the power source for portable use, such as charging appliances or gadgets during power interruptions. The accompanying mobile application provides the renter with real-time updates on the battery level, usage duration, and system availability. Lastly, once the power source is returned, the system resets and recharges through solar harvesting, making it ready for the next user. This cyclical process ensures that the system remains sustainable, user-friendly, and reliable for communities experiencing frequent and unscheduled power interruptions.
+
+
 \section{ Design of a Solar-Based Portable Power Supply with Modular Battery System for the Dumagat Tribe in Norzagaray, Bulacan}
 
 Access to reliable and sustainable energy is a critical issue in many rural and indigenous communities. One such community is the Dumagat tribe in Norzagaray, Bulacan, where there is a notable lack of access to electricity despite the usage of electronic devices like phones. Addressing this issue requires innovative solutions that not only meet their energy demands but also ensure sustainability and accessibility. 
