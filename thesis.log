@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  19 OCT 2025 19:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  19 OCT 2025 21:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1160,15 +1160,8 @@ Package pdftex.def Info: figures/admin2.png  used on input line 295.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
-
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 9ABE4CB8D0029F389916D7D982D9C371;14910
-(rerunfilecheck)             After:  80030DC5AA763E7D65D8B623AAFFBBD8;14902.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 80030DC5AA763E7D65D8B623AAFFBBD8;14902.
  )
 (\end occurred inside a group at level 1)
 
@@ -1189,7 +1182,7 @@ cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm
 ti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx12
 00.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200
 .pfb>
-Output written on thesis.pdf (78 pages, 13050642 bytes).
+Output written on thesis.pdf (78 pages, 13050645 bytes).
 PDF statistics:
  838 PDF objects out of 1000 (max. 8388607)
  696 compressed objects within 7 object streams
