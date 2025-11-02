@@ -6,44 +6,120 @@ This chapter highlights related projects or studies that offer valuable insights
 
 \section{Theoretical background}
 
+This study is anchored on three major theories: the Rental System Theory, the Sustainable Energy and Portable Power Theory, and the Wireless Communication and Positioning Theory (GPS and GSM Modules). Together, these theories explain the technological and operational principles underlying the development and functionality of the Kuryenta system, a coin-operated detachable power rental station designed to provide accessible, sustainable, and flexible energy solutions to users.
+
+\subsection{Rental System Theory}
+The Rental System Theory provides the conceptual basis for automating resource access and transactions through integrated digital and physical mechanisms. Thakur (2021) describes how an online rental platform enables users to register, reserve, and manage bookings remotely, transforming manual rental procedures into efficient, automated workflows. Applied to the Kuryenta system, this theory explains the combined use of a mobile application and on-station hardware (coin slot and solenoid mechanism) to control access to detachable power units. Users register and select an available slot via the application, then complete the physical payment at the station; the system computes the rental fee dynamically, based on the detachable unit’s remaining battery percentage, and upon successful payment, actuates the solenoid to release the unit for a fixed rental duration. The integration of automated payment, real-time availability, and credit-storage mechanisms embodies core principles of rental system theory by increasing operational efficiency, ensuring transparent transaction management, and improving user convenience. These features align with Thakur’s (2021) emphasis on system integration, automated database updates, and user-centred service delivery in modern rental platforms
+
+\subsection{Sustainable Energy and Portable Power Theory}
+
+The Sustainable Energy and Portable Power Theory supports the selection and design of renewable, off-grid power solutions and portable energy storage for resilient, community-oriented services. Recent implementations of coin-operated solar charging stations demonstrate how photovoltaic energy harvesting coupled with integrated storage batteries can provide continuous, low-maintenance charging services with commercial and emergency applications (Catalan et al., 2023). Complementing this, Gozano et al. (2023) provide empirical evidence for the design and deployment of portable, modular battery packs charged by solar panels, including component sizing (PV, inverter, charge controller), battery configuration, and performance monitoring via Arduino data logging, to reliably serve remote communities. Applying these principles to Kuryenta justifies the use of detachable battery with an onboard inverter and supports design decisions such as panel and battery sizing, battery management (BMS/modularity), and performance validation protocols. Together, these studies reinforce key theoretical aspects of the Kuryenta system: energy sustainability (solar charging), adaptability (modular/detachable units and inverter capability for low–medium appliances), operational resilience (off-grid emergency use), and evidence-based system sizing and monitoring for effective, user-centered portable power delivery.
+
+
+\subsection{Wireless Communication and Positioning Theory (GPS and GSM Modules)}
+
+The Wireless Communication and Positioning Theory serves as the foundation for the integration of the Global Positioning System (GPS) and Global System for Mobile Communication (GSM) modules within the proposed system. This theory emphasizes the use of satellite-based navigation and mobile communication technologies to enable real-time tracking, monitoring, and data transmission over long distances. According to San Hlaing, Naing, and San Naing (2019), the integration of GPS and GSM enables efficient and continuous monitoring of mobile assets by acquiring geographic coordinates and transmitting them via wireless networks to designated users or databases.
+
+In the context of this study, the theory supports the functionality of tracking and monitoring the location of detachable power sources within the rental system. The GPS module gathers real-time location data, while the GSM module transmits these coordinates to the mobile application and administrative system. Through this process, users and administrators are able to monitor the deployed power units, ensuring accountability, operational transparency, and user security. This theoretical foundation highlights the importance of wireless connectivity and geolocation in developing intelligent systems that enhance mobility, accessibility, and user convenience in portable power management.
+
+\subsection{Integration of Theories}
+All three theories collectively form the foundation of this study. The Rental System Theory provides the framework for automating the process of accessing, reserving, and paying for detachable power units through a combination of digital applications and physical mechanisms, ensuring efficient and user-centered rental transactions. The Sustainable Energy and Portable Power Theory establishes the system’s grounding on renewable and off-grid energy utilization, promoting sustainability and operational resilience through solar-powered charging and modular battery storage. Meanwhile, the Wireless Communication and Positioning Theory supports the integration of GPS and GSM modules that enable real-time monitoring, data transmission, and location tracking of the detachable power sources. Together, these theories support the development of KURYENTA: Solar-Powered Rental Station with Detachable Power Sources, a coin-operated, GPS-enabled, and solar-powered system designed to deliver accessible and sustainable portable energy solutions to users.
+
 \begin{figure}[H]
 	\centering
-	\caption{IPO Model}
+	\caption{Theoretical framework}
 	\label{fig:theoretical}
-	\includegraphics[width=1\textwidth]{figures/theoretical.png}
+	\includegraphics[width=0.8\textwidth]{figures/theoretical.png}
 \end{figure}
 
-Figiure 2.1 explains how the solar-powered rental station works from input to output. Inputs are what the system receives: solar energy that charges the main batteries, user actions on the screen or buttons, coins or points used for payment, and location data from GPS/GSM for tracking. The system then processes these inputs. It captures the user’s choice, checks and records the payment, manages the batteries by charging them and checking their levels, and updates each unit’s location. It also combines all this information so everything stays in sync, and it runs the points feature so unused energy can turn into rewards.
+Figure 2.1 illustrates the Theoretical Framework of the study, showing how the Rental System Theory (Thakur, 2021), Sustainable Energy and Portable Power Theory (Catalan et al., 2023; Gazano et al., 2023), and Wireless Communication and Positioning Theory (San Haing et al., 2019) collectively form the conceptual basis of KURYENTA: Solar-Powered Rental Station with Detachable Power Sources.
 
-After processing, the system produces clear outputs that users and operators can see. It shows which portable power sources are available to rent, confirms that the payment went through, and displays the battery percentage of each unit before checkout. It also updates the user’s points, both the unused-energy points earned and the total points saved, and keeps the tracking information current, so rented units can be monitored in real time. This flow makes the station easy to use, transparent, and secure.
+These theories complement one another in explaining the system’s core components, automation, sustainability, and connectivity, thereby providing a coherent theoretical foundation for its design and development.
 
 
 \section{Conceptual Framework}
 
-\begin{figure}[H]
-	\centering
-	\caption{Process flow on how the system operates}
-	\label{fig:conceptualfra}
-	\includegraphics[width=1\textwidth]{figures/conceptual framework.png}
-\end{figure}
-
-
-Figure 2.2 illustrates the step-by-step process of how the proposed system functions, beginning with energy harvesting and ending with user access to the detachable power source. The process starts when photovoltaic (PV) panels capture solar energy and convert it into electricity. This electricity is then stored in the LiFePO4 battery, ensuring a reliable and long-lasting power supply. To make the stored energy usable for different devices, the system employs an inverter, which converts the direct current (DC) from the battery into alternating current (AC). Next, the ESP32 microcontroller, integrated with IoT mechanisms, monitors and manages the flow of energy. Through this control unit, real-time data such as battery charge level and system status can be tracked. Supporting modules such as GPS (for location tracking) and GSM (for wireless communication) enhance the monitoring and management of the system, particularly for rented power sources. For the rental mechanism, the system is equipped with a coin slot or app-based access system that unlocks the detachable power source through a solenoid lock. Once accessed, the user can rent and carry the power source for portable use, such as charging appliances or gadgets during power interruptions. The accompanying mobile application provides the renter with real-time updates on the battery level, usage duration, and system availability. Lastly, once the power source is returned, the system resets and recharges through solar harvesting, making it ready for the next user. This cyclical process ensures that the system remains sustainable, user-friendly, and reliable for communities experiencing frequent and unscheduled power interruptions.
+\begin{enumerate}[label=\alph*.]
+	\item Variables
+	
+	\begin{itemize}
+		 \item \textbf{Independent Variables (IV)}\\
+		Coin, Application, GPS Module, GSM Module, Power (Detachable), Stored Credit (Application)
+		
+		\item \textbf{Dependent Variables (DV)}\\
+		Power (Detachable), User Information, User Verification, Location, Notification, Stored Credit (Application)
+	\end{itemize}
+	
+	\item Formal Definition of Variables
+	
+	\textbf{Independent Variables}
+	\begin{itemize}
+		\item \textbf{Coin} – Serves as the physical input medium that activates the system’s rental process through coin insertion, enabling users to access the detachable power source.
+		
+		\item \textbf{Application} – The mobile interface that allows users to create accounts, manage stored credits, and process payments through app-based transactions.
+		
+		\item \textbf{GPS Module} – A component responsible for gathering the real-time location of the detachable power source.
+		
+		\item \textbf{GSM Module} – Facilitates wireless communication between the portable power station, the administrator and user by transmitting system data such as location, status updates, and notifications.
+		
+		\item \textbf{Power (Detachable)} – Refers to the removable power supply module that delivers electrical energy. It enables portable and flexible energy management, allowing the system to monitor power consumption during rental operations. Any remaining or unused power from the detachable unit is recorded by the system and converted into stored credit within the application, promoting efficient utilization of energy resources.
+		
+		\item \textbf{Stored Credit (Application)} – The virtual balance maintained within the mobile application, representing prepaid user credits used to initiate or extend power rentals.
+	\end{itemize}
+	
+		\textbf{Dependent Variables}
+	\begin{itemize}
+		\item \textbf{Power (Detachable)} – The energy made available after the insertion of a coin or use of stored credits.
+		
+		\item \textbf{User Information} – Data collected from the application used to identify and manage user accounts.
+		
+		\item \textbf{User Verification} – The process of authenticating users before allowing access to the system.
+		
+		\item \textbf{Location} –The real-time position of the detachable power source, determined by the GPS and GSM modules.
+		
+		\item \textbf{Notification} – System-generated alerts sent via GSM to inform users or administrators of system activities.
+		
+		\item \textbf{Stored Credit (Application)} – The system’s record of remaining power or credit balance available for rental use.
+	\end{itemize}
+	
+	\item Relationship of Variables
+	
+	The independent variables directly influence the dependent variables.
+	
+		\begin{itemize}
+		 \item \textbf{Coin} $\rightarrow$ \textbf{Power (Detachable)}\\
+		  The insertion of a coin activates the rental mechanism, enabling the user to access and utilize the detachable power source.
+		
+		\item \textbf{Application} $\rightarrow$ \textbf{User Information / User Verification}\\ 
+		The application serves as the primary medium for collecting user data and verifying credentials to ensure legitimate access and secure transactions.
+		
+		 \item \textbf{GPS Module} $\rightarrow$ \textbf{Location}\\ 
+		 The GPS module provides continuous monitoring of the detachable power unit’s position, allowing administrators to track and ensure its proper use.
+		 
+		  \item \textbf{GSM Module} $\rightarrow$ \textbf{Notification / Location}\\
+		  The GSM module transmits the collected location data and system alerts, ensuring reliable communication between the power station, the user, and the administrator.
+		  
+		   \item \textbf{Power (Detachable)} $\rightarrow$ \textbf{ Stored Credit (Application)}\\
+		   The detachable power supply unit provides electrical energy during system operation. The system monitors power consumption throughout the rental period, and any remaining or unutilized power from the detachable source is automatically converted into stored credit within the application. This process ensures efficient power utilization while linking the physical energy supply to the user’s virtual credit balance.
+		   
+		    \item \textbf{Stored Credit (Application)} $\rightarrow$ \textbf{ Power (Detachable)}\\
+		    The user’s available stored credit within the application determines eligibility for rental access, thereby authorizing or restricting power usage based on remaining balance.
+		     
+		    
+	\end{itemize}
+	
+\end{enumerate}
 
 \subsection{Schematic Diagram}
 
+Figure 2.2 below presents the independent and dependent variables, along with their relationship. 
+
 \begin{figure}[H]
 	\centering
-	\caption{Research Variables and Their Relationships}
+	\caption{Variable relation}
 	\label{fig:schematic}
-	\includegraphics[width=0.8\textwidth]{figures/schematic.png}
+	\includegraphics[width=0.7\textwidth]{figures/schematic.png}
 \end{figure}
-
-Figure 2.3 presents the independent and dependent variables, along with their relationship. The system integrates photovoltaic (PV) panels for solar energy harvesting, a process that involves capturing sunlight and converting it into usable electrical energy. The harvested solar energy is then stored in a \ce{LiFePO4} battery. Once stored, the direct current (DC) energy stored in the \ce{LiFePO4} battery is converted into alternating current (AC) by the power inverter. This conversion is essential since most household appliances and devices operate on AC power. Through this process, the system ensures a stable and usable power supply for various common electrical loads. The system also incorporates a GPS module, which continuously gathers satellite signals to provide real-time location data. This enables effective tracking and monitoring of the rented power sources. Simultaneously, the GSM module facilitates communication between the system and the administrator by transmitting data through cellular networks. It allows the system to send notifications, updates, and alerts to users in real time. To regulate user access, the system employs a secure payment mechanism. Before using the power source, users must make a payment through a coin-slot or app-based interface. Once payment is verified, the solenoid lock releases the detachable power source, ensuring that only authorized users can access it.
-
-The dependent variables represent the measurable outcomes influenced by the performance of the solar-powered rental station. Sustainability pertains to the system’s capacity to maintain consistent and reliable operation over time through the use of renewable solar energy. It is evaluated based on the efficiency of energy generation, storage, and utilization under varying environmental conditions. Affordability refers to the system’s level of cost-effectiveness and economic accessibility, determining whether the rental fees, maintenance requirements, and operational expenses make it a viable and practical energy alternative during power outages. Scalability concerns the system’s potential to be expanded, replicated, or adapted for use in various communities or environments without compromising its cost efficiency or operational performance. User satisfaction measures how end-users perceive the system’s reliability, convenience, and overall usability. It is assessed through user feedback and usability evaluations focusing on accessibility, charging efficiency, and ease of operation. Security relates to the effectiveness of the system in safeguarding its physical components and digital data from unauthorized access, tampering, or misuse. Finally, real-time monitoring and tracking refer to the system’s capability to collect, transmit, and present accurate and timely data on power usage, battery status, and equipment location through the integration of IoT modules. Collectively, these dependent variables define the system’s efficiency, practicality, and long-term sustainability as an alternative energy source for communities experiencing frequent power interruptions.
-
-The relationship between the independent and dependent variables focuses on how the proposed solar-powered rental station with detachable power sources influences the system’s overall effectiveness and performance. As the independent variable, the solar-powered rental station, integrating solar energy harvesting, energy storage, power conversion, Internet of Things (IoT) mechanisms, and secure access control, serves as the central technological concept of the study. The design and integration of these components are expected to affect several dependent variables, including sustainability, affordability, scalability, user satisfaction, security, and real-time monitoring. In this relationship, the independent variable represents the proposed system, while the dependent variables represent the measurable outcomes that determine its efficiency and practicality. Proper design and operation of the solar-powered rental station are assumed to enhance sustainability through stable energy generation and storage, promote affordability by minimizing operational costs, and enable scalability for broader deployment. Furthermore, the integration of IoT-based monitoring and secure access control is anticipated to improve user satisfaction, system security, and data accuracy. Overall, the conceptual framework illustrates that the system’s effectiveness depends on how well the independent variable’s components contribute to achieving reliable, sustainable, and user-oriented energy access during power interruptions.
 
 \section{Review of Related Studies}
 
@@ -98,16 +174,6 @@ The portable solar generator utilizes a bi-directional converter and MPPT to ach
 Rehman et al. (2024) propose a solar-powered multi-functional portable charging device (SPMFPCD) with IoT-based real-time monitoring, designed to address the growing need for reliable and versatile energy solutions across various sectors, including transportation, communication, and emergency services. The device integrates a highly efficient solar panel, a charge controller, sensors, and an IoT module for real-time monitoring of power parameters. This innovative system supports diverse applications, such as emergency medical device charging, outdoor adventures, disaster management, and public spaces. The IoT capabilities provide continuous monitoring, ensuring efficient operation and proactive maintenance, enhancing the reliability and scalability of the system.
 
 The study emphasizes the significance of integrating advanced technologies, such as IoT-driven battery energy storage system (BESS) health monitoring, to optimize the performance and lifespan of the system. The study also conducted an economic and environmental impact assessment, showing the feasibility and sustainability of widespread SPMFPCD deployment. The proposed system demonstrated competitive cost-effectiveness, with a low cost of electricity and minimal annual operating costs. The integration of renewable energy sources like solar power and the IoT-based health monitoring system positions the SPMFPCD as a promising solution for providing accessible, environmentally friendly energy in various settings, highlighting its potential to contribute to sustainable energy management and community empowerment.
-
-\subsection{Development of a Low Cost Portable Hydro and Wind Power as Emergency Power Source}
-
-The study of low-cost portable hydro and wind power system as an emergency power source by Supardi et al. (2020) explored the development of a low-cost portable hydro and wind power system as an emergency power source. The system is designed to provide power for recharging essential equipment such as mobile phones, radios, and emergency lights, which are essential during prolonged outdoor activities or power outages. This system can be implemented in remote areas with fluctuating water flows, making it an ideal solution for communities with limited access to electricity. The study found that the portable hydropower system, when coupled with wind power, could generate reliable electricity. These findings support the integration of renewable energy sources in off-grid locations, where accessibility to traditional power infrastructure is limited, and emphasize the importance of efficient turbine and generator design for portable power generation.
-
-\subsection{Development of Portable Solar Storage Device}
-
-Roslan et al. (2019) developed a portable solar storage (PSS) device designed to address the increasing demand for sustainable and portable power sources. The PSS is tailored for outdoor activities, such as hiking, camping, and climbing, providing a portable solution for charging electronic devices. The system uses a 12V or 18V solar panel to charge a battery with 98W of energy storage. During testing, the system showed charging rates of 16.086 W/h for the 12V solar panel and 13.35 W/h for the 18V panel, demonstrating the effectiveness of solar energy harvesting. The PSS was capable of recharging devices with capacities up to 10,000mAh, offering a reliable power supply for small electronic gadgets.
-
-The study highlights the advantages of using solar panels for off-grid applications, noting that the PSS is ideal for areas with ample sunlight, such as Malaysia. The device’s efficiency was calculated at 12.75\%, with the system capable of charging devices like phones, smartphones, and power banks. However, the study also found limitations in charging larger devices with the 12V solar panel. Roslan et al. (2019) concluded that while the PSS provides an environmentally friendly and practical solution for outdoor power needs, further improvements in solar panel capacity and battery efficiency are needed to enhance its performance for higher power demands.
 
 \subsection{Renewable Energy from Solar Panels: A Study of  Photovoltaic Physics and Environmental Benefits}
 
