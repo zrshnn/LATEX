@@ -101,10 +101,25 @@ After the planning phase, the system’s users were identified. For this study, 
 	\includegraphics[width=1\textwidth]{figures/architecture.png}
 \end{figure}
 
-Figure 3.3 illustrates the architecture of the KuRyenta system, a solar-powered, coin-operated, GPS-enabled portable power source. The diagram shows how solar energy is captured by the photovoltaic panels and stored in a \ce{LiFePO4} battery through the solar charge controller. The stored energy is then converted into usable AC power by the power inverter, which is accessible to the user via a coin-operated access system.
+The Figure 3.3 illustrates the overall architecture of the solar powered rental station with a detachable power source. The system is designed to harvest solar energy, convert it to usable power, and provide access to users through various interfaces and technologies.
 
-The ESP32 microcontroller manages the system's operations, integrating key components such as the GPS module for location tracking and the GSM module for communication with the admin. A coin slot and solenoid lock control the unlocking of the portable power sources, ensuring that users can access the power only after payment is made. The user can interact with the system through a mobile app that displays the battery's charge level and other important information. In essence, the KuRyenta system is designed to provide a sustainable and secure solution for portable power, incorporating solar energy, and coin-based access for a user-friendly and efficient experience.
+\begin{itemize}
+	
+	\item Solar Energy Collection and Storage - PV panels capture solar energy, which is stored in a \ce{LiFePO4}  battery through a solar charge controller and DC breakers for protection.
+	
+	\item Energy Conversion - The stored DC power is converted to AC using a power inverter to supply household appliances.
+	
+	\item User Interface and Control - The ESP32 microcontroller connects with a mobile app via a router and Firebase, allowing users to monitor battery levels and manage rental requests.
+	
+	\item Power Access and Management - A coin slot and relay control access to the power source, while an LCD displays real-time system status.
+	
+	\item GPS Tracking and Security -  A GPS and GSM module track the power source’s location, ensuring security and preventing theft.
+	
+	\item Admin Control - Admins can monitor and manage the system through a mobile interface, overseeing usage and system health.
+	
+\end{itemize}
 
+This system is designed to provide a sustainable, secure, and user-friendly power source solution for communities, utilizing solar energy and modern IoT technologies for enhanced management and accessibility.
 
 \subsection{Flowchart}
 \begin{figure}[H]
@@ -337,16 +352,3 @@ Figure 3.13 shows the 3D design of the system. It is a stationary power station 
 Table 2 shows the following materials that will be used in the study.
  
        
- \subsection{Performance Testing}
- 
- The primary objective of performance testing is to evaluate the system's ability to handle user interactions and data processing without significant delay. Key performance indicators (KPIs) such as response time, processing speed, and system throughput will be assessed during peak and off-peak usage hours. The system will undergo stress testing to determine its capacity for managing multiple simultaneous user requests, ensuring reliability under high demand conditions.
- 
- Testing will include the measurement of real-time monitoring capabilities, particularly the speed at which data is transmitted from the power stations to the mobile app. Performance testing will also assess the efficiency of the GPS and GSM modules, evaluating their responsiveness to ensure timely updates for location tracking and system alerts. This phase will confirm that the system remains stable, efficient, and user-friendly during various operational loads.
- 
-  \subsection{Usability Testing}
-  
-  Usability testing will focus on evaluating the user experience for both community residents and administrators. This will involve assessing the clarity, intuitiveness, and ease of navigation of the mobile app interface. A group of representative users will be selected from the target community to perform typical tasks such as account registration, power source rental, and payment processing.
-  
-  The System Usability Scale (SUS) will be used to quantitatively measure the users’ perception of the app's usability. Users will provide feedback on key aspects such as the accessibility of the mobile interface, ease of system navigation, and satisfaction with the power source rental process. In addition to SUS, qualitative data will be gathered through observational analysis and user interviews, allowing for in-depth insights into any usability concerns. This testing phase will help identify potential friction points in the user interface and guide refinements to improve overall user satisfaction.
-
-
