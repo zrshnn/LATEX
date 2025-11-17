@@ -69,17 +69,20 @@ After the planning phase, the system’s users were identified. For this study, 
 	& - The system shall accept user login credentials such as username and password for authentication. \\
 	& - The system shall accept rental requests, including power source selection, rental duration, and payment method (coin-based or app-based).\\
 	& - The system shall receive telemetry data from each power source, including battery percentage, GPS location, and rental status through the GSM module. \\
+	& - The system shall receive telemetry data from each power source, including battery percentage, GPS location, and rental status through the GSM module.  \\
 	\midrule
 	
 	Process Requirements & - The system shall process rental transactions by verifying payment completion before authorizing power source access. \\
 	& - The system shall generate and transmit an access token or unlock code to the power source upon successful rental approval. \\
 	& - The system shall continuously monitor and record the battery level, location, and usage duration of active rentals. \\
+	& - The system shall issue automatic SMS notifications through GSM for overdue returns. \\
 	& - The system shall process the return of rented power sources by validating device ID, updating the database, and releasing the final transaction summary. \\
+	& - The system shall calculate credit earned for users based on unused power and reflect the updated balance in the users mobile application account. \\
 	\midrule
 	
 	Output Requirements & - The system shall display rental confirmation details such as power source ID, rental duration, and current charge level. \\
 	& - The system shall provide real-time status updates on the mobile app, including remaining battery percentage, and device location. \\
-	& - The system shall generate notifications for payment confirmation, overdue alerts, and successful returns. \\
+	& - The system shall generate notifications on the mobile app, including GPS location, and rental time remaining. \\
 	\midrule
 	
 	Control Requirements & - The system shall implement user authentication and authorization mechanisms to restrict access to registered users only. \\
@@ -98,24 +101,24 @@ After the planning phase, the system’s users were identified. For this study, 
 	\centering
 	\caption{System Architecture}
 	\label{fig:architecture}
-	\includegraphics[width=1\textwidth]{figures/architecture.png}
+	\includegraphics[width=0.85\textwidth]{figures/architecture.png}
 \end{figure}
 
 The Figure 3.3 illustrates the overall architecture of the solar powered rental station with a detachable power source. The system is designed to harvest solar energy, convert it to usable power, and provide access to users through various interfaces and technologies.
 
 \begin{itemize}
 	
-	\item Solar Energy Collection and Storage - PV panels capture solar energy, which is stored in a \ce{LiFePO4}  battery through a solar charge controller and DC breakers for protection.
+	\item \textit{Solar Energy Collection and Storage} - PV panels capture solar energy, which is stored in a \ce{LiFePO4}  battery through a solar charge controller and DC breakers for protection.
 	
-	\item Energy Conversion - The stored DC power is converted to AC using a power inverter to supply household appliances.
+	\item \textit{Energy Conversion} - The stored DC power is converted to AC using a power inverter to supply household appliances.
 	
-	\item User Interface and Control - The ESP32 microcontroller connects with a mobile app via a router and Firebase, allowing users to monitor battery levels and manage rental requests.
+	\item \textit{User Interface and Control }- The ESP32 microcontroller connects with a mobile app via a router and Firebase, allowing users to monitor battery levels and manage rental requests.
 	
-	\item Power Access and Management - A coin slot and relay control access to the power source, while an LCD displays real-time system status.
+	\item \textit{Power Access and Management} - A coin slot and relay control access to the power source, while an LCD displays real-time system status.
 	
-	\item GPS Tracking and Security -  A GPS and GSM module track the power source’s location, ensuring security and preventing theft.
+	\item \textit{GPS Tracking and Securit}y -  A GPS and GSM module track the power source’s location, ensuring security and preventing theft.
 	
-	\item Admin Control - Admins can monitor and manage the system through a mobile interface, overseeing usage and system health.
+	\item \textit{Admin Control} - Admins can monitor and manage the system through a mobile interface, overseeing usage and system health.
 	
 \end{itemize}
 
@@ -126,7 +129,7 @@ This system is designed to provide a sustainable, secure, and user-friendly powe
 	\centering
 	\caption{System Flowchart}
 	\label{fig:flowchart}
-	\includegraphics[width=0.7\textwidth]{figures/flowchart.png}
+	\includegraphics[width=0.6\textwidth]{figures/flowchart.png}
 \end{figure}
 
 Figure 3.4 illustrates the overall process of the proposed Solar-Powered Rental Station with Detachable Power Sources. The process begins with the initialization of the ESP32, which activates system components and prepares communication protocols. The system first checks slot availability to determine if a detachable power source is ready for use. Data from this process is transmitted through the internet and stored in a central database for monitoring purposes.
@@ -167,7 +170,7 @@ Figure 3.6 shows the process of converting direct current (DC) into alternating 
 	\includegraphics[width=1\textwidth]{figures/monitoring.png}
 \end{figure}
 
-The Figure 3.7 illustrates the power monitoring system used to keep track of the energy stored and consumed by the system. The \ce{LiFePO4} battery is connected to an ESP32 microcontroller, which continuously monitors the battery’s voltage and health, and the data collected is displayed on an LCD screen which allows users to view the battery's current status in real time. This monitoring is vital for ensuring the system's efficiency and preventing over-discharge, ensuring long-term sustainability.
+The Figure 3.7 illustrates the power monitoring system used to keep track of the energy stored and consumed by the system. The \ce{LiFePO4} battery is connected to an ESP32 microcontroller, which continuously monitors the battery’s voltage and health, and the data collected is displayed on an LCD screen which allows users to view the battery's current status in real-time. This monitoring is vital for ensuring the system's efficiency and preventing over-discharge, ensuring long-term sustainability.
 
 
 \subsection{GPS Tracking}
@@ -226,24 +229,39 @@ Figure 3.11 illustrates how different users and administrators interact with the
  	\centering
  	\caption{Activity Diagram of the Community Resident}
  	\label{fig:activity}
- 	\includegraphics[width=0.7\textwidth]{figures/activity.png}
+ 	\includegraphics[width=0.55\textwidth]{figures/activity.png}
  \end{figure}
  
 Figure 3.12 shows the step-by-step activity flow of the system from user login to unlocking the portable power source. The process begins with checking account availability. If the user already has an account, they proceed to the login step; otherwise, they must sign up first. After logging in, the system checks if the account is valid. If the account is invalid, the process returns to the login step. If valid, the system verifies the account and displays the dashboard. Next, the system checks if a power source slot is available. If no slot is available, the user remains on the dashboard until one becomes free. If a slot is available, the process continues to the payment step. The system then verifies the payment amount. If the amount entered is not exact, the process returns to the payment step. If the payment is correct, the portable power source is successfully unlocked, completing the process.
- 
- Overall, the diagram clearly shows how the user interacts with the system , which starts from account access, validation, and payment, up to unlocking the rented portable power source.
 
+Overall, the diagram clearly shows how the user interacts with the system , which starts from account access, validation, and payment, up to unlocking the rented portable power source.
    
   \subsection{3D Design}
   
+  The 3D representation shows the overall design of the detachable power source and the solar-powered rental station. It provides a clear visual of the system’s shape and structure. The model illustrates how the different parts of the system are arranged in space, allowing a better understanding of the physical layout of the proposed system.
+  
     \begin{figure}[H]
   	\centering
-  	\caption{Three Dimensional Representation of the System}
+  	\caption{Front View of the Power Source – Three Dimensional Representation}
   	\label{fig:3d}
-  	\includegraphics[width=0.8\textwidth]{figures/3D.png}
+  	\includegraphics[width=0.8\textwidth]{figures/front.png}
   \end{figure}
-  
-Figure 3.13 shows the 3D design of the system. It is a stationary power station powered by solar energy and contains three detachable power sources, each secured with a coin slot and solenoid lock.
+ 
+    \begin{figure}[H]
+ 	\centering
+ 	\caption{Aerial View of the Power Source – Three Dimensional Representation}
+ 	\label{fig:3d2}
+ 	\includegraphics[width=0.8\textwidth]{figures/aerial.png}
+ \end{figure}
+ 
+    \begin{figure}[H]
+ 	\centering
+ 	\caption{Three Dimensional Representation of the Rental Station of the Detachable Power Source}
+ 	\label{fig:3d3}
+ 	\includegraphics[width=1\textwidth]{figures/rental.png}
+ \end{figure}
+ 
+Figure 3.15 shows the 3D design of the system. It is a stationary power station powered by solar energy and contains three detachable power sources. The system has a single coin slot that controls access, and each detachable power source is secured with a solenoid lock.
   
   \subsection{Mobile App}
   
