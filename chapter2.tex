@@ -4,7 +4,7 @@ This chapter highlights related projects or studies that offer valuable insights
 
 %-----------------------------------------------------------------------------------------------------------------------
 
-\section{Theoretical background}
+\section{Theoretical Background}
 
 This study is anchored on three major theories: the Rental System Theory, the Sustainable Energy and Portable Power Theory, and the Wireless Communication and Positioning Theory (GPS and GSM Modules). Together, these theories explain the technological and operational principles underlying the development and functionality of the Kuryenta system, a coin-operated detachable power rental station designed to provide accessible, sustainable, and flexible energy solutions to users.
 
@@ -38,48 +38,44 @@ These theories complement one another in explaining the system’s core componen
 
 
 \section{Conceptual Framework}
+The conceptual framework of the study illustrates how the inputs and actions in the solar-powered rental station with detachable power sources affect its outcomes. Independent variables influence the system’s performance, and the dependent variables show the results of these inputs. This framework explains how user actions and system conditions determine power delivery, user verification, location tracking, notifications, and credit rewards. It provides a clear structure for understanding and evaluating how the proposed system works.
 
 \begin{enumerate}[label=\alph*.]
 	\item Variables
 	
 	\begin{itemize}
 		 \item \textbf{Independent Variables (IV)}\\
-		Coin, Application, GPS Module, GSM Module, Power (Detachable), Stored Credit (Application)
+		 \textit{Coin, Credit, Distance, Signal, Unused Power}
 		
 		\item \textbf{Dependent Variables (DV)}\\
-		Power (Detachable), User Information, User Verification, Location, Notification, Stored Credit (Application)
+		\textit{Power, Location, Notification, Credit}
 	\end{itemize}
 	
 	\item Formal Definition of Variables
 	
 	\textbf{Independent Variables}
 	\begin{itemize}
-		\item \textbf{Coin} – Serves as the physical input medium that activates the system’s rental process through coin insertion, enabling users to access the detachable power source.
+		\item \textit{Coin} – Serves as the physical input medium that activates the system’s rental process through coin insertion, enabling users to access the detachable power source.
 		
-		\item \textbf{Application} – The mobile interface that allows users to create accounts, manage stored credits, and process payments through app-based transactions.
+		\item \textit{Credit} – The amount of digital money or balance that a user has in their account (through the mobile app). The user can use this balance to pay for renting the detachable power source.
 		
-		\item \textbf{GPS Module} – A component responsible for gathering the real-time location of the detachable power source.
+		\item \textit{Distance} – The spatial measurement between the rental station and the portable power source as tracked by the GPS module. 
 		
-		\item \textbf{GSM Module} – Facilitates wireless communication between the portable power station, the administrator and user by transmitting system data such as location, status updates, and notifications.
+		\item \textit{Signal} – The communication strength and reliability between the system’s GPS and GSM modules. It affects the accuracy of data transmission, notifications, and location tracking.
 		
-		\item \textbf{Power (Detachable)} – Refers to the removable power supply module that delivers electrical energy. It enables portable and flexible energy management, allowing the system to monitor power consumption during rental operations. Any remaining or unused power from the detachable unit is recorded by the system and converted into stored credit within the application, promoting efficient utilization of energy resources.
-		
-		\item \textbf{Stored Credit (Application)} – The virtual balance maintained within the mobile application, representing prepaid user credits used to initiate or extend power rentals.
+		\item \textit{Unused Power} –  Refers to the remaining electrical energy stored in the detachable power source after it has been rented and used by the user. This remaining power is measured based on the battery’s remaining capacity percentage when returned. The system uses this value to calculate the amount of credit or reward that will be given to the user through the mobile application
 	\end{itemize}
 	
 		\textbf{Dependent Variables}
 	\begin{itemize}
-		\item \textbf{Power (Detachable)} – The energy made available after the insertion of a coin or use of stored credits.
+		\item \textit{Power} –  The amount of electrical energy stored and supplied by the solar-powered battery system. It determines the duration and capacity of electricity available for users during rental operations.
 		
-		\item \textbf{User Information} – Data collected from the application used to identify and manage user accounts.
+		\item \textit{Location} – The real-time position of the rented portable power source as monitored by the GPS module. It indicates where the unit is located during operation.
 		
-		\item \textbf{User Verification} – The process of authenticating users before allowing access to the system.
+		\item \textit{Notification} –  Refers to the alerts sent to the user via the GSM module. It informs the user to return the item within 12 hours. Notifications are sent at 10-minute intervals until the item is returned.
 		
-		\item \textbf{Location} –The real-time position of the detachable power source, determined by the GPS and GSM modules.
+		\item \textit{Credit} –  Refers to the digital value or reward points that the user earns in the mobile app after returning the rented detachable power source. The credit amount is calculated based on how much unused power remains in the device upon return.
 		
-		\item \textbf{Notification} – System-generated alerts sent via GSM to inform users or administrators of system activities.
-		
-		\item \textbf{Stored Credit (Application)} – The system’s record of remaining power or credit balance available for rental use.
 	\end{itemize}
 	
 	\item Relationship of Variables
@@ -87,24 +83,23 @@ These theories complement one another in explaining the system’s core componen
 	The independent variables directly influence the dependent variables.
 	
 		\begin{itemize}
-		 \item \textbf{Coin} $\rightarrow$ \textbf{Power (Detachable)}\\
-		  The insertion of a coin activates the rental mechanism, enabling the user to access and utilize the detachable power source.
+		 \item \textit{Coin} $\rightarrow$ \textit{Power}\\
+		  Inserting a coin activates the rental process, allowing the user to access the detachable power source. The available power supplied by the system depends on a valid coin being inserted,
 		
-		\item \textbf{Application} $\rightarrow$ \textbf{User Information / User Verification}\\ 
-		The application serves as the primary medium for collecting user data and verifying credentials to ensure legitimate access and secure transactions.
+		\item \textit{Distance} $\rightarrow$ \textit{Location}\\ 
+		The measured distance of the detachable power source from reference points or the base station affects the GPS-based location tracking. The reported location depends on this spatial relationship, as distance influences the precision of GPS signals.
 		
-		 \item \textbf{GPS Module} $\rightarrow$ \textbf{Location}\\ 
-		 The GPS module provides continuous monitoring of the detachable power unit’s position, allowing administrators to track and ensure its proper use.
+		 \item \textit{Signal} $\rightarrow$ \textit{Location}\\ 
+	    The strength of the GPS signal affects the accuracy and reliability of location tracking. 
 		 
-		  \item \textbf{GSM Module} $\rightarrow$ \textbf{Notification / Location}\\
-		  The GSM module transmits the collected location data and system alerts, ensuring reliable communication between the power station, the user, and the administrator.
+		  \item \textit{Signal} $\rightarrow$ \textit{Notification}\\
+		  The GSM signal strength determines how effectively the system can send alerts and messages to the user. 
 		  
-		   \item \textbf{Power (Detachable)} $\rightarrow$ \textbf{ Stored Credit (Application)}\\
-		   The detachable power supply unit provides electrical energy during system operation. The system monitors power consumption throughout the rental period, and any remaining or unutilized power from the detachable source is automatically converted into stored credit within the application. This process ensures efficient power utilization while linking the physical energy supply to the user’s virtual credit balance.
+		   \item \textit{Unused Power} $\rightarrow$ \textit{Credit}\\
+		   The amount of unused power remaining in the portable battery after a rental session determines the credit returned to the user through the application. 
 		   
-		    \item \textbf{Stored Credit (Application)} $\rightarrow$ \textbf{ Power (Detachable)}\\
-		    The user’s available stored credit within the application determines eligibility for rental access, thereby authorizing or restricting power usage based on remaining balance.
-		     
+		    \item \textit{Credit} $\rightarrow$ \textit{ Power}\\
+		    The credit available in a user’s account can be used to pay for the rental, which then activates the detachable power source.
 		    
 	\end{itemize}
 	
@@ -118,10 +113,12 @@ Figure 2.2 below presents the independent and dependent variables, along with th
 	\centering
 	\caption{Variable relation}
 	\label{fig:schematic}
-	\includegraphics[width=0.7\textwidth]{figures/schematic.png}
+	\includegraphics[width=0.6\textwidth]{figures/schematic.png}
 \end{figure}
 
 \section{Review of Related Studies}
+
+This part highlights related projects or studies that offer valuable insights to the researchers, serving as a foundation for the development of the study.
 
 \subsection{Design of a Solar-Based Portable Power Supply with Modular Battery System for the Dumagat Tribe in Norzagaray, Bulacan}
 
@@ -135,9 +132,12 @@ Oluwasegun et al. (2018) developed a portable solar power supply system designed
 
 The portable solar power system was able to power household appliances effectively, with minimal voltage drop during use, ensuring its practicality and dependability. By using solar energy, the system reduces electricity costs and promotes environmental sustainability by lowering greenhouse gas emissions. The use of a pure sine wave inverter ensures stable and high-quality power for sensitive appliances. Oluwasegun et al. (2018) concluded that this system offers a cost-effective, clean energy solution for households, though further enhancements are needed to support higher electrical loads for more extensive applications.
 
+\subsection{Solar-Powered Coin-Operated Mobile Charging Station for Sustainable Energy Access and Resilience}
+The increasing demand for sustainable and accessible energy has driven innovations that utilize renewable sources to meet electricity needs in both urban and rural areas. The study by Catalan, Occeña, Gabion, Occeña, and Ejar (2023) aimed to develop a solar-powered, coin-operated mobile charging station designed to provide continuous off-grid power using photovoltaic (PV) technology. Employing a developmental research approach, the researchers designed, fabricated, and tested a prototype equipped with solar panels and an integrated storage battery system capable of charging multiple mobile devices for both commercial and emergency purposes. The results demonstrated that the charging station effectively powered various mobile gadget models with no compatibility issues, maintained stable operation even under limited sunlight, and offered cost efficiency through its low maintenance and sustainable design. Furthermore, the system contributed to reducing carbon emissions and supported the green technology initiatives of Guimaras State University. It was concluded that the solar-powered charging station is a practical and eco-friendly innovation that promotes energy resilience in communities affected by power outages. The study recommended installing such systems in strategic locations for communal purposes and remote areas, integrating security features to prevent misuse, and conducting further research to enhance its technological design and promote the widespread adoption of renewable energy solutions.
+
 \subsection{Emergency Solar Portable Power Supply}
 
-The "Emergency Portable Solar Power Supply" study by Ramly et al. (2019) explored the development of a portable solar power system designed to provide electricity in areas without reliable grid access, particularly during power outages. The system utilizes solar photovoltaic (PV) technology to convert sunlight into electricity, which is stored in a battery for later use. Key components of the system include solar panels, batteries, charge controllers, inverters, and a microcontroller with Bluetooth functionality for remote monitoring. The study emphasizes the importance of sizing the solar panels and batteries properly to ensure a consistent energy supply, particularly in off-grid or emergency situations. By harnessing renewable solar energy, the system reduces reliance on fossil fuels and contributes to environmental sustainability. The solar panels used in the system have an efficiency rating of around 15-18%.
+The "Emergency Portable Solar Power Supply" study by Ramly et al. (2019) explored the development of a portable solar power system designed to provide electricity in areas without reliable grid access, particularly during power outages. The system utilizes solar photovoltaic (PV) technology to convert sunlight into electricity, which is stored in a battery for later use. Key components of the system include solar panels, batteries, charge controllers, inverters, and a microcontroller with Bluetooth functionality for remote monitoring. The study emphasizes the importance of sizing the solar panels and batteries properly to ensure a consistent energy supply, particularly in off-grid or emergency situations. By harnessing renewable solar energy, the system reduces reliance on fossil fuels and contributes to environmental sustainability. The solar panels used in the system have an efficiency rating of around 15-18\%.
 
 \subsection{Portable Solar-Station with Integrated Battery Management and Load Monitoring System}
 
@@ -147,15 +147,16 @@ The system also features an MPPT solar charge controller, optimizing energy effi
 
 \subsection{Solar Powered Mobile Power Bank Systems}
 
-Solar-powered mobile charging systems offer a sustainable solution for powering devices during power interruptions and disasters. The research by Abdur et al. (2024) focuses on a Solar-Powered Portable Power Bank designed for mobile phones, using solar energy to charge a battery, which in turn provides power through a USB port. This system is particularly useful in disaster events and remote areas with limited electricity. The system utilizes two 6V solar panels to charge a 12V battery, with a microcontroller monitoring the battery’s charge level and controlling relay circuits to ensure safe charging.  LEDs display the battery charge level, offering a user-friendly interface for monitoring.
+Solar-powered mobile charging systems offer a sustainable solution for powering devices during power interruptions and disasters. The research by Agarwal et al. (2016) focuses on a Solar-Powered Portable Power Bank designed for mobile phones, using solar energy to charge a battery, which in turn provides power through a USB port. This system is particularly useful in disaster events and remote areas with limited electricity. The system utilizes two 6V solar panels to charge a 12V battery, with a microcontroller monitoring the battery’s charge level and controlling relay circuits to ensure safe charging.  LEDs display the battery charge level, offering a user-friendly interface for monitoring.
 
-The proposed system has multiple advantages, including reducing reliance on traditional power sources and providing a reliable charging solution in emergencies. It addresses environmental concerns by utilizing renewable energy, minimizing pollution compared to conventional power generation methods. The microcontroller ensures efficient charge flow and protects the system from damage caused by overcharging or voltage fluctuations. Abdur et al. (2024) conclude that for optimal performance, the system requires direct sunlight and proper placement of the solar panels. The design can be improved by enhancing its portability and ensuring better protection for the mobile devices and battery, making it a practical and eco-friendly alternative to traditional charging methods.
+The proposed system has multiple advantages, including reducing reliance on traditional power sources and providing a reliable charging solution in emergencies. It addresses environmental concerns by utilizing renewable energy, minimizing pollution compared to conventional power generation methods. The microcontroller ensures efficient charge flow and protects the system from damage caused by overcharging or voltage fluctuations. Agarwal et al. (2016) conclude that for optimal performance, the system requires direct sunlight and proper placement of the solar panels. The design can be improved by enhancing its portability and ensuring better protection for the mobile devices and battery, making it a practical and eco-friendly alternative to traditional charging methods.
+
 
 \subsection{Multiport Universal Solar Power Bank}
 
 Altelmessani et al. (2024) introduce the concept of a Multiport Universal Solar Power Bank, designed to harness solar energy for a portable power supply. This device aims to address critical needs in emergency situations and recreational activities like camping, especially in remote areas where access to electricity is limited. Equipped with solar panels for efficient energy absorption, the power bank offers both DC and AC outputs, making it versatile enough to charge a wide range of electronic devices. The project emphasizes the importance of sustainability, using renewable resources to reduce reliance on non-renewable energy sources and provide a reliable, eco-friendly power source.
 
-The system is capable of powering various appliances, including small household electronics, portable fans, lights, and mobile devices, with an AC output of up to 400W and a battery capacity of 20,000mAh. It also incorporates safety features to protect against overcharging, overheating, and other risks, ensuring both user safety and device longevity. The study highlights the project’s compact and lightweight design, making it ideal for on-the-go use, such as in emergencies or outdoor activities. By focusing on energy independence and environmental sustainability, the project contributes to reducing environmental impact while offering a reliable and versatile energy solution.
+The system is capable of powering various appliances, including small household electronics, portable fans, lights, and mobile devices, with an AC output of up to 400W and a battery capacity of 20,000mAh. It also incorporates safety features to protect against overcharging, overheating, and other risks, ensuring both user safety and device longevity. The study highlights the project’s compact and lightweight design, making it ideal for on-the-go use, such as in emergencies or outdoor activities. By focusing on energy independence and environmental sustainability, the project contributes to reducing environmental impact while offering a reliable and versatile energy solution
 
 \subsection{Portable Power Supply Design with 100 Watt Capacity}
 
@@ -169,7 +170,7 @@ Prathiba et al. (2020) developed a portable, standalone solar power generator de
 
 The portable solar generator utilizes a bi-directional converter and MPPT to achieve high efficiency, allowing it to charge and discharge a 12V lead-acid battery. The system is capable of powering both DC and AC loads, using a push-pull full-bridge inverter to drive AC devices. The system is designed for off-grid applications, including emergency situations and areas without access to electricity. The study emphasizes the system's compact design, cost-effectiveness, and potential for use in relief camps and remote locations. The project demonstrates a practical and portable renewable energy solution for sustainable power generation in diverse applications, especially in areas with limited access to the grid.
 
-\subsection{A solar-powered multi-functional portable charging device (SPMFPCD) with internet-of-things (IoT)-based real-time monitoring- An innovative scheme towards energy access and management}
+\subsection{A solar-powered multi-functional portable charging device (SPMFPCD) with internet-of-things (IoT)-based real-time monitoring—An innovative scheme towards energy access and management}
 
 Rehman et al. (2024) propose a solar-powered multi-functional portable charging device (SPMFPCD) with IoT-based real-time monitoring, designed to address the growing need for reliable and versatile energy solutions across various sectors, including transportation, communication, and emergency services. The device integrates a highly efficient solar panel, a charge controller, sensors, and an IoT module for real-time monitoring of power parameters. This innovative system supports diverse applications, such as emergency medical device charging, outdoor adventures, disaster management, and public spaces. The IoT capabilities provide continuous monitoring, ensuring efficient operation and proactive maintenance, enhancing the reliability and scalability of the system.
 
@@ -199,21 +200,16 @@ In terms of maintenance, \ce{LiFePO4} batteries are maintenance-free, unlike SLA
 
 \subsection{Assessing the Impact of Power Outages on Appliances of Farmers and Fisherfolks in Selected Barangays of Cawayan, Masbate, Philippines: Basis for a Proposed Extension Program}
 
-Frequent power interruptions have long been a challenge in rural communities, particularly among farmers and fisherfolk who depend on electricity for household and livelihood activities. The study aimed to determine the impact of frequent power interruptions on the appliances and economic well-being of residents in selected barangays of Cawayan, Masbate. Employing a descriptive research design, the researchers gathered data from 266 respondents through paper surveys and face-to-face interviews to assess the frequency, duration, and effects of power interruptions. Findings revealed that almost all respondents experienced power interruptions lasting three to four hours, leading to increased electricity consumption and higher bills. Refrigerators and televisions were the most power-consuming appliances, and there was significant damage to appliances, especially bulbs, as well as disruptions to income-generating activities. The study results showed that many respondents had an annual income of less than \textpeso18,200, which was considered low and may have resulted in difficulty in paying high bills brought by power outages. All respondents relied on the power grid as their source of electricity, and power interruptions were a common occurrence. The data revealed that 97.7\% of respondents experienced power interruptions, with 51.1\% experiencing 3-4 hours of interruption. Almost all respondents claimed that power interruption increased their electric consumption and bill, and 56\% were not satisfied with their electric bill when there was a power interruption. It was concluded that unreliable electricity supply and lack of maintenance significantly affect low-income households that rely solely on the power grid as their source of electricity. The study recommended strengthening local power infrastructure and promoting renewable energy education through a proposed extension project that trains communities in the use of solar energy as a sustainable and reliable alternative to the current power grid system. This helps reduce air pollution and climate change while building the capacity of farmers and fishers to adapt to these changes.
-
-\subsection{Solar-Powered Coin-Operated Mobile Charging Station for Sustainable Energy Access and Resilience}
-
-The increasing demand for sustainable and accessible energy has driven innovations that utilize renewable sources to meet electricity needs in both urban and rural areas. The study by Catalan, Occeña, Gabion, Occeña, and Ejar (2023) aimed to develop a solar-powered, coin-operated mobile charging station designed to provide continuous off-grid power using photovoltaic (PV) technology. Employing a developmental research approach, the researchers designed, fabricated, and tested a prototype equipped with solar panels and an integrated storage battery system capable of charging multiple mobile devices for both commercial and emergency purposes. The results demonstrated that the charging station effectively powered various mobile gadget models with no compatibility issues, maintained stable operation even under limited sunlight, and offered cost efficiency through its low maintenance and sustainable design. Furthermore, the system contributed to reducing carbon emissions and supported the green technology initiatives of Guimaras State University. It was concluded that the solar-powered charging station is a practical and eco-friendly innovation that promotes energy resilience in communities affected by power outages. The study recommended installing such systems in strategic locations for communal purposes and remote areas, integrating security features to prevent misuse, and conducting further research to enhance its technological design and promote the widespread adoption of renewable energy solutions.
+Frequent power interruptions have long been a challenge in rural communities, particularly among those who depend on electricity for household and livelihood activities. The study aimed to determine the impact of frequent power interruptions on the appliances and economic well-being of residents in selected barangays of Cawayan, Masbate. Employing a descriptive research design, the researchers gathered data from 266 respondents through paper surveys and face-to-face interviews to assess the frequency, duration, and effects of power interruptions. Findings revealed that almost all respondents experienced power interruptions lasting three to four hours, leading to increased electricity consumption and higher bills. Refrigerators and televisions were the most power-consuming appliances, and there was significant damage to appliances, especially bulbs, as well as disruptions to income-generating activities. The study results showed that many respondents had an annual income of less than \textpeso18,200, which was considered low and may have resulted in difficulty in paying high bills brought by power outages. All respondents relied on the power grid as their source of electricity, and power interruptions were a common occurrence. The data revealed that 97.7\% of respondents experienced power interruptions, with 51.1\% experiencing 3-4 hours of interruption. Almost all respondents claimed that power interruption increased their electric consumption and bill, and 56\% were not satisfied with their electric bill when there was a power interruption. It was concluded that unreliable electricity supply and lack of maintenance significantly affect low-income households that rely solely on the power grid as their source of electricity. The study recommended strengthening local power infrastructure and promoting renewable energy education through a proposed extension project that trains communities in the use of solar energy as a sustainable and reliable alternative to the current power grid system. This helps reduce air pollution and climate change while building the capacity of farmers and fishers to adapt to these changes.
 
 \subsection{Synthesis}
 
 The reviewed literature highlights the progress made in solar-powered portable energy systems, especially for off-grid communities facing frequent power interruptions and power emergencies. Studies like those by Gozano et al. (2023), Oluwasegun et al. (2018), and Ramly et al. (2019) developed solar-based systems that integrated photovoltaic panels, charge controllers, batteries, and inverters. However, these systems often lacked sufficient energy storage capacity, limiting their ability to provide continuous power for communities that rely heavily on energy for daily appliances such as refrigerators and fans. Studies by Abdur et al. (2024) and Altelmessani et al. (2024) incorporated more advanced energy management through battery monitoring and load management systems but still did not fully address the integration of high-capacity energy storage and secure access for users. The gap in addressing these challenges highlights the need for a more efficient and accessible solar energy system for communities affected by power disruptions.
 
-A significant gap in the existing literature lies in the choice of energy storage solutions. Many studies employed Lead-Acid batteries, which are still common in many solar power systems. For example, Oluwasegun et al. (2018) used a 12V Lead-Acid battery, which is cheaper but comes with limitations, including lower efficiency, shorter cycle life, and higher maintenance requirements. Lead-Acid batteries are typically less efficient, with a cycle life of about 500 to 1,000 cycles. In contrast, the proposed system utilizes LiFePO4 (Lithium Iron Phosphate) batteries which is a better  alternative. According to EDSA (2024) and Zakri et al. (2021), LiFePO4 batteries offer several advantages, including a much higher cycle life (more than 2,000 cycles), greater depth of discharge (DoD), and better overall efficiency, making them ideal for systems that undergo frequent charge-discharge cycles. These batteries are also more environmentally friendly and require less maintenance than their lead-acid counterparts. The LiFePO4 battery selected for the proposed system offers reliable energy storage with a high energy density, ensuring longer-lasting and more sustainable power for the solar-powered rental station.
+A significant gap in the existing literature lies in the choice of energy storage solutions. Many studies employed Lead-Acid batteries, which are still common in many solar power systems. For example, Oluwasegun et al. (2018) used a 12V Lead-Acid battery, which is cheaper but comes with limitations, including lower efficiency, shorter cycle life, and higher maintenance requirements. Lead-Acid batteries are typically less efficient, with a cycle life of about 500 to 1,000 cycles. In contrast, the proposed system utilizes \ce{LiFePO4} (Lithium Iron Phosphate) batteries which is a better  alternative. According to EDSA (2024) and Zakri et al. (2021), \ce{LiFePO4} batteries offer several advantages, including a much higher cycle life (more than 2,000 cycles), greater depth of discharge (DoD), and better overall efficiency, making them ideal for systems that undergo frequent charge-discharge cycles. These batteries are also more environmentally friendly and require less maintenance than their lead-acid counterparts. The \ce{LiFePO4} battery selected for the proposed system offers reliable energy storage with a high energy density, ensuring longer-lasting and more sustainable power for the solar-powered rental station.
 
 Additionally, a notable gap in the literature is the lack of secure, rental-based access mechanisms for solar energy systems. While studies like Catalan et al. (2023) explored solar-powered coin-operated charging stations, they primarily focused on mobile charging rather than integrated power solutions for household or community use. The current study addresses this gap by incorporating a coin-slot mechanism with a solenoid lock for secure, pay-per-use access, ensuring that only authorized users can access the stored energy. Moreover, the integration of IoT-based monitoring through the ESP32 microcontroller, GPS, and GSM modules provides real-time tracking of battery levels, usage statistics, and system status, which has not been fully explored in previous research. Rehman et al. (2024) highlighted the use of IoT for real-time monitoring in solar-powered devices, but their research focused on charging stations for mobile devices rather than community-based energy solutions. The integration of a mobile app for monitoring battery charge levels and energy consumption ensures that users have full visibility into the system’s performance.
 
-Furthermore, the proposed system's combination of a 2x2 solar panel array, LiFePO4 battery, MPPT charge controller, and AC inverter ensures that the system is capable of powering small to medium-sized appliances, such as refrigerators and fans, which are commonly used in Filipino households as noted in the studies by Pulvera (2021) and Masbate (2024). This integrated approach addresses a crucial need for accessible and reliable energy solutions in communities that frequently face power interruptions. The system’s scalability and eco-friendly design, driven by high-capacity LiFePO4 batteries, secure rental features, and smart monitoring systems, provide a comprehensive solution that builds on existing research while filling the gap in accessible and sustainable solar energy solutions for off-grid communities.
-
+Furthermore, the proposed system's combination of a 2x2 solar panel array, \ce{LiFePO4} battery, MPPT charge controller, and AC inverter ensures that the system is capable of powering small to medium-sized appliances, such as refrigerators and fans, which are commonly used in Filipino households as noted in the studies by Pulvera (2021) and Masbate (2024). This integrated approach addresses a crucial need for accessible and reliable energy solutions in communities that frequently face power interruptions. The system’s scalability and eco-friendly design, driven by high-capacity \ce{LiFePO4} batteries, secure rental features, and smart monitoring systems, provide a comprehensive solution that builds on existing research while filling the gap in accessible and sustainable solar energy solutions for off-grid communities.
 
 }
