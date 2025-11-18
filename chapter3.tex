@@ -82,7 +82,7 @@ After the planning phase, the system’s users were identified. For this study, 
 	\hline
 		
 	Output Requirements & - The system shall display rental confirmation details such as power source ID, rental duration, and current charge level. \\
-	& - The system shall provide real-time status updates on the mobile app, including remaining battery percentage, and device location. \\
+	& - The system shall provide  status updates on the mobile app, including remaining battery percentage, and device location. \\
 	& - The system shall generate notifications on the mobile app, including GPS location, and rental time remaining. \\
 	\hline
 	
@@ -91,7 +91,7 @@ After the planning phase, the system’s users were identified. For this study, 
 	\hline
 	
 	Performance Requirements & - The system shall maintain fast response time during login, payment processing, and rental activation to ensure a smooth user experience. \\
-	& - The system shall provide real-time monitoring and synchronization of power source data through reliable GSM and IoT communication.\\
+	& - The system shall provide monitoring and synchronization of power source data through reliable GSM and IoT communication.\\
 	& -The system shall ensure continuous operation and high availability to prevent service interruptions during rentals. \\
 	\hline
 	
@@ -173,19 +173,19 @@ Figure 3.6 shows the process of converting direct current (DC) into alternating 
 	\includegraphics[width=1\textwidth]{figures/monitoring.png}
 \end{figure}
 
-The Figure 3.7 illustrates the power monitoring system used to keep track of the energy stored and consumed by the system. The \ce{LiFePO4} battery is connected to an ESP32 microcontroller, which continuously monitors the battery’s voltage and health, and the data collected is displayed on an LCD screen which allows users to view the battery's current status in real-time. This monitoring is vital for ensuring the system's efficiency and preventing over-discharge, ensuring long-term sustainability.
+The Figure 3.7 illustrates the power monitoring system used to keep track of the energy stored and consumed by the system. The \ce{LiFePO4} battery is connected to an ESP32 microcontroller, which continuously monitors the battery’s voltage and health, and the data collected is displayed on an LCD screen which allows users to view the battery's current status. This monitoring is vital for ensuring the system's efficiency and preventing over-discharge, ensuring long-term sustainability.
 
 
 \subsection{GPS Tracking}
 
 \begin{figure}[H]
 	\centering
-	\caption{ESP32 receives real-time location data from GPS satellites using GSM Module}
+	\caption{ESP32 receives location data from GPS satellites using GSM Module}
 	\label{fig:gps tracking}
 	\includegraphics[width=1\textwidth]{figures/tracking.png}
 \end{figure}
 
-Figure 3.8 shows the GPS tracking system used to monitor the location of the detachable power source. A GPS module, connected to the ESP32 microcontroller, receives signals from satellites to determine the geographical location of the system. This real-time location data is essential for tracking and managing the rental and use of the power sources, ensuring they are accessible to users and protected from theft or misuse. The GPS data is then sent to the system for further processing and user access.
+Figure 3.8 shows the GPS tracking system used to monitor the location of the detachable power source. A GPS module, connected to the ESP32 microcontroller, receives signals from satellites to determine the geographical location of the system. This location data is essential for tracking and managing the rental and use of the power sources, ensuring they are accessible to users and protected from theft or misuse. The GPS data is then sent to the system for further processing and user access.
 
 
 \subsection{Context Level Diagram}
@@ -197,7 +197,7 @@ Figure 3.8 shows the GPS tracking system used to monitor the location of the det
 	\includegraphics[width=\textwidth]{figures/context.png}
 \end{figure}
 
-This Figure 3.9 illustrates the Context Level Diagram of the system. The Mobile App serves as the primary interface through which Community Residents interact with the Solar-Powered Rental Station. The Community Resident starts by providing their registration information via the Mobile App, which sends this data to the system. Once registered, the system sends back a registration confirmation and the Mobile App allows users to proceed with rental/payment requests. The Mobile App then facilitates payment transactions where the Community Resident can complete the payment either through a coin-based mechanism or an app-based method. Once the payment transaction is successfully completed, the Mobile App receives a payment confirmation from the System, ensuring the rental is validated. The Community Resident can then use the Mobile App to check the system status, such as battery levels, power source availability, or the remaining rental time. After use, the Community Resident sends a return request via the Mobile App, which then communicates with the System to confirm the power source return. The System logs the return and ensures the process is validated, signaling the completion of the rental session. Additionally, the Mobile App allows the Community Resident to submit feedback on their experience with the service.
+This Figure 3.9 illustrates the Context Level Diagram of the system. The Mobile App serves as the primary interface through which Community Residents interact with the Solar-Powered Rental Station. The Community Resident starts by providing their registration information via the Mobile App, which sends this data to the system. Once registered, the system sends back a registration confirmation and the Mobile App allows users to proceed with rental/payment requests. The Mobile App then facilitates payment transactions where the Community Resident can complete the payment either through a coin-based mechanism or an app-based method. Once the payment transaction is successfully completed, the Mobile App receives a payment confirmation from the System, ensuring the rental is validated. After use, the Community Resident sends a return request via the Mobile App, which then communicates with the System to confirm the power source return. The System logs the return and ensures the process is validated, signaling the completion of the rental session. Additionally, the Mobile App allows the Community Resident to submit feedback on their experience with the service.
 
 On the other side, the System (the Solar-Powered Rental Station) manages the backend of the rental process. It verifies rental requests from Community Residents and authorizes them to rent a power source. It also handles payment processing, ensuring that the payment is verified before the rental is completed. Once payment is confirmed, the System updates the Mobile App with the confirmation. The System also monitors the rented power source, providing live monitoring information, such as the power source’s battery level and available runtime. If the Community Resident fails to return the power source on time or if the power source is running low on battery, the System sends low battery or overdue alerts to both the Mobile App and the Community Resident, prompting them to take action. 
 
