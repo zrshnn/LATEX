@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 NOV 2025 08:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 NOV 2025 09:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -847,13 +847,13 @@ provinces such as Camiguin
 
 [5]
 
-[6]
-
-[7{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+[6{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }]
 
+[7]
+
 [8]
-Overfull \hbox (9.51353pt too wide) in paragraph at lines 89--90
+Overfull \hbox (9.51353pt too wide) in paragraph at lines 88--89
 []\OT1/cmr/m/n/12 Implement coin-operated or app-based ac-cess for rent-ing the
  power sources. 
  []
@@ -885,7 +885,7 @@ Chapter 2.
 [15]
 
 [16]
-<figures/theoretical.png, id=500, 724.7075pt x 676.5275pt>
+<figures/theoretical.png, id=499, 724.7075pt x 676.5275pt>
 File: figures/theoretical.png Graphic file (type png)
 <use figures/theoretical.png>
 Package pdftex.def Info: figures/theoretical.png  used on input line 32.
@@ -901,7 +901,7 @@ Package pdftex.def Info: figures/theoretical.png  used on input line 32.
 [20]
 
 [21]
-<figures/schematic.png, id=529, 443.6575pt x 503.8825pt>
+<figures/schematic.png, id=528, 443.6575pt x 503.8825pt>
 File: figures/schematic.png Graphic file (type png)
 <use figures/schematic.png>
 Package pdftex.def Info: figures/schematic.png  used on input line 116.
@@ -959,7 +959,7 @@ l-low-ing for greater
 
  (./chapter3.tex
 Chapter 3.
-<figures/waterfall.png, id=621, 663.47874pt x 482.80376pt>
+<figures/waterfall.png, id=620, 663.47874pt x 482.80376pt>
 File: figures/waterfall.png Graphic file (type png)
 <use figures/waterfall.png>
 Package pdftex.def Info: figures/waterfall.png  used on input line 13.
@@ -972,7 +972,7 @@ Package pdftex.def Info: figures/waterfall.png  used on input line 13.
 
 
  <./figures/waterfall.png>]
-<figures/map.png, id=627, 923.45pt x 1152.305pt>
+<figures/map.png, id=626, 923.45pt x 1152.305pt>
 File: figures/map.png Graphic file (type png)
 <use figures/map.png>
 Package pdftex.def Info: figures/map.png  used on input line 25.
@@ -991,7 +991,7 @@ Underfull \hbox (badness 1087) in paragraph at lines 77--78
  []
 
 [48] [49]
-<figures/architecture.png, id=654, 3092.55376pt x 2931.95375pt>
+<figures/architecture.png, id=653, 3092.55376pt x 2931.95375pt>
 File: figures/architecture.png Graphic file (type png)
 <use figures/architecture.png>
 Package pdftex.def Info: figures/architecture.png  used on input line 104.
@@ -1001,7 +1001,7 @@ Package pdftex.def Info: figures/architecture.png  used on input line 104.
 [50 <./figures/architecture.png>]
 
 [51]
-<figures/flowchart.png, id=664, 733.74126pt x 1245.65375pt>
+<figures/flowchart.png, id=663, 733.74126pt x 1245.65375pt>
 File: figures/flowchart.png Graphic file (type png)
 <use figures/flowchart.png>
 Package pdftex.def Info: figures/flowchart.png  used on input line 132.
@@ -1009,7 +1009,7 @@ Package pdftex.def Info: figures/flowchart.png  used on input line 132.
 
 
 [52 <./figures/flowchart.png>]
-<figures/harvesting.png, id=670, 2672.98625pt x 639.38875pt>
+<figures/harvesting.png, id=669, 2672.98625pt x 639.38875pt>
 File: figures/harvesting.png Graphic file (type png)
 <use figures/harvesting.png>
 Package pdftex.def Info: figures/harvesting.png  used on input line 148.
@@ -1017,7 +1017,7 @@ Package pdftex.def Info: figures/harvesting.png  used on input line 148.
 
 
 [53]
-<figures/conversion.png, id=675, 3364.57pt x 502.87875pt>
+<figures/conversion.png, id=674, 3364.57pt x 502.87875pt>
 File: figures/conversion.png Graphic file (type png)
 <use figures/conversion.png>
 Package pdftex.def Info: figures/conversion.png  used on input line 159.
@@ -1025,7 +1025,7 @@ Package pdftex.def Info: figures/conversion.png  used on input line 159.
 
 
 [54 <./figures/harvesting.png> <./figures/conversion.png>]
-<figures/monitoring.png, id=683, 1081.03876pt x 391.4625pt>
+<figures/monitoring.png, id=682, 1081.03876pt x 391.4625pt>
 File: figures/monitoring.png Graphic file (type png)
 <use figures/monitoring.png>
 Package pdftex.def Info: figures/monitoring.png  used on input line 170.
@@ -1033,12 +1033,12 @@ Package pdftex.def Info: figures/monitoring.png  used on input line 170.
 
 
 [55 <./figures/monitoring.png>]
-<figures/tracking.png, id=689, 1179.40625pt x 312.16624pt>
+<figures/tracking.png, id=688, 1179.40625pt x 312.16624pt>
 File: figures/tracking.png Graphic file (type png)
 <use figures/tracking.png>
 Package pdftex.def Info: figures/tracking.png  used on input line 182.
 (pdftex.def)             Requested size: 397.48502pt x 105.20627pt.
-<figures/context.png, id=690, 909.3975pt x 337.26pt>
+<figures/context.png, id=689, 909.3975pt x 337.26pt>
 File: figures/context.png Graphic file (type png)
 <use figures/context.png>
 Package pdftex.def Info: figures/context.png  used on input line 194.
@@ -1048,7 +1048,7 @@ Package pdftex.def Info: figures/context.png  used on input line 194.
 [56 <./figures/tracking.png>]
 
 [57 <./figures/context.png>]
-<figures/dataflow.png, id=702, 1077.02374pt x 666.49pt>
+<figures/dataflow.png, id=701, 1077.02374pt x 666.49pt>
 File: figures/dataflow.png Graphic file (type png)
 <use figures/dataflow.png>
 Package pdftex.def Info: figures/dataflow.png  used on input line 206.
@@ -1058,7 +1058,7 @@ Package pdftex.def Info: figures/dataflow.png  used on input line 206.
 [58]
 
 [59 <./figures/dataflow.png>]
-<figures/usecase.png, id=712, 1405.25pt x 1035.87pt>
+<figures/usecase.png, id=711, 1405.25pt x 1035.87pt>
 File: figures/usecase.png Graphic file (type png)
 <use figures/usecase.png>
 Package pdftex.def Info: figures/usecase.png  used on input line 218.
@@ -1070,7 +1070,7 @@ Package pdftex.def Info: figures/usecase.png  used on input line 218.
 [61 <./figures/usecase.png>]
 
 [62]
-<figures/activity.png, id=727, 748.7975pt x 1704.3675pt>
+<figures/activity.png, id=726, 748.7975pt x 1704.3675pt>
 File: figures/activity.png Graphic file (type png)
 <use figures/activity.png>
 Package pdftex.def Info: figures/activity.png  used on input line 232.
@@ -1082,17 +1082,17 @@ Package pdftex.def Info: figures/activity.png  used on input line 232.
 [64 <./figures/activity.png>]
 
 [65]
-<figures/front.png, id=741, 1053.9375pt x 598.235pt>
+<figures/front.png, id=740, 1053.9375pt x 598.235pt>
 File: figures/front.png Graphic file (type png)
 <use figures/front.png>
 Package pdftex.def Info: figures/front.png  used on input line 247.
 (pdftex.def)             Requested size: 317.98921pt x 180.49425pt.
-<figures/aerial.png, id=742, 1069.9975pt x 582.175pt>
+<figures/aerial.png, id=741, 1069.9975pt x 582.175pt>
 File: figures/aerial.png Graphic file (type png)
 <use figures/aerial.png>
 Package pdftex.def Info: figures/aerial.png  used on input line 254.
 (pdftex.def)             Requested size: 317.98921pt x 173.01044pt.
-<figures/rental.png, id=743, 1363.0925pt x 1242.6425pt>
+<figures/rental.png, id=742, 1363.0925pt x 1242.6425pt>
 File: figures/rental.png Graphic file (type png)
 <use figures/rental.png>
 Package pdftex.def Info: figures/rental.png  used on input line 261.
@@ -1100,7 +1100,7 @@ Package pdftex.def Info: figures/rental.png  used on input line 261.
 
 
 [66 <./figures/front.png> <./figures/aerial.png>]
-<figures/welcome.png, id=751, 1668.2325pt x 1035.87pt>
+<figures/welcome.png, id=750, 1668.2325pt x 1035.87pt>
 File: figures/welcome.png Graphic file (type png)
 <use figures/welcome.png>
 Package pdftex.def Info: figures/welcome.png  used on input line 272.
@@ -1108,7 +1108,7 @@ Package pdftex.def Info: figures/welcome.png  used on input line 272.
 
 
 [67 <./figures/rental.png>]
-<figures/signin.png, id=757, 825.0825pt x 1049.9225pt>
+<figures/signin.png, id=756, 825.0825pt x 1049.9225pt>
 File: figures/signin.png Graphic file (type png)
 <use figures/signin.png>
 Package pdftex.def Info: figures/signin.png  used on input line 281.
@@ -1116,7 +1116,7 @@ Package pdftex.def Info: figures/signin.png  used on input line 281.
 
 
 [68 <./figures/welcome.png>]
-<figures/signup.png, id=763, 2236.355pt x 1039.885pt>
+<figures/signup.png, id=762, 2236.355pt x 1039.885pt>
 File: figures/signup.png Graphic file (type png)
 <use figures/signup.png>
 Package pdftex.def Info: figures/signup.png  used on input line 290.
@@ -1124,7 +1124,7 @@ Package pdftex.def Info: figures/signup.png  used on input line 290.
 
 
 [69 <./figures/signin.png>]
-<figures/home.png, id=769, 825.0825pt x 1035.87pt>
+<figures/home.png, id=768, 825.0825pt x 1035.87pt>
 File: figures/home.png Graphic file (type png)
 <use figures/home.png>
 Package pdftex.def Info: figures/home.png  used on input line 299.
@@ -1132,7 +1132,7 @@ Package pdftex.def Info: figures/home.png  used on input line 299.
 
 
 [70 <./figures/signup.png>]
-<figures/renting.png, id=775, 1668.2325pt x 1041.8925pt>
+<figures/renting.png, id=774, 1668.2325pt x 1041.8925pt>
 File: figures/renting.png Graphic file (type png)
 <use figures/renting.png>
 Package pdftex.def Info: figures/renting.png  used on input line 308.
@@ -1140,7 +1140,7 @@ Package pdftex.def Info: figures/renting.png  used on input line 308.
 
 
 [71 <./figures/home.png>]
-<figures/admin.png, id=781, 821.0675pt x 1023.825pt>
+<figures/admin.png, id=780, 821.0675pt x 1023.825pt>
 File: figures/admin.png Graphic file (type png)
 <use figures/admin.png>
 Package pdftex.def Info: figures/admin.png  used on input line 317.
@@ -1148,7 +1148,7 @@ Package pdftex.def Info: figures/admin.png  used on input line 317.
 
 
 [72 <./figures/renting.png>]
-<figures/admin2.png, id=788, 829.0975pt x 1049.9225pt>
+<figures/admin2.png, id=787, 829.0975pt x 1049.9225pt>
 File: figures/admin2.png Graphic file (type png)
 <use figures/admin2.png>
 Package pdftex.def Info: figures/admin2.png  used on input line 326.
@@ -1184,8 +1184,8 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16592 strings out of 473190
- 271057 string characters out of 5715801
+ 16591 strings out of 473190
+ 271051 string characters out of 5715801
  704987 words of memory out of 5000000
  39337 multiletter control sequences out of 15000+600000
  566635 words of font info for 68 fonts, out of 8000000 for 9000
@@ -1199,10 +1199,10 @@ sy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx120
 0.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.
 pfb>
-Output written on thesis.pdf (82 pages, 13873297 bytes).
+Output written on thesis.pdf (82 pages, 13873122 bytes).
 PDF statistics:
- 881 PDF objects out of 1000 (max. 8388607)
- 727 compressed objects within 8 object streams
- 181 named destinations out of 1000 (max. 500000)
+ 878 PDF objects out of 1000 (max. 8388607)
+ 724 compressed objects within 8 object streams
+ 180 named destinations out of 1000 (max. 500000)
  617 words of extra memory for PDF output out of 10000 (max. 10000000)
 
