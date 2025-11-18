@@ -46,20 +46,23 @@
 \contentsline {subsection}{\numberline {3.1.4}Data Finding Analysis}{47}{subsection.3.1.4}%
 \contentsline {subsection}{\numberline {3.1.5}User Definition}{48}{subsection.3.1.5}%
 \contentsline {subsection}{\numberline {3.1.6}System Requirements}{48}{subsection.3.1.6}%
-\contentsline {section}{\numberline {3.2}Technical Design Workflow}{50}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}System Architecture}{50}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Flowchart}{52}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Solar Energy Harvesting}{54}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Energy Conversion DC to AC}{54}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Power Monitoring}{55}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}GPS Tracking}{56}{subsection.3.2.6}%
-\contentsline {subsection}{\numberline {3.2.7}Context Level Diagram}{57}{subsection.3.2.7}%
-\contentsline {subsection}{\numberline {3.2.8}Data Flow Diagram}{59}{subsection.3.2.8}%
-\contentsline {subsection}{\numberline {3.2.9}Use Case Diagram}{61}{subsection.3.2.9}%
-\contentsline {subsection}{\numberline {3.2.10}Activity Diagram}{64}{subsection.3.2.10}%
-\contentsline {subsection}{\numberline {3.2.11}3D Design}{65}{subsection.3.2.11}%
-\contentsline {subsection}{\numberline {3.2.12}Mobile App}{68}{subsection.3.2.12}%
-\contentsline {subsection}{\numberline {3.2.13}Materials and Cost}{74}{subsection.3.2.13}%
-\contentsline {subsection}{\numberline {3.2.14}Standards and Guidelines Considered}{74}{subsection.3.2.14}%
-\contentsline {chapter}{APPENDICES}{76}{chapter*.30}%
+\contentsline {subsection}{\numberline {3.1.7}Calculation Requirements}{50}{subsection.3.1.7}%
+\contentsline {subsubsection}{Load Analysis}{50}{section*.10}%
+\contentsline {subsubsection}{Battery Sizing}{50}{section*.11}%
+\contentsline {section}{\numberline {3.2}Technical Design Workflow}{54}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}System Architecture}{54}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Flowchart}{56}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Solar Energy Harvesting}{58}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Energy Conversion DC to AC}{58}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Power Monitoring}{59}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}GPS Tracking}{60}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Context Level Diagram}{61}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Data Flow Diagram}{63}{subsection.3.2.8}%
+\contentsline {subsection}{\numberline {3.2.9}Use Case Diagram}{65}{subsection.3.2.9}%
+\contentsline {subsection}{\numberline {3.2.10}Activity Diagram}{68}{subsection.3.2.10}%
+\contentsline {subsection}{\numberline {3.2.11}3D Design}{69}{subsection.3.2.11}%
+\contentsline {subsection}{\numberline {3.2.12}Mobile App}{72}{subsection.3.2.12}%
+\contentsline {subsection}{\numberline {3.2.13}Materials and Cost}{78}{subsection.3.2.13}%
+\contentsline {subsection}{\numberline {3.2.14}Standards and Guidelines Considered}{78}{subsection.3.2.14}%
+\contentsline {chapter}{APPENDICES}{80}{chapter*.32}%
 \contentsfinish 

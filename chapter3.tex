@@ -97,6 +97,111 @@ After the planning phase, the system’s users were identified. For this study, 
 	
 \end{longtable} 
 
+
+\subsection{Calculation Requirements}
+
+\subsubsection{Load Analysis}
+
+\begin{longtable}{p{3cm} p{2cm} p{2cm} p{2cm} p{4cm}}
+	\caption{Load Consumption} \label{tab:LoadConsumption} \\
+	\toprule
+	\textbf{Load} & \textbf{Quantity} & \textbf{Power} & \textbf{Hours/Day} & \textbf{Daily Consumption} \\
+	\midrule
+	\endfirsthead
+	
+	\toprule
+	\textbf{Load} & \textbf{Quantity} & \textbf{Power} & \textbf{Hours/Day} & \textbf{Daily Consumption} \\
+	\midrule
+	\endhead
+	
+	\bottomrule
+	\endfoot
+	
+	Electric Fan & 1 & 75 W & 5 & 370 WH \\
+	Mobile Phone Charger & 1 & 20 W & 5 & 100 WH \\
+	Auxiliary Load & 1 & 5 W & 5 & 25 WH \\
+	\midrule
+	\textbf{Total} & & & & \textbf{500 WH} \\
+\end{longtable}
+
+The schedule of load includes three main loads, namely Electric Fan, Mobile Phone Charger, and a 5W auxiliary load. Each load are multiplier to hours of operations and their products are summed up to get the total watt-hour daily consumption.
+
+\subsubsection{Battery Sizing}
+
+\begin{itemize}
+	\item\textbf{ Detachable Power Source:} In order to calculate the battery capacity required, the daily consumption must be divided by the system voltage (for this study, 12V):
+	
+	\begin{align}
+		\text{Battery Capacity} &= \frac{\text{Total Daily Consumption}}{\text{System Voltage}} \nonumber\\ 
+		&= \frac{500 \text{ Wh}}{12 \text{ V}} \nonumber\\ 
+		&= 41.67 \text{ Ah} + 0.858 \text{ Ah} \nonumber\\ 
+		\text{Battery Capacity} &\approx 43 \text{ Ah}
+	\end{align}
+	
+	\item\textbf{ Station:} In order to calculate the battery capacity required in station, the battery capacity in the detachable power source must be multiplied in how many detachable power source (for this study prototype, 1), then we need to add also the 35\% of system loss according to chuchu and add also the 0.858Ah for the consumption of the ESP32.
+	
+	\begin{align} 
+		\text{Battery Capacity} &= (\text{Battery Capacity Detachable Power Source} + 35\%) + 0.858Ah \nonumber\\
+		& = 68.358Ah \nonumber \\
+		\text{Battery Capacity} &\approx 70 \text{Ah}
+	\end{align}
+	
+	Use: 70Ah LifePO4 Battery.
+	
+	\item\textbf{ Panel Sizing:} Calculation are done in Accordance to PEC (Philippine Electric Code 2017).
+	
+	\begin{align}
+		\text{PV Power} &= \frac{Total Daily Consumption}{Sun Peak Hours} \nonumber\\
+		& = \frac{500Wh}{3.5h} \nonumber \\
+		& = 142.857W\nonumber\\
+		\text{PV Power} &= 200W
+	\end{align}
+	
+	Use: 200W Solar Panel
+	
+	\item \textbf{Inverter Sizing:} 
+	\begin{longtable}{p{4cm} p{2cm} p{2.5cm} p{4cm}}
+		\caption{Inverter Sizing} \label{tab:InverterSizing} \\
+		\toprule
+		\textbf{Load} & \textbf{Power} & \textbf{Power Surge} & \textbf{With Power Surge} \\
+		\midrule
+		\endfirsthead
+		
+		\toprule
+		\textbf{Load} & \textbf{Power} & \textbf{Power Surge} & \textbf{With Power Surge} \\
+		\midrule
+		\endhead
+		
+		\bottomrule
+		\endfoot
+		
+		Electric Fan & 75 W & 3 & 225 W \\
+		Mobile Phone Charger & 20 W & 1 & 20 W \\
+		Auxiliary Load & 5 W & 1 & 5 W \\
+		\midrule
+		\textbf{Total} & & & \textbf{250 W} \\
+	\end{longtable}
+	
+	\begin{align}
+		\text{Inverter Size} &= 250W + 20\% \text{allowance} \nonumber\\
+		\text{Inverter size} &= 300W
+	\end{align}
+	
+	Use: 300W pure sine wave inverter.
+	
+	\item \textbf{Solar Charge Controller Sizing:} 
+	\begin{align}
+		I_{cc} &= \frac{Total PV Power}{System Voltage} \nonumber\\
+		&= \frac{200W}{12V} \nonumber \\
+		&=16.67A \nonumber \\
+		I_{cc} &= 20A
+	\end{align}
+	
+	Use: 1 pc - MPPT 12V or 24V Auto Adapt 20A.
+	
+\end{itemize}
+
+
 \section{Technical Design Workflow}
 \subsection{System Architecture}
 
