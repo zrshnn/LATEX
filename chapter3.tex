@@ -48,50 +48,53 @@ After the planning phase, the system’s users were identified. For this study, 
 
 \textit{Community Resident - A person residing in a local community who is actively involved or has access to portable power sources during power interruptions or emergencies.}
 
-\subsection{System Requirements}
-
-\begin{longtable}{p{4cm} p{9cm}}
-	\caption{System Requirements} \label{tab:SystemRequirements} \\
-	\toprule
-	\textbf{Category} & \textbf{System Requirement} \\
-	\midrule
-	\endfirsthead
 	
-	\toprule
-	\textbf{Category} & \textbf{System Requirement} \\
-	\midrule
-	\endhead
-	
-	\bottomrule
-	\endfoot
+	\begin{longtable}{|p{4cm} | p{9cm}|}
+		\caption{System Requirements} \label{tab:long} \\
+		
+		\hline \multicolumn{1}{|c|}{\textbf{Category}} & \multicolumn{1}{c|}{\textbf{System Requirement}} \\ \hline 
+		\endfirsthead
+		
+		\multicolumn{2}{c}%
+		{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+		\hline \multicolumn{1}{|c|}{\textbf{Category}} & \multicolumn{1}{c|}{\textbf{System Requirement}}  \\ \hline 
+		\endhead
+		
+		\hline \multicolumn{2}{|r|}{{Continued on next page}} \\ \hline
+		\endfoot
+		
+		\hline \hline
+		\endlastfoot
 	
 	Input Requirements & - The system shall collect user information during account registration through designated input fields in the mobile application. \\
 	& - The system shall accept user login credentials such as username and password for authentication. \\
 	& - The system shall accept rental requests, including power source selection, rental duration, and payment method (coin-based or app-based).\\
 	& - The system shall receive telemetry data from each power source, including battery percentage, GPS location, and rental status through the GSM module. \\
 	& - The system shall receive telemetry data from each power source, including battery percentage, GPS location, and rental status through the GSM module.  \\
-	\midrule
-	
+	\hline
+		
 	Process Requirements & - The system shall process rental transactions by verifying payment completion before authorizing power source access. \\
 	& - The system shall generate and transmit an access token or unlock code to the power source upon successful rental approval. \\
 	& - The system shall continuously monitor and record the battery level, location, and usage duration of active rentals. \\
 	& - The system shall issue automatic SMS notifications through GSM for overdue returns. \\
 	& - The system shall process the return of rented power sources by validating device ID, updating the database, and releasing the final transaction summary. \\
 	& - The system shall calculate credit earned for users based on unused power and reflect the updated balance in the users mobile application account. \\
-	\midrule
-	
+	\hline
+		
 	Output Requirements & - The system shall display rental confirmation details such as power source ID, rental duration, and current charge level. \\
 	& - The system shall provide real-time status updates on the mobile app, including remaining battery percentage, and device location. \\
 	& - The system shall generate notifications on the mobile app, including GPS location, and rental time remaining. \\
-	\midrule
+	\hline
 	
 	Control Requirements & - The system shall implement user authentication and authorization mechanisms to restrict access to registered users only. \\
 	& - The system shall validate all rental and payment data to ensure that only completed and legitimate transactions are processed. \\
-	\midrule
+	\hline
 	
 	Performance Requirements & - The system shall maintain fast response time during login, payment processing, and rental activation to ensure a smooth user experience. \\
 	& - The system shall provide real-time monitoring and synchronization of power source data through reliable GSM and IoT communication.\\
 	& -The system shall ensure continuous operation and high availability to prevent service interruptions during rentals. \\
+	\hline
+	
 \end{longtable} 
 
 \section{Technical Design Workflow}
@@ -369,4 +372,14 @@ Figure 3.15 shows the 3D design of the system. It is a stationary power station 
  
 Table 2 shows the following materials that will be used in the study.
  
-       
+  \subsection{Standards and Guidelines Considered}
+  
+  The design and evaluation of the solar-powered rental station were guided by several internationally recognized standards to ensure safety, reliability, and environmental compliance. 
+  
+\begin{itemize}
+	\item \textit{ISO 9001 (Quality Management)} – Ensures proper documentation, and structured design of the system.
+	\item \textit{ISO 14001 (Environmental Management)} – Supports compliance with sustainable and eco-friendly practices.
+	\item \textit{ISO 9806 (Solar Energy Testing)} – Provides guidelines for evaluating the performance and durability of the solar charging component.
+	\item \textit{ISO 20653 (IP Ratings)} – Used to reference enclosure protection against dust and water for outdoor installation.
+	\item \textit{IEC 62133 (Battery Safety)} – Covers safety requirements for the LifePO4 battery used in the power source.
+	\item \textit{IEC 62368 ( Electrical Equipment Safety) } – Provides safety guidelines for electronic components such as the inverter, charge controller, and communication modules.
