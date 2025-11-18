@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 NOV 2025 21:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 NOV 2025 21:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1207,7 +1207,7 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  16652 strings out of 473190
  271993 string characters out of 5715801
- 707131 words of memory out of 5000000
+ 708131 words of memory out of 5000000
  39393 multiletter control sequences out of 15000+600000
  566635 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1220,7 +1220,7 @@ sy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx120
 0.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.
 pfb>
-Output written on thesis.pdf (83 pages, 13866240 bytes).
+Output written on thesis.pdf (83 pages, 13866241 bytes).
 PDF statistics:
  889 PDF objects out of 1000 (max. 8388607)
  734 compressed objects within 8 object streams
