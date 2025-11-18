@@ -11,7 +11,7 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Conversion of Sunlight into Electrical Energy using PV Panels and a Charge Controller}}{54}{figure.caption.12}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Battery DC power converted to AC output via Inverter.}}{54}{figure.caption.13}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces ESP32 measures battery voltage and displays data on LCD}}{55}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces ESP32 receives real-time location data from GPS satellites using GSM Module}}{56}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces ESP32 receives location data from GPS satellites using GSM Module}}{56}{figure.caption.15}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Context Level Diagram}}{57}{figure.caption.16}%
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Data Flow Representation of the Solar-Powered Rental Station System}}{59}{figure.caption.17}%
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Use Case Diagram}}{61}{figure.caption.18}%
