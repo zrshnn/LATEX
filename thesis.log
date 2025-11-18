@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 NOV 2025 05:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 NOV 2025 08:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -847,10 +847,10 @@ provinces such as Camiguin
 
 [5]
 
-[6{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}]
+[6]
 
-[7]
+[7{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}]
 
 [8]
 Overfull \hbox (9.51353pt too wide) in paragraph at lines 89--90
@@ -1199,7 +1199,7 @@ sy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx120
 0.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.
 pfb>
-Output written on thesis.pdf (82 pages, 13873257 bytes).
+Output written on thesis.pdf (82 pages, 13873297 bytes).
 PDF statistics:
  881 PDF objects out of 1000 (max. 8388607)
  727 compressed objects within 8 object streams
