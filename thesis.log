@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 NOV 2025 20:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 NOV 2025 20:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -804,12 +804,6 @@ Overfull \hbox (9.94347pt too wide) in paragraph at lines 36--36
 [5
 
 ] (./thesis.lof
-Overfull \hbox (4.9887pt too wide) in paragraph at lines 14--14
- [][] [][]\OT1/cmr/m/n/12 ESP32 re-ceives real-time lo-ca-tion data from GPS sa
-tel- 
- []
-
-
 Overfull \hbox (4.18723pt too wide) in paragraph at lines 16--16
  [][] [][]\OT1/cmr/m/n/12 Data Flow Rep-re-sen-ta-tion of the Solar-Powered Ren
 tal 
@@ -1048,11 +1042,11 @@ File: figures/tracking.png Graphic file (type png)
 <use figures/tracking.png>
 Package pdftex.def Info: figures/tracking.png  used on input line 185.
 (pdftex.def)             Requested size: 397.48502pt x 105.20627pt.
-<figures/context.png, id=689, 745.78625pt x 558.085pt>
+<figures/context.png, id=689, 745.78625pt x 559.08875pt>
 File: figures/context.png Graphic file (type png)
 <use figures/context.png>
 Package pdftex.def Info: figures/context.png  used on input line 197.
-(pdftex.def)             Requested size: 397.48502pt x 297.4442pt.
+(pdftex.def)             Requested size: 397.48502pt x 297.97916pt.
 
 
 [56 <./figures/tracking.png>]
@@ -1213,7 +1207,7 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  16650 strings out of 473190
  271959 string characters out of 5715801
- 708141 words of memory out of 5000000
+ 708131 words of memory out of 5000000
  39392 multiletter control sequences out of 15000+600000
  566635 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1226,7 +1220,7 @@ sy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx120
 0.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.
 pfb>
-Output written on thesis.pdf (83 pages, 13866106 bytes).
+Output written on thesis.pdf (83 pages, 13865888 bytes).
 PDF statistics:
  884 PDF objects out of 1000 (max. 8388607)
  729 compressed objects within 8 object streams
