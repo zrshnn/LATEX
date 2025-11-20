@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  20 NOV 2025 15:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  20 NOV 2025 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1238,16 +1238,16 @@ Overfull \hbox (0.15456pt too wide) in paragraph at lines 378--379
 he solar-powered
  []
 
-<figures/dataflow.png, id=794, 1077.02374pt x 666.49pt>
-File: figures/dataflow.png Graphic file (type png)
-<use figures/dataflow.png>
-Package pdftex.def Info: figures/dataflow.png  used on input line 387.
-(pdftex.def)             Requested size: 397.48502pt x 245.97708pt.
+<figures/dflow.png, id=794, 974.64125pt x 787.94376pt>
+File: figures/dflow.png Graphic file (type png)
+<use figures/dflow.png>
+Package pdftex.def Info: figures/dflow.png  used on input line 387.
+(pdftex.def)             Requested size: 397.48502pt x 321.33974pt.
 
 
 [68]
 
-[69 <./figures/dataflow.png>]
+[69 <./figures/dflow.png>]
 <figures/usecase.png, id=804, 1123.19624pt x 1036.87375pt>
 File: figures/usecase.png Graphic file (type png)
 <use figures/usecase.png>
@@ -1562,7 +1562,7 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### bottom level 
 Here is how much of TeX's memory you used:
  16720 strings out of 473190
- 272760 string characters out of 5715801
+ 272739 string characters out of 5715801
  710643 words of memory out of 5000000
  39412 multiletter control sequences out of 15000+600000
  566635 words of font info for 68 fonts, out of 8000000 for 9000
@@ -1579,7 +1579,7 @@ mr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pf
 b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
 
-Output written on thesis.pdf (99 pages, 11812545 bytes).
+Output written on thesis.pdf (99 pages, 11797134 bytes).
 PDF statistics:
  1040 PDF objects out of 1200 (max. 8388607)
  863 compressed objects within 9 object streams
