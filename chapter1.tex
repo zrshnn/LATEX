@@ -1,8 +1,7 @@
 \chapter{INTRODUCTION}
 
 {\baselineskip=2\baselineskip
-
-
+	
 \section{Background of the Study}
 Electricity is essential to everyday living, powering household activities from lights and appliances to connectivity. It is the most used energy source and a notable expense among Filipino households, with a 94.8\% usage rate (Philippine Statistics Authority, 2023). Frequent power interruptions disrupt comfort, work, and livelihoods, forcing households to rely on diesel generators as temporary backup. However, these generators are costly and contribute to noise and air pollution, highlighting the need for alternative, sustainable power sources.
 
@@ -10,7 +9,7 @@ Research has proven that solar-powered systems offer a reliable and eco-friendly
 
 Technology also plays a vital role in improving such systems. According to Villamil et al. (2020), the Internet of Things (IoT) is an emerging technology present in many devices and processes, improving quality of life. Integrating IoT with solar energy systems enables smart monitoring, management, and accessibility. Rental-based systems can further improve affordability and accessibility. Thakur (2021) illustrated that a car rental system efficiently manages transactions, user data, and resources through database-driven modules and web-based interfaces. Applying similar principles to energy rentals allows automation of verification, monitoring, and payment processes through an IoT-based application. In support of this, Gavera et al. (2024) highlighted the relevance of the ESP32 as a powerful microcontroller for developing efficient and stable sensor networks, enhancing sustainability and resource efficiency. Combining these innovations can maximize utilization, enhance system functionality, and promote sustainable energy access for communities affected by frequent power interruptions.
 
-In the Philippines, the average household experiences 28 electricity supply interruptions per year due to outages caused by plant breakdowns (Albay, 2025). In August 2025, the National Grid Corporation of the Philippines (NGCP) reported an unscheduled power interruption affecting Camiguin and Misamis Oriental, which together house over one million households (Philippine Statistics Authority, 2020). During such outages, reliance on diesel generators and other temporary energy sources underscores the inadequacy of existing solutions and the urgent need for reliable, affordable, and sustainable alternatives.
+In the Philippines, the average household experiences 28 electricity supply interruptions per year due to outages caused by plant breakdowns (Albay, 2025). In August 2025, the National Grid Corporation of the Philippines (NGCP) reported an unscheduled power interruption affecting Camiguin and specific parts of Misamis Oriental, which together house over sixty-thousand households (Philippine Statistics Authority, 2020). During such outages, reliance on diesel generators and other temporary energy sources underscores the inadequacy of existing solutions and the urgent need for reliable, affordable, and sustainable alternatives.
 
 Recent efforts in solar-powered portable power supply systems show promise but still face limitations. Innovations have been made, such as Gozano et al. (2023) designing a solar-based portable power supply capable of charging small devices but with limited capacity and short battery life. Bhatti et al. (2024) developed a portable solar station with a 200 W output and load monitoring, while Ramly et al. (2019) created a 100 W portable solar power supply for emergencies that could last two days. Despite these advancements, existing systems still encounter issues related to energy capacity, battery lifespan, and limited support for higher power loads.
 
@@ -18,7 +17,7 @@ To address these gaps, this study proposes a solar-powered rental station with d
 
 \section{Statement of the Problem}
 
-Communities in various parts of the Philippines continue to face challenges in accessing stable electricity. In provinces such as Camiguin (served by CAMELCO) and parts of Misamis Oriental (served by MORESCO II), residents experience frequent and unscheduled power interruptions multiple times a week. These power outages cause inconvenience to households, affect business operations, and disrupt the productivity of local communities. Consistent and stable access to electricity remains a persistent challenge, especially in rural and island areas.
+Communities in various parts of the Philippines continue to face challenges in accessing stable electricity. In provinces such as Camiguin (served by CAMELCO) and specific parts of Misamis Oriental (served by MORESCO II), residents experience frequent and unscheduled power interruptions multiple times a week. These power outages cause inconvenience to households, affect business operations, and disrupt the productivity of local communities. Consistent and stable access to electricity remains a persistent challenge, especially in rural and island areas.
 
 Although alternatives such as off-grid systems, portable power banks, and small gasoline generators are available, they often prove costly, limited in capacity, or unsustainable in the long term. The use of fossil-fueled generators also raises safety and environmental concerns, which contradict current efforts toward cleaner and more sustainable energy sources.
 
@@ -112,7 +111,13 @@ This system provides support in giving people access to energy that is affordabl
 	
 	\item Photovoltaic (PV) Panels - Solar panels that convert sunlight into electricity, serving as the primary source of power generation for solar-powered systems.
 	
+	\item Auxiliary load - The secondary electrical components that support the operation of the system, such as controllers, sensors, and communication modules. In this study, this includes the ESP32, GPS and GSM modules, coin-slot mechanism, solenoid lock, and other low-power electronics.
+	
 	\item Portable Power Station - Compact, mobile units that provide electrical power for charging devices or operating appliances, often powered by renewable sources like solar energy and designed to be easily transported or moved.
+	
+	\item Small-to-Medium Scale Appliances - Electrical devices that consume relatively low to moderate power, typically ranging from 10 watts up to around 800 watts during normal operation.
+	
+	\item High-Demand Power Appliances - Devices that require significantly high power, usually 800 watts to more than 3000 watts, and often cause large spikes in household electrical load.
 	
 	\item Renewable Energy - Energy derived from natural resources that are replenished on a human timescale, such as sunlight, wind, and geothermal heat, which are harnessed to produce electricity in an environmentally sustainable manner.
 	
