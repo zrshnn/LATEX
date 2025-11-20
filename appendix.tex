@@ -1,7 +1,112 @@
 \chapter*{APPENDICES}
 \addcontentsline{toc}{chapter}{APPENDICES}
-{\baselineskip=1\baselineskip
 
+\appendix
 
-
+% Appendix A on the same page
+{\centering
+	\textbf{Appendix A\\Step-by-Step Calculations}\par
+	\addcontentsline{toc}{chapter}{Appendix A: Step-by-Step Calculation}
 }
+
+\section*{Detachable Power Source}
+The battery capacity for the detachable power source is calculated based on expected daily consumption and system voltage.  
+The battery capacity is calculated as:
+\begin{align*}
+	\text{Battery Capacity} &= \frac{\text{Total Daily Consumption}}{\text{System Voltage}} \\ 
+	&= \frac{500 \text{ Wh}}{12 \text{ V}} \\ 
+	&= 41.67 \text{ Ah} + 0.858 \text{ Ah} \\ 
+	\text{Battery Capacity} &\approx 43 \text{ Ah}
+\end{align*}
+\noindent{Use:} 50Ah \ce{LiFePO4} Battery
+
+\section*{Station}
+The station battery is sized to accommodate the detachable battery and additional reserve.  
+Let BCDPS = Battery Capacity of Detachable Power Source. 
+
+The station battery is sized as:
+\begin{align*} 
+	\text{Battery Capacity} &= (\text{BCDPS} + 35\%) + 0.858\text{Ah} \\
+	&= 68.358\text{Ah} \\
+	\text{Battery Capacity} &\approx 70 \text{Ah}
+\end{align*}
+\noindent{Use:} 70Ah \ce{LiFePO4} Battery.
+
+\section*{Panel Sizing}
+Solar panel power is calculated to meet the daily energy requirements within average peak sun hours.  
+\begin{align*}
+	\text{PV Power} &= \frac{\text{Total Daily Consumption}}{\text{Sun Peak Hours}} \\
+	&= \frac{500\text{Wh}}{3.5\text{h}} \\
+	&= 142.857\text{W} \\
+	\text{PV Power} &= 200\text{W}
+\end{align*}
+Use: 200W Solar Panel.
+
+\section*{Inverter Sizing}
+The inverter is sized to handle the system load with a safety margin.  
+\begin{align*}
+	\text{Inverter Size} &= 250W + 20\% \text{ allowance} \\
+	\text{Inverter Size} &= 300W
+\end{align*}
+Use: 300W pure sine wave inverter.
+
+\section*{Solar Charge Controller Sizing}
+The charge controller current is selected based on PV array power and system voltage.  
+\begin{align*}
+	I_{cc} &= \frac{\text{Total PV Power}}{\text{System Voltage}} \\
+	&= \frac{200W}{12V} \\
+	&= 16.67A \\
+	I_{cc} &= 20A
+\end{align*}
+Use: 1 pc — MPPT 12V or 24V Auto Adapt 20A.
+
+\section*{Breaker Sizing}
+Circuit breakers are sized to protect each part of the system.  
+\begin{enumerate}[label=\alph*.]
+	\item Panel - SCC
+	\begin{align*}
+		\text{Circuit Breaker} &= 11.85A \times \text{Over Radiance Factor} \times \text{Safety Factor} \\
+		&= 18.5A \\
+		\text{Circuit Breaker} &= 20A
+	\end{align*}
+	
+	\item SCC - Battery
+	\begin{align*}
+		\text{Circuit Breaker} &= \frac{\text{Total Array Wattage}}{\text{Battery Bank Nominal Voltage}} \times \text{Safety Factor} \\
+		&= \frac{200W}{12V} \times 1.25 \\
+		\text{Circuit Breaker} &=20.8A
+	\end{align*}
+	
+	\item Battery - Power Inverter
+	\begin{align*}
+		\text{Circuit Breaker} &= \frac{\text{Power Inverter}}{\text{Power Bank Nominal Voltage}} \\
+		&= \frac{1000W}{12V}\\
+		&= 83.33A\\
+		\text{Circuit Breaker} &= 80A
+	\end{align*}
+	
+	\item Inverter - Load (AC Breaker)\\
+	BBNV = Battery Bank Nominal Voltage
+	\begin{align*}
+		\text{Circuit Breaker} &= \frac{\text{Safety Load}}{\text{Inverter Voltage Output}} \times \text{BBNV} \\
+		&= \frac{700W}{220V} \times 1.25V \\
+		\text{Circuit Breaker} &= 3.98A
+	\end{align*}
+\end{enumerate}
+
+\section*{Wire Sizing}
+Wire sizes are determined to handle current and limit voltage drop.  
+\begin{enumerate}[label=\alph*.]
+	\item Panel - SCC
+	\begin{align*}
+		\text{VDI} &= \frac{10.85 \times 12}{18.5 \times 2} \\
+		&= 3.53\\
+		\text{Wire Size} &= 10AWG
+	\end{align*}
+	\item SCC - Battery
+	\begin{align*}
+		\text{VDI} &= \frac{20 \times 4}{12.8 \times 2} \\
+		&= 3.125\\
+		\text{Wire Size} &= 10AWG
+	\end{align*}
+\end{enumerate}

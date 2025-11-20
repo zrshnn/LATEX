@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  3 NOV 2025 22:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  20 NOV 2025 09:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -527,12 +527,22 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks29
 \inpenc@posthook=\toks30
 )
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen189
+\TX@old@table=\dimen190
+\TX@old@col=\dimen191
+\TX@target=\dimen192
+\TX@delta=\dimen193
+\TX@cols=\count322
+\TX@ftn=\toks31
+)
 \tocindent=\skip117
-\c@myequations=\count322
+\c@myequations=\count323
 \cftbeforemyequationsskip=\skip118
 \cftmyequationsindent=\skip119
 \cftmyequationsnumwidth=\skip120
-\c@expdepth=\count323
+\c@expdepth=\count324
 \cftbeforeexptitleskip=\skip121
 \cftafterexptitleskip=\skip122
 
@@ -542,18 +552,18 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count324
-\Gm@cntv=\count325
-\c@Gm@tempcnt=\count326
-\Gm@bindingoffset=\dimen189
-\Gm@wd@mp=\dimen190
-\Gm@odd@mp=\dimen191
-\Gm@even@mp=\dimen192
-\Gm@layoutwidth=\dimen193
-\Gm@layoutheight=\dimen194
-\Gm@layouthoffset=\dimen195
-\Gm@layoutvoffset=\dimen196
-\Gm@dimlist=\toks31
+\Gm@cnth=\count325
+\Gm@cntv=\count326
+\c@Gm@tempcnt=\count327
+\Gm@bindingoffset=\dimen194
+\Gm@wd@mp=\dimen195
+\Gm@odd@mp=\dimen196
+\Gm@even@mp=\dimen197
+\Gm@layoutwidth=\dimen198
+\Gm@layoutheight=\dimen199
+\Gm@layouthoffset=\dimen256
+\Gm@layoutvoffset=\dimen257
+\Gm@dimlist=\toks32
 ))
 (./sample.aux)
 \openout1 = `sample.aux'.
@@ -579,17 +589,17 @@ LaTeX Font Info:    ... okay on input line 5.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count327
-\scratchdimen=\dimen197
+\scratchcounter=\count328
+\scratchdimen=\dimen258
 \scratchbox=\box65
-\nofMPsegments=\count328
-\nofMParguments=\count329
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count330
-\MPscratchDim=\dimen198
-\MPnumerator=\count331
-\makeMPintoPDFobject=\count332
-\everyMPtoPDFconversion=\toks33
+\nofMPsegments=\count329
+\nofMParguments=\count330
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count331
+\MPscratchDim=\dimen259
+\MPnumerator=\count332
+\makeMPintoPDFobject=\count333
+\everyMPtoPDFconversion=\toks34
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -599,7 +609,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@maskedRefs=\count333
+\c@maskedRefs=\count334
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
@@ -707,7 +717,7 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ]
 Chapter 1.
 
-Package caption Warning: Unused \captionsetup[table] on input line 130.
+Package caption Warning: Unused \captionsetup[table] on input line 133.
 See the caption package documentation for explanation.
 
 
@@ -723,10 +733,10 @@ Package rerunfilecheck Info: File `sample.out' has not changed.
 (rerunfilecheck)             Checksum: EE3EE77384B02F08148F111B2A113203;240.
  ) 
 Here is how much of TeX's memory you used:
- 15464 strings out of 473190
- 248856 string characters out of 5715801
- 678961 words of memory out of 5000000
- 38474 multiletter control sequences out of 15000+600000
+ 15522 strings out of 473190
+ 249769 string characters out of 5715801
+ 680100 words of memory out of 5000000
+ 38529 multiletter control sequences out of 15000+600000
  563833 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,5n,82p,426b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
