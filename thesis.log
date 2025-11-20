@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  20 NOV 2025 13:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  20 NOV 2025 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -883,7 +883,7 @@ Chapter 2.
 [15]
 
 [16]
-<figures/theoretical.png, id=528, 724.7075pt x 676.5275pt>
+<figures/theoretical.png, id=533, 724.7075pt x 676.5275pt>
 File: figures/theoretical.png Graphic file (type png)
 <use figures/theoretical.png>
 Package pdftex.def Info: figures/theoretical.png  used on input line 32.
@@ -901,7 +901,7 @@ Package pdftex.def Info: figures/theoretical.png  used on input line 32.
 [21]
 
 [22]
-<figures/schematic.png, id=561, 443.6575pt x 503.8825pt>
+<figures/schematic.png, id=566, 443.6575pt x 503.8825pt>
 File: figures/schematic.png Graphic file (type png)
 <use figures/schematic.png>
 Package pdftex.def Info: figures/schematic.png  used on input line 116.
@@ -963,7 +963,7 @@ ar panel, $[][][]$
 
  (./chapter3.tex
 Chapter 3.
-<figures/waterfall.png, id=648, 663.47874pt x 482.80376pt>
+<figures/waterfall.png, id=653, 663.47874pt x 482.80376pt>
 File: figures/waterfall.png Graphic file (type png)
 <use figures/waterfall.png>
 Package pdftex.def Info: figures/waterfall.png  used on input line 13.
@@ -976,7 +976,7 @@ Package pdftex.def Info: figures/waterfall.png  used on input line 13.
 
 
  <./figures/waterfall.png>]
-<figures/map.png, id=654, 923.45pt x 1152.305pt>
+<figures/map.png, id=659, 923.45pt x 1152.305pt>
 File: figures/map.png Graphic file (type png)
 <use figures/map.png>
 Package pdftex.def Info: figures/map.png  used on input line 25.
@@ -1113,7 +1113,7 @@ LaTeX Warning: Hyper reference `appendix:A' on page 58 undefined on input line
 LaTeX Warning: Hyper reference `appendix:A' on page 59 undefined on input line 
 271.
 
-<figures/architecture.jpg, id=737, 3285.27374pt x 3768.0775pt>
+<figures/architecture.jpg, id=742, 3285.27374pt x 3768.0775pt>
 File: figures/architecture.jpg Graphic file (type jpg)
 <use figures/architecture.jpg>
 Package pdftex.def Info: figures/architecture.jpg  used on input line 283.
@@ -1125,7 +1125,7 @@ Package pdftex.def Info: figures/architecture.jpg  used on input line 283.
 [60 <./figures/architecture.jpg>]
 
 [61]
-<figures/flowchart.png, id=752, 733.74126pt x 1245.65375pt>
+<figures/flowchart.png, id=757, 733.74126pt x 1245.65375pt>
 File: figures/flowchart.png Graphic file (type png)
 <use figures/flowchart.png>
 Package pdftex.def Info: figures/flowchart.png  used on input line 311.
@@ -1133,7 +1133,7 @@ Package pdftex.def Info: figures/flowchart.png  used on input line 311.
 
 
 [62 <./figures/flowchart.png>]
-<figures/harvesting.png, id=758, 2672.98625pt x 639.38875pt>
+<figures/harvesting.png, id=763, 2672.98625pt x 639.38875pt>
 File: figures/harvesting.png Graphic file (type png)
 <use figures/harvesting.png>
 Package pdftex.def Info: figures/harvesting.png  used on input line 327.
@@ -1141,7 +1141,7 @@ Package pdftex.def Info: figures/harvesting.png  used on input line 327.
 
 
 [63]
-<figures/conversion.png, id=763, 3364.57pt x 502.87875pt>
+<figures/conversion.png, id=768, 3364.57pt x 502.87875pt>
 File: figures/conversion.png Graphic file (type png)
 <use figures/conversion.png>
 Package pdftex.def Info: figures/conversion.png  used on input line 338.
@@ -1149,7 +1149,7 @@ Package pdftex.def Info: figures/conversion.png  used on input line 338.
 
 
 [64 <./figures/harvesting.png> <./figures/conversion.png>]
-<figures/monitoring.png, id=770, 1081.03876pt x 391.4625pt>
+<figures/monitoring.png, id=775, 1081.03876pt x 391.4625pt>
 File: figures/monitoring.png Graphic file (type png)
 <use figures/monitoring.png>
 Package pdftex.def Info: figures/monitoring.png  used on input line 349.
@@ -1157,12 +1157,12 @@ Package pdftex.def Info: figures/monitoring.png  used on input line 349.
 
 
 [65 <./figures/monitoring.png>]
-<figures/tracking.png, id=776, 1179.40625pt x 312.16624pt>
+<figures/tracking.png, id=781, 1179.40625pt x 312.16624pt>
 File: figures/tracking.png Graphic file (type png)
 <use figures/tracking.png>
 Package pdftex.def Info: figures/tracking.png  used on input line 361.
 (pdftex.def)             Requested size: 397.48502pt x 105.20627pt.
-<figures/context.png, id=777, 745.78625pt x 559.08875pt>
+<figures/context.png, id=782, 745.78625pt x 559.08875pt>
 File: figures/context.png Graphic file (type png)
 <use figures/context.png>
 Package pdftex.def Info: figures/context.png  used on input line 373.
@@ -1177,7 +1177,7 @@ Overfull \hbox (0.15456pt too wide) in paragraph at lines 378--379
 he solar-powered
  []
 
-<figures/dataflow.png, id=789, 1077.02374pt x 666.49pt>
+<figures/dataflow.png, id=794, 1077.02374pt x 666.49pt>
 File: figures/dataflow.png Graphic file (type png)
 <use figures/dataflow.png>
 Package pdftex.def Info: figures/dataflow.png  used on input line 387.
@@ -1187,7 +1187,7 @@ Package pdftex.def Info: figures/dataflow.png  used on input line 387.
 [68]
 
 [69 <./figures/dataflow.png>]
-<figures/usecase.png, id=799, 1123.19624pt x 1036.87375pt>
+<figures/usecase.png, id=804, 1123.19624pt x 1036.87375pt>
 File: figures/usecase.png Graphic file (type png)
 <use figures/usecase.png>
 Package pdftex.def Info: figures/usecase.png  used on input line 399.
@@ -1199,7 +1199,7 @@ Package pdftex.def Info: figures/usecase.png  used on input line 399.
 [71 <./figures/usecase.png>]
 
 [72]
-<figures/activity.png, id=814, 748.7975pt x 1704.3675pt>
+<figures/activity.png, id=819, 748.7975pt x 1704.3675pt>
 File: figures/activity.png Graphic file (type png)
 <use figures/activity.png>
 Package pdftex.def Info: figures/activity.png  used on input line 413.
@@ -1211,17 +1211,17 @@ Package pdftex.def Info: figures/activity.png  used on input line 413.
 [74 <./figures/activity.png>]
 
 [75]
-<figures/front.png, id=829, 1053.9375pt x 598.235pt>
+<figures/front.png, id=834, 1053.9375pt x 598.235pt>
 File: figures/front.png Graphic file (type png)
 <use figures/front.png>
 Package pdftex.def Info: figures/front.png  used on input line 428.
 (pdftex.def)             Requested size: 317.98921pt x 180.49425pt.
-<figures/aerial.png, id=830, 1069.9975pt x 582.175pt>
+<figures/aerial.png, id=835, 1069.9975pt x 582.175pt>
 File: figures/aerial.png Graphic file (type png)
 <use figures/aerial.png>
 Package pdftex.def Info: figures/aerial.png  used on input line 435.
 (pdftex.def)             Requested size: 317.98921pt x 173.01044pt.
-<figures/rental.png, id=831, 1363.0925pt x 1242.6425pt>
+<figures/rental.png, id=836, 1363.0925pt x 1242.6425pt>
 File: figures/rental.png Graphic file (type png)
 <use figures/rental.png>
 Package pdftex.def Info: figures/rental.png  used on input line 442.
@@ -1229,7 +1229,7 @@ Package pdftex.def Info: figures/rental.png  used on input line 442.
 
 
 [76 <./figures/front.png> <./figures/aerial.png>]
-<figures/welcome.png, id=838, 1668.2325pt x 1035.87pt>
+<figures/welcome.png, id=843, 1668.2325pt x 1035.87pt>
 File: figures/welcome.png Graphic file (type png)
 <use figures/welcome.png>
 Package pdftex.def Info: figures/welcome.png  used on input line 453.
@@ -1237,7 +1237,7 @@ Package pdftex.def Info: figures/welcome.png  used on input line 453.
 
 
 [77 <./figures/rental.png>]
-<figures/signin.png, id=844, 825.0825pt x 1049.9225pt>
+<figures/signin.png, id=849, 825.0825pt x 1049.9225pt>
 File: figures/signin.png Graphic file (type png)
 <use figures/signin.png>
 Package pdftex.def Info: figures/signin.png  used on input line 462.
@@ -1245,7 +1245,7 @@ Package pdftex.def Info: figures/signin.png  used on input line 462.
 
 
 [78 <./figures/welcome.png>]
-<figures/signup.png, id=851, 2236.355pt x 1039.885pt>
+<figures/signup.png, id=856, 2236.355pt x 1039.885pt>
 File: figures/signup.png Graphic file (type png)
 <use figures/signup.png>
 Package pdftex.def Info: figures/signup.png  used on input line 471.
@@ -1253,7 +1253,7 @@ Package pdftex.def Info: figures/signup.png  used on input line 471.
 
 
 [79 <./figures/signin.png>]
-<figures/home.png, id=857, 825.0825pt x 1035.87pt>
+<figures/home.png, id=862, 825.0825pt x 1035.87pt>
 File: figures/home.png Graphic file (type png)
 <use figures/home.png>
 Package pdftex.def Info: figures/home.png  used on input line 480.
@@ -1261,7 +1261,7 @@ Package pdftex.def Info: figures/home.png  used on input line 480.
 
 
 [80 <./figures/signup.png>]
-<figures/renting.png, id=863, 1668.2325pt x 1041.8925pt>
+<figures/renting.png, id=868, 1668.2325pt x 1041.8925pt>
 File: figures/renting.png Graphic file (type png)
 <use figures/renting.png>
 Package pdftex.def Info: figures/renting.png  used on input line 489.
@@ -1269,7 +1269,7 @@ Package pdftex.def Info: figures/renting.png  used on input line 489.
 
 
 [81 <./figures/home.png>]
-<figures/admin.png, id=869, 821.0675pt x 1023.825pt>
+<figures/admin.png, id=874, 821.0675pt x 1023.825pt>
 File: figures/admin.png Graphic file (type png)
 <use figures/admin.png>
 Package pdftex.def Info: figures/admin.png  used on input line 498.
@@ -1277,7 +1277,7 @@ Package pdftex.def Info: figures/admin.png  used on input line 498.
 
 
 [82 <./figures/renting.png>]
-<figures/admin2.png, id=875, 829.0975pt x 1049.9225pt>
+<figures/admin2.png, id=880, 829.0975pt x 1049.9225pt>
 File: figures/admin2.png Graphic file (type png)
 <use figures/admin2.png>
 Package pdftex.def Info: figures/admin2.png  used on input line 507.
@@ -1309,8 +1309,177 @@ Package pdftex.def Info: figures/admin2.png  used on input line 507.
 [90]
 \openout2 = `bibliography.aux'.
 
- (./bibliography.tex (./thesis.bbl)) (./thesis.aux (./chapter1.aux)
-(./chapter2.aux) (./chapter3.aux) (./appendix.aux) (./bibliography.aux))
+ (./bibliography.tex
+Underfull \hbox (badness 6741) in paragraph at lines 11--12
+[]\OT1/cmr/m/n/12 Bhatti, A. R., Lakhair, H., Sher, H. A., & Cheema, T. A.
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 11--12
+\OT1/cmr/m/n/12 load mon-i-tor-ing sys-tem. \OT1/cmr/m/it/12 MATEC Web of Con-f
+er-ences, 398\OT1/cmr/m/n/12 , 01025.
+ []
+
+
+
+[91
+
+
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.25 	\bibitem{}
+                 Pulvera, G. J. (2021). Power consumption of household appli...
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.25 	\bibitem{}
+                 Pulvera, G. J. (2021). Power consumption of household appli...
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.25 	\bibitem{}
+                 Pulvera, G. J. (2021). Power consumption of household appli...
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.25 	\bibitem{}
+                 Pulvera, G. J. (2021). Power consumption of household appli...
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.25 	\bibitem{}
+                 Pulvera, G. J. (2021). Power consumption of household appli...
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.25 	\bibitem{}
+                 Pulvera, G. J. (2021). Power consumption of household appli...
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.25 	\bibitem{}
+                 Pulvera, G. J. (2021). Power consumption of household appli...
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.25 	\bibitem{}
+                 Pulvera, G. J. (2021). Power consumption of household appli...
+]
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 	\bibitem{}
+                 Pulvera, G. J. (2021). Power consumption of household appli...
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 	\bibitem{}
+                 Ramly, N. H., Jamal, N. Z., Abd Ghafar, A. N., \& Babu, D. ...
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 	\bibitem{}
+                 Rehman, A. U., Alblushi, I. G. M., Zia, M. F., Khalid, H. M...
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.31 	\bibitem{}
+                 Sampaio, P. G. V., \& González, M. O. A. (2017). Photovolt...
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.33 	\bibitem{}
+                 Thakur, A. (2021). Car rental system. \textit{International...
+
+Underfull \hbox (badness 1867) in paragraph at lines 33--34
+[]\OT1/cmr/m/n/12 Thakur, A. (2021). Car rental sys-tem. \OT1/cmr/m/it/12 In-te
+r-na-tional Jour-nal for Re-
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.35 	\bibitem{}
+                 Villamil, S., Hernandez, C., \& Tarazona, G. (2020). An ove...
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+[]\OT1/cmr/m/n/12 Villamil, S., Her-nan-dez, C., & Tara-zona, G. (2020). An
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+\OT1/cmr/m/n/12 overview of in-ter-net of things. \OT1/cmr/m/it/12 TELKOM-NIKA,
+ 18\OT1/cmr/m/n/12 (5), 2320.
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.37 	\bibitem{}
+                 Zakri, A. A., Syahza, A., Hanafi, D., \& Syahadat, H. (2021...
+)
+
+[92
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.72 	\include{bibliography}
+                            ] (./thesis.aux (./chapter1.aux) (./chapter2.aux)
+(./chapter3.aux) (./appendix.aux) (./bibliography.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+! Package natbib Error: Bibliography not compatible with author-year citations.
+
+(natbib)                Press <return> to continue in numerical citation style.
+
+
+See the natbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...mand\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+Check the bibliography entries for non-compliant syntax,
+or select author-year BibTeX style, e.g. plainnat
+
+)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -1320,17 +1489,17 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 30DE404B23CB99F265F1D6C0A84BDA3C;15568.
+(rerunfilecheck)             Checksum: F77ADCB837C81D57269B3380B361F935;15660.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16717 strings out of 473190
- 272715 string characters out of 5715801
- 710573 words of memory out of 5000000
- 39410 multiletter control sequences out of 15000+600000
+ 16721 strings out of 473190
+ 272772 string characters out of 5715801
+ 710575 words of memory out of 5000000
+ 39413 multiletter control sequences out of 15000+600000
  566635 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,11n,82p,2202b,757s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1345,10 +1514,10 @@ mr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pf
 b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
 
-Output written on thesis.pdf (97 pages, 11807582 bytes).
+Output written on thesis.pdf (99 pages, 11812886 bytes).
 PDF statistics:
- 1026 PDF objects out of 1200 (max. 8388607)
- 851 compressed objects within 9 object streams
- 230 named destinations out of 1000 (max. 500000)
- 657 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1040 PDF objects out of 1200 (max. 8388607)
+ 863 compressed objects within 9 object streams
+ 234 named destinations out of 1000 (max. 500000)
+ 665 words of extra memory for PDF output out of 10000 (max. 10000000)
 

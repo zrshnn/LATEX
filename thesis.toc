@@ -66,4 +66,5 @@
 \contentsline {subsection}{\numberline {3.2.14}Standards and Guidelines Considered}{84}{subsection.3.2.14}%
 \contentsline {chapter}{APPENDICES}{86}{chapter*.32}%
 \contentsline {chapter}{Appendix A: Step-by-Step Calculation}{86}{chapter*.32}%
+\contentsline {chapter}{REFERENCES}{91}{Item.20}%
 \contentsfinish 
